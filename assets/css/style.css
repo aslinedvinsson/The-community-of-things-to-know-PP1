@@ -1,12 +1,20 @@
+/* Google fonts import: Bebas Neue and Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+
+
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    
+    font-family: 'Roboto', sans-serif;
 
 }
 
 header {
     background-color: yellow;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 main {
