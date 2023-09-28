@@ -12,6 +12,10 @@ body {
 
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
     background-color: yellow;
     font-family: 'Roboto', sans-serif;
@@ -23,8 +27,18 @@ header {
 
 }
 
-a {
-    text-decoration: none;
+#nav-list {
+    list-style-type: none;
+    font-size: 130%;
+
+}
+
+#nav-list > li {
+    padding: 7px;
+}
+
+.active {
+    border-bottom: 1px solid;
 }
 
 main {
