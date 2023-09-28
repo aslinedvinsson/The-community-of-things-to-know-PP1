@@ -7,14 +7,19 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    
+font-family: 'Bebas Neue', sans-serif;
     font-family: 'Roboto', sans-serif;
 
 }
 
 header {
     background-color: yellow;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
 }
 
 main {
