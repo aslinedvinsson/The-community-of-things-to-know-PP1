@@ -34,6 +34,8 @@ header {
     background-color: beige;
     list-style-type: none;
     display: flex;
+    font-size: 25px;
+    left: 0;
     
     
 }
@@ -100,9 +102,13 @@ margin-top: 200px;
 }
 
 main h1, h2, h3 {
-    font-family: 'Bebas Neue', sans-serif;
-    
-   
+    font-family: 'Bebas Neue', sans-serif; 
+}
+
+#org_name {
+   position: fixed;
+   top: 150px;
+   padding-left: 20px;
 }
 
 /*bakgrundsbild funkar ej*/
@@ -152,18 +158,37 @@ footer {
     }
 
     #contact-tablet-screen {
-        margin-top: 100px;
+        margin-top: 90px;
         display: flex;
         flex-direction: column;
         list-style-type: none;
         font-size: 50px;
+        position: fixed;
+        margin-left: -20px;
     }
     
+    #org_name {
+        top: 350px;
+        font-size: 30px;
+     
+
+    }
+
+    /*funkar inte att ändra färg*/
+    #org_name >h1 {
+        color: red;
+    }
 }
 
 /* Media query: screen (992px and up)*/
 @media screen and (min-width:992px) {
     #nav-list>li > a:hover {
 border-bottom: 1px solid;
+    }
+    #org_name {
+        top: 100px;
+        margin-left: 870px;
+       
+
     }
 }
