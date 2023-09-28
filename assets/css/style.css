@@ -30,6 +30,10 @@ header {
 
 }
 
+#contact {
+    background-color: beige;
+}
+
 #nav-list {
     list-style-type: none;
     font-size: 130%;
