@@ -88,11 +88,10 @@ nav {
 
 
 main {
-    background-color: lightgray;
+    
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: auto;
-
 
 }
 
@@ -106,6 +105,17 @@ main h1, h2, h3 {
    
 }
 
+/*bakgrundsbild funkar ej*/
+main > section >#background-img {
+    background-image: url("../images/people.webp") no-repeat center center/cover;
+width: 100%;
+z-index: 30;
+}
+
+/* bild funkar när jag lägger den i html, men inte som backgrundsbild i css */
+img {
+    width: 100%;
+}
 footer {
     background-color: pink;
     margin-top: auto;
