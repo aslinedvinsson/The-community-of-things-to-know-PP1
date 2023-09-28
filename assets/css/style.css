@@ -32,6 +32,19 @@ header {
 
 #contact {
     background-color: beige;
+    list-style-type: none;
+    display: flex;
+    
+    
+}
+
+#contact >li {
+    padding-right: 20px;
+
+}
+
+#contact-tablet-screen {
+    display: none;
 }
 
 #nav-list {
@@ -101,6 +114,8 @@ footer {
 /* Media query: tablet(768px and up) */
 @media screen and (min-width:768px) {
     /* Header*/
+    
+   
     nav {
         display: block;
         position: relative;
@@ -118,6 +133,20 @@ footer {
 
     .nav-toggle-icon {
         display: none;
+    }
+
+    /* Main 
+    social media icons placed horizontally to the left */
+    #contact {
+        display: none;
+    }
+
+    #contact-tablet-screen {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        font-size: 50px;
     }
     
 }
