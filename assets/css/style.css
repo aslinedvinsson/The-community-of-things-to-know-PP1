@@ -1,11 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
 header {
     background-color: yellow;
 }
 
 main {
     background-color: lightgray;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+
+
 }
 
 footer {
     background-color: pink;
+    margin-top: auto;
 }
