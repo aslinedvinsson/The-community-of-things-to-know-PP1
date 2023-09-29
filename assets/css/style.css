@@ -163,6 +163,28 @@ margin-top: 100px;
     margin-top: 80px;
 }
 
+#bicycle {
+    width: 100%;
+}
+
+
+/* About page */
+
+#sunset {
+    width: 100%;
+}
+
+/* Comming up page */
+#girl_in_workshop {
+    width: 100%;
+}
+
+#time {
+   width: 100%;
+}
+
+
+
 footer {
     background-color: pink;
    padding-left: 9px;
