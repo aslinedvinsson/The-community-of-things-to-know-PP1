@@ -9,7 +9,8 @@ body {
     min-height: 100vh;
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Roboto', sans-serif;
-
+    background-image: linear-gradient(to right top, #add8e6, #69e5e8, #2beec6, #5df183, #a8eb12);
+c;
 }
 
 a {
@@ -175,7 +176,7 @@ margin-top: 100px;
 }
 
 /* Comming up page */
-#girl_in_workshop {
+#welding {
     width: 100%;
 }
 
