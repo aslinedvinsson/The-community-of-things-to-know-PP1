@@ -35,7 +35,7 @@ header {
     list-style-type: none;
     display: flex;
     font-size: 25px;
-    left: 0;
+    
     
     
 }
@@ -85,6 +85,7 @@ nav {
 
 .nav-toggle-icon {
     font-size: 2rem;
+    padding-right: 2rem;
    
 }
 
@@ -183,13 +184,13 @@ footer >p {
     }
 
     #contact-tablet-screen {
-        margin-top: 90px;
+        margin-top: 100px;
         display: flex;
         flex-direction: column;
         list-style-type: none;
         font-size: 50px;
-        position: fixed;
         margin-left: -20px;
+        z-index: 10;
     }
     
     #org_name {
@@ -201,6 +202,10 @@ footer >p {
 
     #org_name >h1 {
         color: red;
+    }
+
+    #people {
+       
     }
 
         footer>p {
