@@ -107,9 +107,14 @@ main h1, h2, h3 {
 
 #org_name {
    position: fixed;
-   top: 150px;
+   top: 70px;
    padding-left: 20px;
 }
+
+#org_name > a>h1, h2 {
+    color: red;
+}
+
 
 /*bakgrundsbild funkar ej*/
 main > section >#background-img {
@@ -119,9 +124,21 @@ z-index: 30;
 }
 
 /* bild funkar när jag lägger den i html, men inte som backgrundsbild i css */
-img {
+#people {
     width: 100%;
+    margin-top: 80px;
 }
+
+#sewing {
+    width: 100%;
+    margin-bottom: 90px;
+}
+
+#together {
+width: 100%;
+margin: 0;
+}
+
 footer {
     background-color: pink;
     margin-top: auto;
