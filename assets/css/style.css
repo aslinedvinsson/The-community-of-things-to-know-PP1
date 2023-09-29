@@ -103,6 +103,7 @@ margin-top: 200px;
 
 main h1, h2, h3 {
     font-family: 'Bebas Neue', sans-serif; 
+    color: red;
 }
 
 #org_name {
@@ -123,6 +124,7 @@ width: 100%;
 z-index: 30;
 }
 
+/* Images */
 /* bild funkar när jag lägger den i html, men inte som backgrundsbild i css */
 #people {
     width: 100%;
@@ -147,6 +149,7 @@ footer {
 
 footer >p {
     font-size: 11px;
+   
 }
 
 /* Media query: tablet(768px and up) */
@@ -196,13 +199,13 @@ footer >p {
 
     }
 
-    /*funkar inte att ändra färg*/
     #org_name >h1 {
         color: red;
     }
 
         footer>p {
             font-size: 18px;
+            font-family: ;
         }
 }
 
