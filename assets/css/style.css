@@ -10,7 +10,7 @@ body {
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Roboto', sans-serif;
     background-image: linear-gradient(to right top, #add8e6, #69e5e8, #2beec6, #5df183, #a8eb12);
-c;
+    margin: 0%;
 }
 
 a {
@@ -36,12 +36,9 @@ header {
     list-style-type: none;
     display: flex;
     font-size: 25px;
-    
-    
-    
 }
 
-#contact >li {
+#contact>li {
     padding-right: 20px;
 
 }
@@ -53,10 +50,10 @@ header {
 #nav-list {
     list-style-type: none;
     font-size: 130%;
-   
+
 }
 
-#nav-list > li {
+#nav-list>li {
     padding: 7px;
 }
 
@@ -75,8 +72,22 @@ nav {
     top: 100%;
 }
 
+.bildmedtext {
+    position: relative;    
+    color: rgb(0, 0, 0);
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-20%, -50%);
+    background: rgba(255, 208, 0, 0.7); 
+    width: 50%; 
+}
+
 /* nav toggle */
-#nav-toggle:checked ~nav {
+#nav-toggle:checked~nav {
     display: block;
 }
 
@@ -87,12 +98,12 @@ nav {
 .nav-toggle-icon {
     font-size: 2rem;
     padding-right: 2rem;
-   
+
 }
 
 
 main {
-    
+
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: auto;
@@ -100,40 +111,43 @@ main {
 }
 
 main h1 {
-margin-top: 200px;
+    margin-top: 200px;
 }
 
-main h1, h2, h3 {
-    font-family: 'Bebas Neue', sans-serif; 
+main h1,
+h2,
+h3 {
+    font-family: 'Bebas Neue', sans-serif;
     color: red;
 }
 
 main p {
     font-optical-sizing: auto;
-        line-height: 23px;
+    line-height: 23px;
 }
 
 label {
-        font-optical-sizing: auto;
-            line-height: 23px;
+    font-optical-sizing: auto;
+    line-height: 23px;
 }
 
 #org_name {
-   position: fixed;
-   top: 70px;
-   padding-left: 20px;
+    position: fixed;
+    top: 70px;
+    padding-left: 20px;
 }
 
-#org_name > a>h1, h2 {
+#org_name>a>h1,
+h2 {
     color: red;
 }
 
 
 /*bakgrundsbild funkar ej*/
-main > section >#background-img {
+main>section>#background-img {
     background-image: url("../images/people.webp") no-repeat center center/cover;
-width: 100%;
-z-index: 30;
+    width: 100%;
+    z-index: 30;
 }
 
 /* Images */
@@ -145,18 +159,18 @@ z-index: 30;
 
 #sewing {
     width: 100%;
-    margin-bottom: 90px;
+    display: flex;
 }
 
 #together {
-width: 100%;
-margin: 0;
+    width: 100%;
+    display: flex;
 }
 
 /* How and Who page */
 
 #org_name_how_and_who {
-margin-top: 100px;
+    margin-top: 100px;
 }
 
 #cooking {
@@ -181,27 +195,27 @@ margin-top: 100px;
 }
 
 #time {
-   width: 100%;
+    width: 100%;
 }
 
 
 
 footer {
     background-color: pink;
-   padding-left: 9px;
-   padding-right: 9px;
+    padding-left: 9px;
+    padding-right: 9px;
 }
 
-footer >p {
+footer>p {
     font-size: 11px;
-   
+
 }
 
 /* Media query: tablet(768px and up) */
 @media screen and (min-width:768px) {
     /* Header*/
-    
-   
+
+
     nav {
         display: block;
         position: relative;
@@ -212,9 +226,9 @@ footer >p {
         display: flex;
     }
 
-    #nav-list >li {
+    #nav-list>li {
         padding-left: 20px;
-       
+
     }
 
     .nav-toggle-icon {
@@ -236,37 +250,36 @@ footer >p {
         margin-left: -20px;
         z-index: 10;
     }
-    
+
     #org_name {
         top: 460px;
         font-size: 30px;
-     
+
 
     }
 
-    #org_name >h1 {
+    #org_name>h1 {
         color: red;
     }
 
-    #people {
-       
-    }
+    #people {}
 
-        footer>p {
-            font-size: 18px;
-            font-family: ;
-        }
+    footer>p {
+        font-size: 18px;
+        font-family: ;
+    }
 }
 
 /* Media query: screen (992px and up)*/
 @media screen and (min-width:992px) {
-    #nav-list>li > a:hover {
-border-bottom: 1px solid;
+    #nav-list>li>a:hover {
+        border-bottom: 1px solid;
     }
+
     #org_name {
         top: 100px;
         margin-left: 870px;
-       
+
 
     }
 }
