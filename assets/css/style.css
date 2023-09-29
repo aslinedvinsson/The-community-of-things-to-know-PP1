@@ -107,6 +107,16 @@ main h1, h2, h3 {
     color: red;
 }
 
+main p {
+    font-optical-sizing: auto;
+        line-height: 23px;
+}
+
+label {
+        font-optical-sizing: auto;
+            line-height: 23px;
+}
+
 #org_name {
    position: fixed;
    top: 70px;
@@ -140,6 +150,17 @@ z-index: 30;
 #together {
 width: 100%;
 margin: 0;
+}
+
+/* How and Who page */
+
+#org_name_how_and_who {
+margin-top: 100px;
+}
+
+#cooking {
+    width: 100%;
+    margin-top: 80px;
 }
 
 footer {
