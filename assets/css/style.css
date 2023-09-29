@@ -141,7 +141,12 @@ margin: 0;
 
 footer {
     background-color: pink;
-    margin-top: auto;
+   padding-left: 9px;
+   padding-right: 9px;
+}
+
+footer >p {
+    font-size: 11px;
 }
 
 /* Media query: tablet(768px and up) */
@@ -185,7 +190,7 @@ footer {
     }
     
     #org_name {
-        top: 350px;
+        top: 460px;
         font-size: 30px;
      
 
@@ -195,6 +200,10 @@ footer {
     #org_name >h1 {
         color: red;
     }
+
+        footer>p {
+            font-size: 18px;
+        }
 }
 
 /* Media query: screen (992px and up)*/
