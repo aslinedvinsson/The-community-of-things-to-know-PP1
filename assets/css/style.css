@@ -1,6 +1,11 @@
 /* Google fonts import: Bebas Neue and Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -9,6 +14,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-image: linear-gradient(to right top, #add8e6, #69e5e8, #2beec6, #5df183, #a8eb12);
     margin: 0%;
+    
 }
 
 a {
@@ -69,23 +75,9 @@ nav {
 }
 
 .logo {
-    margin-top: -220px;
+    margin-top: -225px;
     padding: 1rem;
     padding-bottom: 0%;
-}
-
-.img_with_text_on_top {
-    position: relative;    
-    color: rgb(0, 0, 0);
-}
-
-.square_with_text {
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    transform: translate(-20%, -50%);
-    background: rgba(255, 208, 0, 0.7); 
-    width: 50%; 
 }
 
 main {
@@ -119,10 +111,27 @@ main p {
     margin: 0%;
 }
 
-label {
-    font-optical-sizing: auto;
-    line-height: 23px;
+.img_with_text_on_top {
+    position: relative;    
+    color: rgb(0, 0, 0);
 }
+
+.square_with_text {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-20%, -50%);
+    background:yellow; 
+    width: 50%; 
+    padding: 4px;
+}
+
+#bicle_text_square {
+top: 75%;
+
+}
+
+
 
 #background-img_hero {
     background-image: url("../images/people.webp");
@@ -170,6 +179,10 @@ label {
     width: 100%;
 }
 
+label {
+    font-optical-sizing: auto;
+    line-height: 23px;
+}
 
 /* About page */
 
