@@ -13,6 +13,10 @@ body {
     margin: 0%;
 }
 
+img {
+    width: 100%;
+}
+
 a {
     text-decoration: none;
 }
@@ -72,20 +76,12 @@ nav {
     top: 100%;
 }
 
-<<<<<<< HEAD
 .img_with_text_on_top {
-=======
-.bildmedtext {
->>>>>>> d7bddc49de6fb14c3ce31e89a8780f76a6f9074c
     position: relative;    
     color: rgb(0, 0, 0);
 }
 
-<<<<<<< HEAD
 .square_with_text {
-=======
-.centered {
->>>>>>> d7bddc49de6fb14c3ce31e89a8780f76a6f9074c
     position: absolute;
     top: 50%;
     left: 20%;
@@ -262,30 +258,16 @@ footer>p {
     #org_name {
         top: 460px;
         font-size: 30px;
-<<<<<<< HEAD
-=======
-
-
->>>>>>> d7bddc49de6fb14c3ce31e89a8780f76a6f9074c
     }
 
     #org_name>h1 {
         color: red;
     }
 
-<<<<<<< HEAD
     footer>p {
         font-size: 18px;
        
       }
-=======
-    #people {}
-
-    footer>p {
-        font-size: 18px;
-        font-family: ;
-    }
->>>>>>> d7bddc49de6fb14c3ce31e89a8780f76a6f9074c
 }
 
 /* Media query: screen (992px and up)*/

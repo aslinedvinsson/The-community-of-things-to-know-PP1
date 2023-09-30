@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta tags for SEO -->
     <meta name="description"
         content="The community of things you want to know (but don't yet), community for people to meet up in Gothenburg, Sweden, learn new skills and make friends" />
     <meta name="keywords"
@@ -18,131 +19,152 @@
 
 <body>
     <!-- Header -->
-
     <header>
-        <!-- social media icons -->
-        <ul id="contact">
-            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in the app or a new tab)">
-                    <i class="fa-brands fa-square-facebook"></i></a>
-            </li>
-            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram account (opens in an app or a new tab)">
-                    <i class="fa-brands fa-square-instagram"></i></a>
-            </li>
-            <li><a href=mailto:"thingsyouwanttoknow@thecommunity.com" target="_blank" rel="noopener"
-                    aria-label="Send us an email (opens a new tab)"><i class="fa-solid fa-envelope"></i></a></li>
-        </ul>
-        <!-- !!!! döp om input och label-->
+        
+        <!-- Navigation toggle checkbox and label -->
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-icon"><i class="fa-solid fa-bars"></i></label>
+        <!-- Navigation menu -->
         <nav>
             <ul id="nav-list">
+                <!-- Home link -->
                 <li><a href="index.html">Home</a></li>
+                <!-- How and Who link (with 'active' class indicating the current page) -->
                 <li><a href="how_and_who.html" class="active">How and Who</a></li>
-                <li><a href="comming_up.html">Comming Up</a></li>
+                <!-- Coming Up link -->
+                <li><a href="coming_up.html">Coming Up</a></li>
+                <!-- About link -->
                 <li><a href="about.html">About</a></li>
             </ul>
         </nav>
     </header>
-    <!-- Main -->
+
+    <!-- Main content -->
     <main>
-        <!-- social media icons tablet and wider screen-->
+        <!-- Social media icons for tablet and wider screens -->
         <ul id="contact-tablet-screen">
+            <!-- Facebook link -->
             <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in the app or a new tab)">
-                    <i class="fa-brands fa-square-facebook"></i></a>
-            </li>
+                    aria-label="Visit our Facebook page (opens in the app or a new tab)"><i
+                        class="fa-brands fa-square-facebook"></i></a></li>
+            <!-- Instagram link -->
             <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram account (opens in an app or a new tab)">
-                    <i class="fa-brands fa-square-instagram"></i></a>
-            </li>
+                    aria-label="Visit our Instagram account (opens in an app or a new tab)"><i
+                        class="fa-brands fa-square-instagram"></i></a></li>
+            <!-- Email link -->
             <li><a href="https://www.google.com/" target="_blank" rel="noopener"
-                    aria-label="Send us an email (opens a new tab)"><i class="fa-solid fa-envelope"></i></a></li>
+                    aria-label="Send us an email (opens a cnew tab)"><i class="fa-solid fa-envelope"></i></a></li>
         </ul>
 
+        <!-- Images and main title -->
         <div>
             <img id="cooking" src="assets/images/cooking.webp" alt="two people cooking food">
         </div>
-        <div id="org_name_how_and_who">
+        <div lass="logo" id="logo_name_how_and_who">
             <a href="index.html">
-            
                 <h1> The Community of things you want to know</h1>
                 <h2>but don't yet</h2>
-            
-        </a>
+            </a>
         </div>
         <div>
             <img id="bicycle" src="assets/images/bicycle.webp" alt="bicycle upside down without tires">
         </div>
+
+        <!-- How and Who section -->
         <div>
-<H1>HOW and WHO</H1>
-<h2>How</h2>
-<p>Physical meet ups i Gothenburg, Sweden. You as part of the community choose what to learn. Check the boxes
-    of what you want to learn and submit. When enough people have shown interest,
-    the Community will arrange a learning session.
-</p>
-<br>
-</div>
-<div>
-    <h2>Things you want to know</h2>
-    <h3>but don't yet</h3>
-    <input type="checkbox">
-    <label for="">Replace a Flat Bicycle Tire</label>
-    <br>
-    <input type="checkbox">
-    <label for="">Trim an Electrical Cord</label>
-    <br>
-    <input type="checkbox">
-    <label for="">How to clear a drain</label>
-    <br>
-    <input type="checkbox">
-    <label for="">Prepare a Simple Yet Delectable Dinner for Your First Date</label>
-    <br>
-    <input type="checkbox">
-    <label for="">Other <input type="text" name="other"></label>
-</div>
-<form>
-    <h3>Sign up and submit</h3>
-    <label for="fname">First name</label>
-    <input type="text" name="first-name" required>
-    <label for="lname">Last name</label>
-    <input type="text" name="last-name" required>
-    <label for="email">Email</label>
-    <input type="email" name="email" required>
-    <div id="submit">
-        <input type="submit" name="submit" id="submit">
-    </div>
-</form>
-<div>
-    <h2>Who</h2>
-    <p>Everyone who is friendly and open-minded is welcome. We strive for an inclusive environment and do not tolerate racism,
-    homophobia, transphobia, or discrimination based on disability.
-    </p>
-    <br>
-    <p>In addition to acquiring new knowledge, we aspire to forge new friendships with individuals we might not have crossed
-    paths with otherwise.
-    </p>
-</div>
-<section id="cost">
-    <h2>Is there a cost?</h2>
-    <p>At times, yes. Our goal is to keep activities accessible to everyone free of charge. However, in certain instances, we
-    may need to enlist the expertise of a professional, which could incur a cost. If you're unable to pay for any reason,
-    please don't hesitate to inform us, and we'll find a solution. For those who can contribute a little extra, your
-    generosity is greatly appreciated, as it helps ensure that as many people as possible can participate.
-    </p>
-</section>
+            <h1>HOW and WHO</h1>
+            <h2>How</h2>
+            <p>Physical meet ups in Gothenburg, Sweden. You as part of the community choose what to learn. Check the
+                boxes
+                of what you want to learn and submit. When enough people have shown interest,
+                the Community will arrange a learning session.
+            </p>
+            <br>
+        </div>
+        <div>
+            <h2>Things you want to know</h2>
+            <h3>but don't yet</h3>
+            <!-- Checkbox options for things to learn -->
+            <input type="checkbox">
+            <label for="">Replace a Flat Bicycle Tire</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Trim an Electrical Cord</label>
+            <br>
+            <input type="checkbox">
+            <label for="">How to clear a drain</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Prepare a Simple Yet Delectable Dinner for Your First Date</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Other <input type="text" name="other"></label>
+        </div>
 
+        <!-- Sign-up form -->
+        <form>
+            <h3>Sign up and submit</h3>
+            <label for="fname">First name</label>
+            <input type="text" name="first-name" required>
+            <label for="lname">Last name</label>
+            <input type="text" name="last-name" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" required>
+            <div id="submit">
+                <input type="submit" name="submit" id="submit">
+            </div>
+        </form>
 
+        <!-- More information about the community -->
+        <div>
+            <h2>Who</h2>
+            <p>Everyone who is friendly and open-minded is welcome. We strive for an inclusive environment and do not
+                tolerate racism,
+                homophobia, transphobia, or discrimination based on disability.
+            </p>
+            <br>
+            <p>In addition to acquiring new knowledge, we aspire to forge new friendships with individuals we might not
+                have crossed
+                paths with otherwise.
+            </p>
+        </div>
+
+        <!-- Cost section -->
+        <section id="cost">
+            <h2>Is there a cost?</h2>
+            <p>At times, yes. Our goal is to keep activities accessible to everyone free of charge. However, in certain
+                instances, we
+                may need to enlist the expertise of a professional, which could incur a cost. If you're unable to pay
+                for any reason,
+                please don't hesitate to inform us, and we'll find a solution. For those who can contribute a little
+                extra, your
+                generosity is greatly appreciated, as it helps ensure that as many people as possible can participate.
+            </p>
+        </section>
     </main>
+
     <!-- Footer -->
     <footer>
-        <p>Registered nonprofit organization | All donations are tax-deductible | © 2023
-            The Community of things you want to know</p>
+        <!-- Social media icons -->
+        <ul id="contact">
+            <!-- Facebook link -->
+            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in the app or a new tab)"><i
+                        class="fa-brands fa-square-facebook"></i></a></li>
+            <!-- Instagram link -->
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram account (opens in an app or a new tab)"><i
+                        class="fa-brands fa-square-instagram"></i></a></li>
+            <!-- Email link -->
+            <li><a href="mailto:thingsyouwanttoknow@thecommunity.com" target="_blank" rel="noopener"
+                    aria-label="Send us an email (opens a new tab)"><i class="fa-solid fa-envelope"></i></a></li>
+        </ul>
+        <p>Registered nonprofit organization | All donations are tax-deductible | © 2023 The Community of things you
+            want to know</p>
     </footer>
-    <!-- Font Awesom kit -->
+
+    <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/5322e9124b.js" crossorigin="anonymous"></script>
 </body>
-
 
 </html>
