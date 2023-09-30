@@ -13,9 +13,7 @@ body {
     margin: 0%;
 }
 
-img {
-    width: 100%;
-}
+
 
 a {
     text-decoration: none;
@@ -35,26 +33,9 @@ header {
 
 }
 
-#contact {
-    background-color: beige;
-    list-style-type: none;
-    display: flex;
-    font-size: 25px;
-}
-
-#contact>li {
-    padding-right: 20px;
-
-}
-
-#contact-tablet-screen {
-    display: none;
-}
-
 #nav-list {
     list-style-type: none;
     font-size: 130%;
-
 }
 
 #nav-list>li {
@@ -76,6 +57,31 @@ nav {
     top: 100%;
 }
 
+/* nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-icon {
+    
+    font-size: 2rem;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.logo {
+   
+    margin-top: -220px;
+    padding: 1rem;
+    padding-bottom: 0%;
+}
+
 .img_with_text_on_top {
     position: relative;    
     color: rgb(0, 0, 0);
@@ -90,32 +96,10 @@ nav {
     width: 50%; 
 }
 
-/* nav toggle */
-#nav-toggle:checked~nav {
-    display: block;
-}
-
-#nav-toggle {
-    display: none;
-}
-
-.nav-toggle-icon {
-    font-size: 2rem;
-    padding-right: 2rem;
-
-}
-
-
 main {
-
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: auto;
-
-}
-
-main h1 {
-    margin-top: 200px;
 }
 
 main h1,
@@ -130,37 +114,45 @@ main p {
     line-height: 23px;
 }
 
+.comming_up {
+    width: 60%;
+    margin: auto;
+    border: 1px solid grey;
+    padding: 1rem;
+    opacity: 70%;
+    background-color: white;
+}
+
+#coming_up_h1 {
+    margin: 0%;
+}
+
 label {
     font-optical-sizing: auto;
     line-height: 23px;
 }
 
-#org_name {
-    position: fixed;
-    top: 70px;
-    padding-left: 20px;
+#background-img_hero {
+    background-image: url("../images/people.webp");
+    background-size: cover;
+    height: 350px;
 }
 
-#org_name>a>h1,
-h2 {
-    color: red;
+#background-img_bicycle {
+    background-image: url("../images/bicycle.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 350px; 
 }
 
-
-/*bakgrundsbild funkar ej*/
-main>section>#background-img {
-    background-image: url("../images/people.webp") no-repeat center center/cover;
-    width: 100%;
-    z-index: 30;
+#background-img_time {
+    background-image: url("../images/time.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 350px; 
 }
 
 /* Images */
-/* bild funkar när jag lägger den i html, men inte som backgrundsbild i css */
-#people {
-    width: 100%;
-    margin-top: 80px;
-}
-
 #sewing {
     width: 100%;
     display: flex;
@@ -193,21 +185,22 @@ main>section>#background-img {
     width: 100%;
 }
 
-/* Comming up page */
-#welding {
-    width: 100%;
-}
-
-#time {
-    width: 100%;
-}
-
-
-
 footer {
     background-color: pink;
     padding-left: 9px;
     padding-right: 9px;
+}
+
+#contact {
+    background-color: beige;
+    list-style-type: none;
+    display: flex;
+    font-size: 25px;
+}
+
+#contact>li {
+    padding-right: 20px;
+
 }
 
 footer>p {
@@ -232,41 +225,14 @@ footer>p {
 
     #nav-list>li {
         padding-left: 20px;
-
     }
 
     .nav-toggle-icon {
         display: none;
     }
 
-    /* Main 
-    social media icons placed horizontally to the left */
-    #contact {
-        display: none;
-    }
-
-    #contact-tablet-screen {
-        margin-top: 100px;
-        display: flex;
-        flex-direction: column;
-        list-style-type: none;
-        font-size: 50px;
-        margin-left: -20px;
-        z-index: 10;
-    }
-
-    #org_name {
-        top: 460px;
-        font-size: 30px;
-    }
-
-    #org_name>h1 {
-        color: red;
-    }
-
     footer>p {
         font-size: 18px;
-       
       }
 }
 
@@ -274,12 +240,5 @@ footer>p {
 @media screen and (min-width:992px) {
     #nav-list>li>a:hover {
         border-bottom: 1px solid;
-    }
-
-    #org_name {
-        top: 100px;
-        margin-left: 870px;
-
-
     }
 }
