@@ -21,6 +21,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    width: 100%;
+}
+
 header {
     background-color: yellow;
     font-family: 'Roboto', sans-serif;
@@ -74,8 +78,8 @@ nav {
     margin-bottom: 1rem;
 }
 
-.logo {
-    margin-top: -225px;
+#logo_index {
+    margin-top: -12rem;
     padding: 1rem;
     padding-bottom: 0%;
 }
@@ -139,6 +143,7 @@ top: 75%;
 #cooking_text_square {
     top: 90%;
 }
+
 
 
 #background-img_hero {
