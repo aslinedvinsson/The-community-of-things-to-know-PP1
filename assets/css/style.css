@@ -23,6 +23,9 @@ a {
 
 img {
     width: 100%;
+    position: relative;
+    z-index: -1;
+    display: block;
 }
 
 header {
@@ -131,6 +134,7 @@ left: 60%;
 
 #sewing {
 
+
 }
 
 .img_with_text_on_top {
@@ -144,12 +148,13 @@ left: 60%;
     width: 50%; 
     padding: 4px;
     opacity: 75%;
+    z-index: 2;
 }
 
 #bicle_text_square {
-top: 68%;
+top: 73%;
 left: 5%;
-
+width: 70%;
 }
 
 #jeans_text_square {
