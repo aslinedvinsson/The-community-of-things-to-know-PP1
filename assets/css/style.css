@@ -14,7 +14,6 @@ body {
     font-family: 'Roboto', sans-serif;
     background-image: linear-gradient(to right top, #add8e6, #69e5e8, #2beec6, #5df183, #a8eb12);
     margin: 0%;
-    
 }
 
 a {
@@ -119,45 +118,35 @@ time {
 }
 
 #comming_up {
-text-align: right;
-padding-top: 1rem;
-position: absolute;
-left: 50%;
-
-}
-
-#cooking {
- 
-}
-
-#sewing {
-
-
+    text-align: right;
+    padding-top: 1rem;
+    position: absolute;
+    left: 50%;
 }
 
 .img_with_text_on_top {
-    position: relative;    
+    position: relative;
     color: rgb(0, 0, 0);
 }
 
 .square_with_text {
     position: absolute;
-    background:yellow; 
-    width: 50%; 
+    background: yellow;
+    width: 50%;
     padding: 4px;
     opacity: 75%;
     z-index: 2;
 }
 
 #bicle_text_square {
-top: 73%;
-left: 5%;
-width: 70%;
+    top: 73%;
+    left: 5%;
+    width: 70%;
 }
 
 #jeans_text_square {
     top: 95%;
-    left:5%;
+    left: 5%;
 }
 
 #cooking_text_square {
@@ -165,13 +154,6 @@ width: 70%;
     left: 30%;
     width: 60%;
 }
-
-
-
-
-
-
-
 
 /* How and Who page */
 #welding {
@@ -182,7 +164,6 @@ width: 70%;
     margin-top: -160px;
     padding: 1rem;
     padding-bottom: 0%;
-
 }
 
 #how_and_who_h1 {
@@ -213,8 +194,14 @@ label {
 
 /* About page */
 
+#logo_about {
+    margin-top: -160px;
+    padding: 1rem;
+    padding-bottom: 0%;
+}
+
 #threepeople {
-    width: 100%;
+    margin-top: 4rem;
 }
 
 footer {
@@ -237,7 +224,7 @@ footer>p {
     font-size: 11px;
     line-height: 135%;
 }
-}
+
 
 /* Media query: tablet(768px and up) */
 @media screen and (min-width:768px) {
@@ -264,7 +251,7 @@ footer>p {
 
     footer>p {
         font-size: 18px;
-      }
+    }
 }
 
 /* Media query: screen (992px and up)*/
