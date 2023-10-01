@@ -79,7 +79,7 @@ nav {
 }
 
 #logo_index {
-    margin-top: -12rem;
+    margin-top: -13rem;
     padding: 1rem;
     padding-bottom: 0%;
 }
@@ -128,6 +128,10 @@ left: 60%;
  
 }
 
+#sewing {
+
+}
+
 .img_with_text_on_top {
     position: relative;    
     color: rgb(0, 0, 0);
@@ -138,36 +142,29 @@ left: 60%;
     background:yellow; 
     width: 50%; 
     padding: 4px;
+    opacity: 75%;
 }
 
 #bicle_text_square {
-top: 75%;
+top: 68%;
 left: 5%;
 
 }
 
-#cooking_text_square {
-    top: 122%;
-    left: 40%;
-}
-
 #jeans_text_square {
-    top: 160%;
+    top: 95%;
     left:5%;
 }
 
-
-
-
-
-
-
-#background-img_sewing {
-    background-image: url("../images/mansewing.webp");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 350px; 
+#cooking_text_square {
+    top: 145%;
+    left: 40%;
 }
+
+
+
+
+
 
 
 
