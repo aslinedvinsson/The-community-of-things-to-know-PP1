@@ -102,6 +102,10 @@ p {
     line-height: 23px;
 }
 
+time {
+    font-size: 0.85rem;
+}
+
 .comming_up {
     width: 60%;
     margin: auto;
@@ -120,6 +124,10 @@ left: 60%;
 
 }
 
+#cooking {
+ 
+}
+
 .img_with_text_on_top {
     position: relative;    
     color: rgb(0, 0, 0);
@@ -127,9 +135,6 @@ left: 60%;
 
 .square_with_text {
     position: absolute;
-    top: 50%;
-    left: 15%;
-    transform: translate(-20%, -50%);
     background:yellow; 
     width: 50%; 
     padding: 4px;
@@ -137,34 +142,25 @@ left: 60%;
 
 #bicle_text_square {
 top: 75%;
+left: 5%;
 
 }
 
 #cooking_text_square {
-    top: 90%;
+    top: 122%;
+    left: 40%;
+}
+
+#jeans_text_square {
+    top: 160%;
+    left:5%;
 }
 
 
 
-#background-img_hero {
-    background-image: url("../images/people.webp");
-    background-size: cover;
-    height: 350px;
-}
 
-#background-img_bicycle {
-    background-image: url("../images/bicycle.webp");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 350px; 
-}
 
-#background-img_cooking {
-    background-image: url("../images/cooking.webp");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 350px; 
-}
+
 
 #background-img_sewing {
     background-image: url("../images/mansewing.webp");
@@ -181,13 +177,10 @@ top: 75%;
     margin-top: 100px;
 }
 
-#cooking {
-    width: 100%;
-    margin-top: 80px;
-}
+
 
 #bicycle {
-    width: 100%;
+    display: block;
 }
 
 label {
