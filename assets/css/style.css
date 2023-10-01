@@ -76,6 +76,7 @@ nav {
     margin-left: 10rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    color: red;
 }
 
 #logo_index {
@@ -202,6 +203,7 @@ footer {
     list-style-type: none;
     display: flex;
     font-size: 25px;
+    justify-content: center;
 }
 
 #contact>li {
