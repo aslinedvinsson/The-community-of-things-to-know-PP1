@@ -223,6 +223,11 @@ label {
     margin-top: 4rem;
 }
 
+iframe #video (
+    margin-left: 55%;
+    margin-bottom: 7vh;
+)
+
 footer {
     background-color: pink;
     padding: 9px;
@@ -435,6 +440,7 @@ footer>p {
 
     .container_large_screen {
         display: flex;
+        align-items: flex-end;
 
     }
 
