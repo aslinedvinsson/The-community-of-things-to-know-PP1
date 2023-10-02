@@ -50,7 +50,8 @@
     </div>
         <!-- How and Who section -->
         <h1 id="how_and_who_h1">HOW and WHO</h1>
-          
+        
+        <div class="container_large_screen">
         <div class="information">
             <h2>How</h2>
             <p>Physical meet ups in Gothenburg, Sweden. You as part of the community choose what to learn. Check the
@@ -60,20 +61,20 @@
             </p>
         </div>
 
-        <div class="information">
+        <div id="beside_large_screen" class="information">
             <h2>Things you want to know</h2>
             <h3>but don't yet</h3>
             <!-- Checkbox options for things to learn -->
-            <input type="checkbox">
+            <input type="checkbox" name="things to learn" value="flat_tire">
             <label for="">Replace a Flat Bicycle Tire</label>
             <br>
-            <input type="checkbox">
+            <input type="checkbox" name="things to learn" value="trim_electric_cord">
             <label for="">Trim an Electrical Cord</label>
             <br>
-            <input type="checkbox">
+            <input type="checkbox" name="things to learn" value="clear_drain">
             <label for="">How to clear a drain</label>
             <br>
-            <input type="checkbox">
+            <input type="checkbox" name="things to learn" value="first_date_dinner">
             <label for="">Prepare a Simple Yet Delectable Dinner for Your First Date</label>
             <br>
             <input type="checkbox">
@@ -81,7 +82,7 @@
         </div>
 
         <!-- Sign-up form -->
-        <form class="information">
+        <form id="form_large_screen" class="information">
             <h3>Submit what you want to learn</h3>
             <label for="fname">First name</label>
             <input type="text" name="first-name" required>
@@ -92,11 +93,13 @@
             <label for="email">Email</label>
             <input type="email" name="email" required>
             <div id="button">
-                <input id="submit" type="submit" name="submit" id="submit">
+                <input id="submit" type="submit" name="submit" value="Submit">
             </div>
         </form>
+    </div>
 
         <!-- More information about the community -->
+        <div class="container_large_screen">
         <div class="information">
             <h2>Who</h2>
             <p>Everyone who is friendly and open-minded is welcome. We strive for an inclusive environment and do not
@@ -121,6 +124,7 @@
                 generosity is greatly appreciated, as it helps ensure that as many people as possible can participate.
             </p>
         </section>
+    </div>
     </main>
 
     <!-- Footer -->

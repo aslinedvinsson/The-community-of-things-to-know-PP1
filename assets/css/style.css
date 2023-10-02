@@ -38,7 +38,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: baseline;
-  
+
 }
 
 #nav-list {
@@ -58,7 +58,7 @@ header {
 nav {
     /* position absolut is positioned relative to the nearest positioned ancestor, the header (instead of positioned relative to the viewport) */
     position: absolute;
-    
+
     width: 100%;
     right: 0;
     display: none;
@@ -69,7 +69,7 @@ nav {
 /* nav toggle */
 #nav-toggle:checked~nav {
     display: block;
-    
+
 }
 
 #nav-toggle {
@@ -201,7 +201,7 @@ label {
 
 #button {
     padding-top: 0.5rem;
-  
+
 }
 
 #submit {
@@ -252,6 +252,7 @@ footer>p {
 
 /* Media query: tablet(768px and up) */
 @media screen and (min-width:768px) {
+
     /* Header*/
     header {
         height: 9vh;
@@ -287,7 +288,7 @@ footer>p {
         margin-left: 3vh;
     }
 
-    
+
 
     h1 {
         font-size: 7vh;
@@ -296,7 +297,7 @@ footer>p {
 
     h2 {
         font-size: 5vh;
-       
+
     }
 
     h3 {
@@ -306,14 +307,14 @@ footer>p {
     h4 {
         font-size: 4vh;
 
-    }  
+    }
 
     #comming_up {
         left: 50%;
     }
 
     time {
-            font-size: 2.3vh;
+        font-size: 2.3vh;
     }
 
     #bicycle_text_square {
@@ -340,7 +341,10 @@ footer>p {
         margin-top: 0;
         padding: 3vh;
     }
-    p, label, label {
+
+    p,
+    label,
+    label {
         line-height: 3vh;
         color: white;
         font-size: 2vh;
@@ -371,9 +375,9 @@ footer>p {
         margin-top: -3vh;
         margin-left: -12vw;
     }
-    }
+}
 
-    
+
 
 
 
@@ -392,4 +396,57 @@ footer>p {
         position: fixed;
         top: 0;
         right: 7vh;
+    }
+
+    h1 {
+        font-size: 10vh;
+    }
+
+    h2 {
+        font-size: 7vh;
+    }
+
+    .logo {
+        margin-top: -35vh;
+    }
+
+    #comming_up {
+        padding-top: 4vh;
+        left: 70%;
+    }
+
+    #bicycle_text_square {
+        top: 330vh;
+        left: 5%;
+        width: 28%;
+    }
+
+    #jeans_text_square {
+        top: 445vh;
+        left: 5%;
+        width: 25%;
+    }
+
+    #cooking_text_square {
+        top: 650vh;
+        width: 55%;
+        left: 45%;
+    }
+
+    .container_large_screen {
+        display: flex;
+
+    }
+
+    #beside_large_screen {
+        width: 100vw;
+    }
+
+   #form_large_screen{
+    margin-top: 17vh;
+    }
+
+    #submit {
+        width: 6vw;
+    }
 }
