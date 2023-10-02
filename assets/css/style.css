@@ -37,10 +37,10 @@ header {
     width: 100%;
     display: flex;
     /* To make the nav-icon and nav-list stay to the right*/
-    justify-content:flex-end;
-  }
+    justify-content: flex-end;
+}
 
-  nav {
+nav {
     /* position absolut is positioned relative to the nearest positioned ancestor, the header (instead of positioned relative to the viewport) */
     position: absolute;
     width: 100%;
@@ -72,7 +72,7 @@ header {
 
 .nav-toggle-icon {
     font-size: 2rem;
-    margin-right:2.5rem;
+    margin-right: 2.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     color: #7a7474;
@@ -162,6 +162,7 @@ p {
     line-height: 23px;
     color: white;
 }
+
 .information {
     padding-bottom: 1rem;
 }
@@ -195,17 +196,27 @@ label {
 /*About headline*/
 #about_h1 {
     text-align: end;
-   font-size: 2rem;
+    font-size: 2rem;
     padding-right: 1.5rem;
 }
 
+.container_video_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.video_text {
+    margin-bottom: 2rem;
+}
+
 #video {
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
     width: 100%;
 }
 
+/*Footer*/
 footer {
-    background-color: pink;
+    background-color: rgb(252, 115, 138);
     padding: 9px;
 }
 
@@ -416,8 +427,8 @@ footer>p {
         width: 100vw;
     }
 
-   #form_large_screen{
-    margin-top: 17vh;
+    #form_large_screen {
+        margin-top: 17vh;
     }
 
     #submit {
