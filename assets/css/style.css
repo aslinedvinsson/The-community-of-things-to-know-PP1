@@ -36,27 +36,13 @@ header {
     z-index: 999;
     width: 100%;
     display: flex;
+    /* To make the nav-icon and nav-list stay to the right*/
     justify-content:flex-end;
   }
 
-#nav-list {
-    list-style-type: none;
-    font-size: 250%;
-    background-color: yellow;
-}
-
-#nav-list>li {
-    padding: 1 rem;
-}
-
-.active {
-    border-bottom: 1px solid;
-}
-
-nav {
+  nav {
     /* position absolut is positioned relative to the nearest positioned ancestor, the header (instead of positioned relative to the viewport) */
     position: absolute;
-
     width: 100%;
     right: 0;
     display: none;
@@ -64,10 +50,20 @@ nav {
     top: 100%;
 }
 
+#nav-list {
+    list-style-type: none;
+    font-size: 250%;
+    background-color: yellow;
+    padding: 1.5rem;
+}
+
+.active {
+    border-bottom: 1px solid;
+}
+
 /* nav toggle */
 #nav-toggle:checked~nav {
     display: block;
-
 }
 
 #nav-toggle {
@@ -82,26 +78,18 @@ nav {
     color: #7a7474;
 }
 
-.logo {
-    position: absolute;
-    margin-top: -20vh;
-    padding-bottom: 3vh;
-    padding-left: 1vh;
-    padding-right: 1vh;
-}
-
-/*
-#logo_index {
-    margin-top: -13rem;
-    padding: 1rem;
-    padding-bottom: 0%;
-}
-*/
-
 main {
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: auto;
+}
+
+.logo {
+    position: absolute;
+    margin-top: -25vh;
+    padding-bottom: 3vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 h1,
@@ -111,24 +99,12 @@ h3 {
     color: yellow;
 }
 
-p {
-    line-height: 23px;
-    color: white;
-}
 
 time {
     font-size: 0.85rem;
 }
 
-.comming_up {
-    width: 60%;
-    margin: auto;
-    border: 1px solid grey;
-    padding: 1rem;
-    opacity: 70%;
-    background-color: white;
-}
-
+/*Comming up headline*/
 #comming_up {
     text-align: right;
     padding-top: 1rem;
@@ -136,11 +112,7 @@ time {
     left: 50%;
 }
 
-.img_with_text_on_top {
-    position: relative;
-    color: rgb(0, 0, 0);
-}
-
+/* Squares on index-page about upcomming activities*/
 .square_with_text {
     position: absolute;
     background: yellow;
@@ -154,6 +126,7 @@ time {
     top: 79vh;
     left: 5%;
     width: 70%;
+    position: absolute;
 }
 
 #jeans_text_square {
@@ -168,27 +141,28 @@ time {
 }
 
 /* How and Who page */
+
+/* image of welding in the background*/
 #welding {
     margin-top: 63px;
 }
 
-/*
-#logo_how_and_who {
-    margin-top: -160px;
-    padding: 1rem;
-    padding-bottom: 0%;
-}
-*/
+/* The How and Who heandline*/
 #how_and_who_h1 {
     text-align: end;
     margin-top: 10%;
+    padding-right: 1.5rem;
 }
 
+.container {
+    padding: 1.5rem;
+}
 
+p {
+    line-height: 23px;
+    color: white;
+}
 .information {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
@@ -207,24 +181,27 @@ label {
     width: 60px;
 }
 
+.who {
+    margin-top: -2.5rem;
+    margin-bottom: 1.5rem
+}
 
 /* About page */
-/*
-#logo_about {
-    margin-top: -160px;
-    padding: 1rem;
-    padding-bottom: 0%;
-}
-*/
-
+/*Image as background of three people*/
 #threepeople {
     margin-top: 4rem;
 }
 
-#video {
-    padding: 4vh;
-    margin-right: 5vw;
+/*About headline*/
+#about_h1 {
     text-align: end;
+   font-size: 2rem;
+    padding-right: 1.5rem;
+}
+
+#video {
+    padding-bottom: 1rem;
+    width: 100%;
 }
 
 footer {
@@ -232,10 +209,11 @@ footer {
     padding: 9px;
 }
 
+/* Social media icons*/
 #contact {
     list-style-type: none;
     display: flex;
-    font-size: 25px;
+    font-size: 4.5vh;
     justify-content: center;
 }
 
@@ -243,11 +221,7 @@ footer {
     padding-right: 20px;
 }
 
-
-#contact {
-    font-size: 4.5vh;
-}
-
+/*Footer*/
 footer>p {
     font-size: 2vh;
     margin: 1vh;
@@ -267,7 +241,8 @@ footer>p {
         display: block;
         position: relative;
         width: fit-content;
-        margin-top: -7%;
+        margin-top: -6rem;
+        margin-right: 2.5rem;
     }
 
     #nav-list {
@@ -291,8 +266,6 @@ footer>p {
     .logo h2 {
         margin-left: 3vh;
     }
-
-
 
     h1 {
         font-size: 7vh;
@@ -367,22 +340,18 @@ footer>p {
         margin: 4vw;
     }
 
-    /*about*/
+    .who {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    /*About page*/
     #about_h1 {
         text-align: start;
         margin-top: 0;
         padding: 0;
     }
-
-    #contact_support_us {
-        font-size: 4.5vh;
-        margin-top: -3vh;
-        margin-left: -12vw;
-    }
 }
-
-
-
 
 
 /* Media query: screen (992px and up)*/
@@ -392,11 +361,11 @@ footer>p {
     }
 
     header {
-        height: 9vh;
+        height: 11vh;
     }
 
     #nav-list {
-        margin-top: 2vh;
+        margin-top: 0;
         position: fixed;
         top: 0;
         right: 7vh;
