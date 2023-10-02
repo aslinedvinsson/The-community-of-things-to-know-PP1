@@ -223,10 +223,11 @@ label {
     margin-top: 4rem;
 }
 
-iframe #video (
-    margin-left: 55%;
-    margin-bottom: 7vh;
-)
+#video {
+    padding: 4vh;
+    margin-right: 5vw;
+    text-align: end;
+}
 
 footer {
     background-color: pink;
