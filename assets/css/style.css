@@ -12,7 +12,7 @@ body {
     min-height: 100vh;
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Roboto', sans-serif;
-    background-image: linear-gradient(to right top, #add8e6, #69e5e8, #2beec6, #5df183, #a8eb12);
+    background-color: #7a7474;
     margin: 0%;
 }
 
@@ -38,15 +38,17 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: baseline;
+  
 }
 
 #nav-list {
     list-style-type: none;
-    font-size: 130%;
+    font-size: 250%;
+    background-color: yellow;
 }
 
 #nav-list>li {
-    padding: 7px;
+    padding: 1 rem;
 }
 
 .active {
@@ -56,7 +58,7 @@ header {
 nav {
     /* position absolut is positioned relative to the nearest positioned ancestor, the header (instead of positioned relative to the viewport) */
     position: absolute;
-    background-color: lightyellow;
+    
     width: 100%;
     right: 0;
     display: none;
@@ -67,6 +69,7 @@ nav {
 /* nav toggle */
 #nav-toggle:checked~nav {
     display: block;
+    
 }
 
 #nav-toggle {
@@ -78,14 +81,24 @@ nav {
     margin-left: 10rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    color: red;
+    color: #7a7474;
 }
 
+.logo {
+    position: absolute;
+    margin-top: -20vh;
+    padding-bottom: 3vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+
+/*
 #logo_index {
     margin-top: -13rem;
     padding: 1rem;
     padding-bottom: 0%;
 }
+*/
 
 main {
     flex-grow: 1;
@@ -97,11 +110,12 @@ h1,
 h2,
 h3 {
     font-family: 'Bebas Neue', sans-serif;
-    color: red;
+    color: yellow;
 }
 
 p {
     line-height: 23px;
+    color: white;
 }
 
 time {
@@ -138,19 +152,19 @@ time {
     z-index: 2;
 }
 
-#bicle_text_square {
-    top: 73%;
+#bicycle_text_square {
+    top: 79vh;
     left: 5%;
     width: 70%;
 }
 
 #jeans_text_square {
-    top: 95%;
+    top: 104vh;
     left: 5%;
 }
 
 #cooking_text_square {
-    top: 150%;
+    top: 155vh;
     left: 30%;
     width: 60%;
 }
@@ -160,12 +174,13 @@ time {
     margin-top: 63px;
 }
 
+/*
 #logo_how_and_who {
     margin-top: -160px;
     padding: 1rem;
     padding-bottom: 0%;
 }
-
+*/
 #how_and_who_h1 {
     text-align: end;
     margin-top: 10%;
@@ -181,10 +196,12 @@ time {
 
 label {
     line-height: 23px;
+    color: white;
 }
 
 #button {
     padding-top: 0.5rem;
+  
 }
 
 #submit {
@@ -192,13 +209,15 @@ label {
     width: 60px;
 }
 
-/* About page */
 
+/* About page */
+/*
 #logo_about {
     margin-top: -160px;
     padding: 1rem;
     padding-bottom: 0%;
 }
+*/
 
 #threepeople {
     margin-top: 4rem;
@@ -220,21 +239,30 @@ footer {
     padding-right: 20px;
 }
 
+
+#contact {
+    font-size: 4.5vh;
+}
+
 footer>p {
-    font-size: 11px;
-    line-height: 135%;
+    font-size: 2vh;
+    margin: 1vh;
 }
 
 
 /* Media query: tablet(768px and up) */
 @media screen and (min-width:768px) {
     /* Header*/
-
+    header {
+        height: 9vh;
+        padding-bottom: 1vh;
+    }
 
     nav {
         display: block;
         position: relative;
         width: fit-content;
+        margin-top: -7%;
     }
 
     #nav-list {
@@ -249,14 +277,119 @@ footer>p {
         display: none;
     }
 
-    footer>p {
-        font-size: 18px;
+    .logo {
+        margin-top: -25vh;
+        padding-left: 2vh;
+        padding-right: 2vh;
     }
-}
+
+    .logo h2 {
+        margin-left: 3vh;
+    }
+
+    
+
+    h1 {
+        font-size: 7vh;
+        padding-left: 3vh;
+    }
+
+    h2 {
+        font-size: 5vh;
+       
+    }
+
+    h3 {
+        font-size: 3vh;
+    }
+
+    h4 {
+        font-size: 4vh;
+
+    }  
+
+    #comming_up {
+        left: 50%;
+    }
+
+    time {
+            font-size: 2.3vh;
+    }
+
+    #bicycle_text_square {
+        top: 128vh;
+        left: 5%;
+        width: 38%;
+    }
+
+    #jeans_text_square {
+        top: 175vh;
+        left: 5%;
+        width: 60%;
+    }
+
+    #cooking_text_square {
+        top: 255vh;
+        width: 70vw;
+        margin-left: -7vw;
+    }
+
+    /*how_and_who_page*/
+    #how_and_who_h1 {
+        text-align: end;
+        margin-top: 0;
+        padding: 3vh;
+    }
+    p, label, label {
+        line-height: 3vh;
+        color: white;
+        font-size: 2vh;
+    }
+
+    input {
+        font-size: 2vh;
+    }
+
+    #submit {
+        height: 4vh;
+        width: 14vw;
+    }
+
+    .information {
+        margin: 4vw;
+    }
+
+    /*about*/
+    #about_h1 {
+        text-align: start;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    #contact_support_us {
+        font-size: 4.5vh;
+        margin-top: -3vh;
+        margin-left: -12vw;
+    }
+    }
+
+    
+
+
 
 /* Media query: screen (992px and up)*/
 @media screen and (min-width:992px) {
     #nav-list>li>a:hover {
         border-bottom: 1px solid;
     }
+
+    header {
+        height: 9vh;
+    }
+
+    #nav-list {
+        margin-top: 2vh;
+        position: fixed;
+        top: 0;
+        right: 7vh;
 }
