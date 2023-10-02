@@ -362,6 +362,11 @@ footer>p {
         margin-top: 0;
         padding: 0;
     }
+
+    .container_video_text {
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
 }
 
 
@@ -433,5 +438,11 @@ footer>p {
 
     #submit {
         width: 6vw;
+    }
+
+    /*About page*/
+    .container_video_text {
+        padding-right: 5rem;
+        padding-left: 5rem;
     }
 }
