@@ -116,11 +116,15 @@ time {
 }
 
 /*Comming up headline*/
-#comming_up {
+#comming_up_headline {
     text-align: right;
     padding-top: 1rem;
     position: absolute;
     left: 50%;
+}
+
+.coming_up {
+
 }
 
 /* Squares on index-page about upcomming activities*/
@@ -131,6 +135,10 @@ time {
     padding: 4px;
     opacity: 75%;
     z-index: 2;
+}
+
+.text_square_img {
+    
 }
 
 #bicycle_text_square {
