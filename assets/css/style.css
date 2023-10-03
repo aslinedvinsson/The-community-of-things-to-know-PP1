@@ -61,7 +61,7 @@ nav {
     list-style-type: none;
     font-size: 250%;
     background-color: yellow;
-    padding: 1.5rem;
+
 }
 
 .active {
@@ -100,7 +100,8 @@ main {
 }
 
 .logo_and_img {
-
+  
+    
 }
 
 h1,
@@ -116,11 +117,12 @@ time {
 }
 
 /*Comming up headline*/
-#comming_up_headline {
+#coming_up_headline {
     text-align: right;
     padding-top: 1rem;
     position: absolute;
-    left: 50%;
+    left: 60%;
+    height: 0;
 }
 
 .coming_up {
@@ -154,7 +156,8 @@ time {
 }
 
 #jeans_text_square >p {
-color: black;
+    color: black;
+    font-size: 0.85rem;
 }
 
 #cooking_text_square {
@@ -332,7 +335,7 @@ footer>p {
 
     }
 
-    #comming_up {
+    #coming_up_headline {
         left: 50%;
     }
 
@@ -420,7 +423,7 @@ footer>p {
     }
 
     #nav-list {
-        margin-top: 0;
+        margin-top: 2.8rem;
         position: fixed;
         top: 0;
         right: 7vh;
