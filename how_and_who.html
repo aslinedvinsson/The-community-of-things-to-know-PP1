@@ -60,11 +60,15 @@
                     the Community will arrange a learning session.
                 </p>
             </div>
-
+            
             <div id="beside_large_screen" class="information">
                 <h2>Things you want to know</h2>
                 <h3>but don't yet</h3>
 
+                
+                <!--The Code Institute link https://formdump.codeinstitute.net does not give back all the data -->
+                <!--Therefor I use another link. The link below was found at https://html.form.guide/checkbox/html-checkbox-form-submit-value/-->
+                <form action="https://show.ratufa.io/form" method="post" id="form_large_screen" class="information">
                 <!-- Checkbox options for things to learn -->
                 <input type="checkbox" id="flat_tire" name="things to learn" value="flat_tire">
                 <label for="flat_tire">Replace a Flat Bicycle Tire</label>
@@ -78,12 +82,13 @@
                 <input type="checkbox" id="first_date_dinner" name="things to learn" value="first_date_dinner">
                 <label for="first_date_dinner">Prepare a Simple Yet Delectable Dinner for Your First Date</label>
                 <br>
-                <input type="checkbox" id="other" name="other" value="Other">
-                <label for="other">Other"</label>
+                <input type="checkbox" type="text" id="new_ideas" name="new_ideas" value="new_ideas">
+                <label for="new_ideas">New Ideas</label>
+                <input type="text" id="new_ideas_text" name="new_ideas" value="">
             </div>
 
             <!-- Submit form -->
-            <form id="form_large_screen" class="information">
+           
                 <h3>Submit what you want to learn</h3>
                 <label for="fname">First name</label>
                 <input type="text" id="fname" name="first-name" required>
