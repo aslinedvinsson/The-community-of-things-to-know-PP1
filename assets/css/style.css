@@ -27,6 +27,13 @@ img {
     display: block;
 }
 
+/*Does not work, alt text still not showing on how_and who and about page*/
+img[alt]::after {
+    content: attr(alt); 
+    display: block;
+    font-size: 16px;
+}
+
 header {
     background-color: yellow;
     font-family: 'Roboto', sans-serif;
@@ -92,6 +99,10 @@ main {
     padding-right: 1rem;
 }
 
+.logo_and_img {
+
+}
+
 h1,
 h2,
 h3 {
@@ -132,6 +143,10 @@ time {
 #jeans_text_square {
     top: 104vh;
     left: 5%;
+}
+
+#jeans_text_square >p {
+color: black;
 }
 
 #cooking_text_square {
@@ -209,11 +224,23 @@ label {
     margin-bottom: 2rem;
 }
 
-#video {
-    padding-bottom: 0.5rem;
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio is a standard widescreen format for videos and screens and makes it responsive. 9 / 16 = 0.5625 or 56.25%.*/
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-}
-
+    height: 100%;
+    border: none; 
+  }
+  
+ 
 /*Footer*/
 footer {
     background-color: rgb(252, 115, 138);
@@ -315,6 +342,10 @@ footer>p {
         top: 175vh;
         left: 5%;
         width: 60%;
+    }
+
+    #jeans_text_square >p{
+        color: black;
     }
 
     #cooking_text_square {
