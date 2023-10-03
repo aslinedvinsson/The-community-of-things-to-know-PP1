@@ -98,11 +98,6 @@ main {
     padding-right: 1rem;
 }
 
-.logo_and_img {
-  
-    
-}
-
 h1,
 h2,
 h3 {
@@ -124,10 +119,6 @@ time {
     height: 0;
 }
 
-.coming_up {
-
-}
-
 /* Squares on index-page about upcomming activities*/
 .square_with_text {
     position: absolute;
@@ -138,12 +129,10 @@ time {
     z-index: 2;
 }
 
-.text_square_img {
-    
-}
+
 
 #bicycle_text_square {
-    top: 79vh;
+    top: 87%;
     left: 5%;
     width: 70%;
     position: absolute;
@@ -350,7 +339,7 @@ footer>p {
     }
 
     #jeans_text_square {
-        top: 175vh;
+        position: absolute;
         left: 5%;
         width: 60%;
     }
@@ -450,7 +439,7 @@ footer>p {
     }
 
     #jeans_text_square {
-        top: 445vh;
+        position: absolute;
         left: 5%;
         width: 25%;
     }
@@ -484,4 +473,17 @@ footer>p {
         padding-right: 5rem;
         padding-left: 5rem;
     }
+}
+/* Media query: screen (1150px and up)*/
+@media screen and (min-width:992px) {
+main {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+}
+
+#hero-image {
+    height: 100%;
+}
+
 }
