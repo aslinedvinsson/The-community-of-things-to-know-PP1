@@ -17,19 +17,16 @@
 </head>
 
 <body>
-    <!-- Header -->
+    <!--Header-->
     <header>
-        <!-- Navigation toggle checkbox and label -->
+        <!-- Mobile navigation toggle -->
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-icon"><i class="fa-solid fa-bars"></i></label>
-        <!-- Navigation menu -->
+        <label for="nav-toggle" class="nav-toggle-icon"><i class="fas fa-bars"></i></label>
         <nav>
+            <!-- Navigation menu -->
             <ul id="nav-list">
-                <!-- Home link -->
                 <li><a href="index.html">Home</a></li>
-                <!-- How and Who link (with 'active' class indicating the current page) -->
                 <li><a href="how_and_who.html" class="active">How and Who</a></li>
-                <!-- About link -->
                 <li><a href="about.html">About</a></li>
             </ul>
         </nav>
@@ -38,37 +35,44 @@
     <!-- Main content -->
     <main>
         <!-- Images and logo -->
-        <div>
-            <img id="welding" src="assets/images/welding.webp" alt="Person welding">
-
+        <section class="logo_and_img">
+            <img src="assets/images/welding.webp" alt="Person welding">
+            <!-- Logo -->
             <div class="logo">
                 <a href="index.html">
-                    <h1> The Community of things you want to know</h1>
+                    <h1>The Community of things you want to know</h1>
                     <h2>but don't yet</h2>
                 </a>
             </div>
-        </div>
-        <!-- How and Who section -->
-        <h1 id="how_and_who_h1">HOW and WHO</h1>
+        </section>
+        <!-- How and Who content -->
+        <section class="how_and_who_content">
 
-        <div class="container container_large_screen">
-            <div class="information">
-                <h2>How</h2>
+            <!--How and who headline-->
+            <div id="how_and_who_headline">
+                <h2>HOW and WHO</h2>
+            </div>
+
+        <!-- <div class="container container_large_screen"> -->
+            <section class="how information">
+                <h3>How</h3>
                 <p>Physical meet ups in Gothenburg, Sweden. You as part of the community choose what to learn. Check the
                     boxes
                     of what you want to learn and submit. When enough people have shown interest,
                     the Community will arrange a learning session.
                 </p>
-            </div>
+            </section>
             
-            <div id="beside_large_screen" class="information">
-                <h2>Things you want to know</h2>
-                <h3>but don't yet</h3>
+           <!--
+            <div id="beside_large_screen" class="information">-->
+            <section class="form information">
+                <div class="checkbox_learn">
+                <h4>Things you want to know</h4>
+                <h5>but don't yet</h5>
 
-                
                 <!--The Code Institute link https://formdump.codeinstitute.net does not give back all the data -->
                 <!--Therefor I use another link. The link below was found at https://html.form.guide/checkbox/html-checkbox-form-submit-value/-->
-                <form action="https://show.ratufa.io/form" method="post" id="form_large_screen" class="information">
+                <form action="https://show.ratufa.io/form" method="post" id="checkbox class="information">
                 <!-- Checkbox options for things to learn -->
                 <input type="checkbox" id="flat_tire" name="things to learn" value="flat_tire">
                 <label for="flat_tire">Replace a Flat Bicycle Tire</label>
@@ -86,28 +90,34 @@
                 <label for="new_ideas">New Ideas</label>
                 <input type="text" id="new_ideas_text" name="new_ideas" value="">
             </div>
+        
 
-            <!-- Submit form -->
-           
-                <h3>Submit what you want to learn</h3>
+            <!-- Submit -->
+            <div class="submit_form">
+                <h4>Submit what you want to learn</h4>
                 <label for="fname">First name</label>
+                <br>
                 <input type="text" id="fname" name="first-name" required>
                 <br>
                 <label for="lname">Last name</label>
+                <br>
                 <input type="text" id="lname" name="last-name" required>
                 <br>
                 <label for="email">Email</label>
+                <br>
                 <input type="email" id="email" name="email" required>
                 <div id="button">
-                    <input type="submit" id="submit" name="submit" value="Submit">
+                <input type="submit" id="submit" name="submit" value="Submit">
                 </div>
+            </div>
             </form>
+        </section> <!--End of section class="form"-->
         </div>
 
         <!-- More information who can join -->
-        <div class="container container_large_screen">
-            <div class="who information">
-                <h2>Who</h2>
+       <!-- <div class="container container_large_screen">-->
+            <section class="who information">
+                <h3>Who</h3>
                 <p>Everyone who is friendly and open-minded is welcome. We strive for an inclusive environment and do
                     not
                     tolerate racism,
@@ -118,11 +128,11 @@
                     have crossed
                     paths with otherwise.
                 </p>
-            </div>
+            </section>
 
             <!-- Cost section -->
-            <section id="cost" class="information">
-                <h2>Is there a cost?</h2>
+            <section class="cost information">
+                <h3>Is there a cost?</h3>
                 <p>At times, yes. Our goal is to keep activities accessible to everyone free of charge. However, in
                     certain
                     instances, we
@@ -136,6 +146,8 @@
                 </p>
             </section>
         </div>
+        </div>
+    </section>
     </main>
 
     <!-- Footer -->
