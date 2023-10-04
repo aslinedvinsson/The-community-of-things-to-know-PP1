@@ -22,14 +22,14 @@ a {
 
 img {
     width: 100%;
-   /* position: relative;*/
+    /* position: relative;*/
     z-index: -1;
     display: block;
 }
 
 /*Does not work, alt text still not showing on how_and who and about page*/
 img[alt]::after {
-    content: attr(alt); 
+    content: attr(alt);
     display: block;
     font-size: 16px;
 }
@@ -85,18 +85,22 @@ nav {
 }
 
 main {
-   /* flex-grow: 1;
+    /* flex-grow: 1;
     flex-shrink: 0;
     flex-basis: auto;
     */
 }
 
+.logo_and_img {
+    position: relative;
+}
+
 .logo {
     position: absolute;
-    margin-top: -25vh;
-    padding-bottom: 3vh;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    bottom: 10%;
+    left: 7%;
+    padding-right: 4%;
+    font-size: 130%;
 }
 
 h1,
@@ -111,13 +115,18 @@ time {
     font-size: 0.85rem;
 }
 
+.coming_up {
+    position: relative;
+}
+
 /*Comming up headline*/
-#coming_up_headline {
-    text-align: right;
-    padding-top: 1rem;
+.coming_up_headline {
     position: absolute;
-    left: 60%;
-    height: 0;
+    right: 7%;
+    top: 2%;
+    z-index: 1;
+    font-size: 130%;
+}
 }
 
 /* Squares on index-page about upcomming activities*/
@@ -125,34 +134,34 @@ time {
     background: yellow;
     padding: 4px;
     opacity: 75%;
-    z-index: 2;
+    z-index: 5;
 }
 
 .text_square_img {
     position: relative;
 }
 
-#bicycle_text_square {
+.bicycle_text_square {
     bottom: 5%;
-    left: 5%;
+    left: 7%;
     width: 70%;
     position: absolute;
 }
 
 #jeans_text_square {
     position: absolute;
-    left: 5%;
+    left: 7%;
     bottom: 5%;
     width: 40%;
 }
 
-#jeans_text_square >p {
+#jeans_text_square>p {
     color: black;
     font-size: 0.85rem;
 }
 
 #cooking_text_square {
-    right: 5%;
+    right: 7%;
     width: 60%;
     bottom: 10%;
     position: absolute;
@@ -229,32 +238,33 @@ label {
 
 .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio is a standard widescreen format for videos and screens and makes it responsive. 9 / 16 = 0.5625 or 56.25%.*/
+    padding-bottom: 56.25%;
+    /* 16:9 aspect ratio is a standard widescreen format for videos and screens and makes it responsive. 9 / 16 = 0.5625 or 56.25%.*/
     height: 0;
     overflow: hidden;
-  }
-  
-  .video-container iframe {
+}
+
+.video-container iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    border: none; 
-  }
-  
- 
+    border: none;
+}
+
+
 /*Footer*/
 footer {
     background-color: rgb(252, 115, 138);
-    padding: 9px;
+    padding: 2%;
 }
 
 /* Social media icons*/
 #contact {
     list-style-type: none;
     display: flex;
-    font-size: 4.5vh;
+    font-size: 180%;
     justify-content: center;
 }
 
@@ -264,7 +274,7 @@ footer {
 
 /*Footer*/
 footer>p {
-    font-size: 2vh;
+    font-size: 90%;
     margin: 1vh;
 }
 
@@ -299,58 +309,33 @@ footer>p {
         display: none;
     }
 
-    .logo {
-        margin-top: -25vh;
-        padding-left: 2vh;
-        padding-right: 2vh;
-    }
+    .logo {}
 
-    .logo h2 {
-        margin-left: 3vh;
-    }
+    .logo h2 {}
 
-    h1 {
-        font-size: 7vh;
-        padding-left: 3vh;
-    }
+    h1 {}
 
-    h2 {
-        font-size: 5vh;
+    h2 {}
 
-    }
+    h3 {}
 
-    h3 {
-        font-size: 3vh;
-    }
+    h4 {}
 
-    h4 {
-        font-size: 4vh;
-
-    }
-
-    #coming_up_headline {
-        left: 50%;
-    }
+    #coming_up_headline {}
 
     time {
         font-size: 2.3vh;
     }
 
-    #bicycle_text_square {
-       
-    }
+    #bicycle_text_square {}
 
-    #jeans_text_square {
-        
-    }
+    #jeans_text_square {}
 
-    #jeans_text_square >p{
+    #jeans_text_square>p {
         color: black;
     }
 
-    #cooking_text_square {
-       
-    }
+    #cooking_text_square {}
 
     /*how_and_who_page*/
     #how_and_who_h1 {
@@ -367,29 +352,18 @@ footer>p {
         font-size: 2vh;
     }
 
-    input {
-        font-size: 2vh;
-    }
+    input {}
 
-    #submit {
-        height: 4vh;
-        width: 14vw;
-    }
+    #submit {}
 
-    .information {
-        margin: 4vw;
-    }
+    .information {}
 
-    .who {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-    }
+    .who {}
 
     /*About page*/
     #about_h1 {
         text-align: start;
-        margin-top: 0;
-        padding: 0;
+
     }
 
     .container_video_text {
@@ -409,9 +383,7 @@ footer>p {
         height: 11vh;
     }
 
-    #nav-list {
-       
-    }
+    #nav-list {}
 
     h1 {
         font-size: 10vh;
@@ -421,26 +393,18 @@ footer>p {
         font-size: 7vh;
     }
 
-    .logo {
-        margin-top: -130rem;
-    }
+    .logo {}
 
     #comming_up {
         padding-top: 4vh;
         left: 70%;
     }
 
-    #bicycle_text_square {
-       
-    }
+    #bicycle_text_square {}
 
-    #jeans_text_square {
-       
-    }
+    #jeans_text_square {}
 
-    #cooking_text_square {
-       
-    }
+    #cooking_text_square {}
 
     .container_large_screen {
         display: flex;
@@ -466,16 +430,17 @@ footer>p {
         padding-left: 5rem;
     }
 }
+
 /* Media query: screen (1150px and up)*/
 @media screen and (min-width:992px) {
-main {
-    display: flex;
-flex-direction: row;
-align-items: flex-start;
-}
+    main {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
 
-#hero-image {
-    height: 100%;
-}
+    #hero-image {
+        height: 100%;
+    }
 
 }
