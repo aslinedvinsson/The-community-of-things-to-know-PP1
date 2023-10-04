@@ -191,17 +191,19 @@ time {
 
 
 .how_and_who_content{
-    position: relative;
     display: flex;
     flex-direction: column;
+    padding-bottom: 1rem;
+    padding-left: 7%;
+    padding-right: 7%;
     
 }
 
 /* The How and Who heandline*/
 #how_and_who_headline {
-    padding-left: 7%;
-    padding-top: 7%;
     font-size: 150%;
+    padding-top: 7%;
+    padding-left: 70%;
 }
 
 .how {
@@ -238,9 +240,7 @@ p {
 }
 
 .information {
-    padding-bottom: 1rem;
-    padding-left: 7%;
-    padding-right: 7%;
+   
 }
 
 label {
@@ -273,15 +273,36 @@ label {
 }
 
 /*About headline*/
-#about_h1 {
-    text-align: end;
-    font-size: 2rem;
-    padding-right: 1.5rem;
+
+.about_content {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+#about_headline {
+    font-size: 150%;
+    padding-top: 7%;
+    
+}
+
+#about_headline h2 {
+    padding-left: 70%;
+}
+
+
+#about_text {
+
 }
 
 .container_video_text {
     display: flex;
     flex-direction: column;
+    padding-bottom: 1rem;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 .video_text {
