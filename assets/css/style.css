@@ -157,17 +157,14 @@ main {
     font-size: 200%;
 }
 
+.square_with_text h6 {
+    font-size: 75%;
+    color:#605F4F
+}
+
 .square_with_text > p {
-    font-size: 200%;
-}
-
-h6 {
-    color:#605F4F
-}
-
-time {
-    font-size: 50%;
-    color:#605F4F
+    font-size: 140%;
+    color: #605F4F;
 }
 
 #bicycle_text_square {
