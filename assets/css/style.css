@@ -12,7 +12,7 @@ body {
     min-height: 100vh;
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Roboto', sans-serif;
-    background-color: #7a7474;
+    background-color: #AEAC9A;
     margin: 0%;
 }
 
@@ -35,7 +35,7 @@ img[alt]::after {
 }
 
 h1, h2, h3, h4, h5 {
-color: yellow;
+color: #F7F58C;
 font-family: 'Bebas Neue', sans-serif;;
 }
 
@@ -60,7 +60,7 @@ h5 {
 }
 
 header {
-    background-color: yellow;
+    background-color: #F7F58C;
     font-family: 'Roboto', sans-serif;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -85,7 +85,7 @@ nav {
 #nav-list {
     list-style-type: none;
     font-size: 250%;
-    background-color: yellow;
+    background-color: #F7F58C;
     padding-left: 5%;
     padding-bottom: 3%;
 }
@@ -108,7 +108,7 @@ nav {
     margin-right: 2.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    color: #7a7474;
+    color: #605F4F;
 }
 
 main {
@@ -147,7 +147,7 @@ time {
     z-index: 1;
     font-size: 150%;
 }
-}
+
 
 /* Squares on index-page about upcomming activities*/
 .square_with_text {
@@ -308,7 +308,7 @@ label {
 
 /*Footer*/
 footer {
-    background-color: rgb(252, 115, 138);
+    background-color: #86d6ce;
     padding: 2%;
 }
 
@@ -446,7 +446,9 @@ footer>p {
         font-size: 7vh;
     }
 
-    .logo {}
+    .logo {
+        position: relative;
+    }
 
     #comming_up {
         padding-top: 4vh;
@@ -475,6 +477,10 @@ footer>p {
 
     #submit {
         width: 6vw;
+    }
+
+    .how_and_who_content {
+        margin-top: 7%;
     }
 
     /*About page*/
