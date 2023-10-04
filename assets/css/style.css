@@ -22,7 +22,7 @@ a {
 
 img {
     width: 100%;
-    position: relative;
+   /* position: relative;*/
     z-index: -1;
     display: block;
 }
@@ -85,9 +85,10 @@ nav {
 }
 
 main {
-    flex-grow: 1;
+   /* flex-grow: 1;
     flex-shrink: 0;
     flex-basis: auto;
+    */
 }
 
 .logo {
@@ -121,26 +122,28 @@ time {
 
 /* Squares on index-page about upcomming activities*/
 .square_with_text {
-    position: absolute;
     background: yellow;
-    width: 50%;
     padding: 4px;
     opacity: 75%;
     z-index: 2;
 }
 
-
+.text_square_img {
+    position: relative;
+}
 
 #bicycle_text_square {
-    top: 87%;
+    bottom: 5%;
     left: 5%;
     width: 70%;
     position: absolute;
 }
 
 #jeans_text_square {
-    top: 104vh;
+    position: absolute;
     left: 5%;
+    bottom: 5%;
+    width: 40%;
 }
 
 #jeans_text_square >p {
@@ -149,9 +152,10 @@ time {
 }
 
 #cooking_text_square {
-    top: 155vh;
-    left: 30%;
+    right: 5%;
     width: 60%;
+    bottom: 10%;
+    position: absolute;
 }
 
 /* How and Who page */
@@ -333,15 +337,11 @@ footer>p {
     }
 
     #bicycle_text_square {
-        top: 128vh;
-        left: 5%;
-        width: 38%;
+       
     }
 
     #jeans_text_square {
-        position: absolute;
-        left: 5%;
-        width: 60%;
+        
     }
 
     #jeans_text_square >p{
@@ -349,9 +349,7 @@ footer>p {
     }
 
     #cooking_text_square {
-        top: 255vh;
-        width: 70vw;
-        margin-left: -7vw;
+       
     }
 
     /*how_and_who_page*/
@@ -433,21 +431,15 @@ footer>p {
     }
 
     #bicycle_text_square {
-        top: 330vh;
-        left: 5%;
-        width: 28%;
+       
     }
 
     #jeans_text_square {
-        position: absolute;
-        left: 5%;
-        width: 25%;
+       
     }
 
     #cooking_text_square {
-        top: 610vh;
-        width: 55%;
-        left: 45%;
+       
     }
 
     .container_large_screen {
