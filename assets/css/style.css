@@ -40,15 +40,15 @@ font-family: 'Bebas Neue', sans-serif;;
 }
 
 h1 {
-    font-size: 150%;
+    font-size: 2.5rem;
 }
 
 h2 {
-    font-size: 170%;
+    font-size: 2.5rem;
 }
 
 h3{
-    font-size: 190%;
+    font-size: 2rem;
 }
 
 h4 {
@@ -88,6 +88,7 @@ nav {
     background-color: #F7F58C;
     padding-left: 5%;
     padding-bottom: 3%;
+    color: #605F4F;
 }
 
 .active {
@@ -120,7 +121,7 @@ main {
 
 .logo_and_img {
     position: relative;
-    margin-top: 60px;
+    margin-top: 65px;
 }
 
 .logo {
@@ -128,7 +129,14 @@ main {
     bottom: 3%;
     left: 7%;
     padding-right: 4%;
-    font-size: 150%;
+}
+
+.logo h1 {
+    font-size: 2.5rem;
+}
+
+.logo h2 {
+    font-size: 1.5rem;
 }
 
 .coming_up {
@@ -158,13 +166,12 @@ main {
 }
 
 .square_with_text h6 {
-    font-size: 75%;
+    font-size: 50%;
     color:#605F4F
 }
 
 .square_with_text > p {
-    font-size: 140%;
-    color: #605F4F;
+     color: #605F4F;
 }
 
 #bicycle_text_square {
@@ -175,7 +182,7 @@ main {
 
 #jeans_text_square {
     position: absolute;
-    left: 7%;
+    right: 40%;
     bottom: 5%;
 }
 
@@ -192,6 +199,24 @@ main {
 }
 
 /* How and Who page */
+
+.logo_and_img_about {
+    margin-top: 65px;
+}
+
+.logo_about {
+    margin-top: -15%;
+    margin-left: 7%;
+}
+
+.logo_about h1 {
+font-size: 2.5rem;
+}
+
+.logo_about h2 {
+font-size: 1.5rem;
+}
+
 .how_and_who_content{
     display: flex;
     flex-direction: column;
@@ -202,6 +227,20 @@ main {
 }
 
 /* The How and Who heandline*/
+.logo_h_w {
+    margin-top: -25%;
+    margin-left: 7%;
+}
+
+
+.logo_h_w h1 {
+    font-size: 2.5rem;
+}
+
+.logo_h_w h2 {
+    font-size: 1.5rem;
+}
+
 #how_and_who_headline {
     font-size: 150%;
     padding-top: 7%;
@@ -236,7 +275,7 @@ p {
 }
 
 .information {
-   
+    padding-bottom: 10%;
 }
 
 label {
@@ -297,9 +336,7 @@ label {
     display: flex;
     flex-direction: column;
     padding-bottom: 1rem;
-    padding-left: 7%;
-    padding-right: 7%;
-}
+   }
 
 .video_text {
     margin-bottom: 2rem;
@@ -329,6 +366,10 @@ footer {
     padding: 2%;
 }
 
+footer > p{
+    line-height: 18px;
+}
+
 /* Social media icons*/
 #contact {
     list-style-type: none;
@@ -347,7 +388,22 @@ footer>p {
     margin: 1vh;
 }
 
+/*The measurments for media queries are taken from https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .logo {
+        font-size: 270%;
+    }
+}
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
 /* Media query: tablet(768px and up) */
 @media screen and (min-width:768px) {
 
