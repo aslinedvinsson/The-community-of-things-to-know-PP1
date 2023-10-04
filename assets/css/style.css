@@ -131,10 +131,6 @@ main {
     font-size: 150%;
 }
 
-time {
-    font-size: 0.85rem;
-}
-
 .coming_up {
     position: relative;
 }
@@ -150,21 +146,33 @@ time {
 
 
 /* Squares on index-page about upcomming activities*/
-.square_with_text {
-    background: yellow;
-    padding: 4px;
-    opacity: 75%;
-    
-}
-
 .text_square_img {
     position: relative;
+}
+
+.square_with_text {
+    background: #F7F58C;
+    padding: 4px;
+    opacity: 85%;
+    font-size: 200%;
+}
+
+.square_with_text > p {
+    font-size: 200%;
+}
+
+h6 {
+    color:#605F4F
+}
+
+time {
+    font-size: 50%;
+    color:#605F4F
 }
 
 #bicycle_text_square {
     bottom: 5%;
     left: 7%;
-    width: 70%;
     position: absolute;
 }
 
@@ -172,7 +180,6 @@ time {
     position: absolute;
     left: 7%;
     bottom: 5%;
-    width: 40%;
 }
 
 #jeans_text_square>p {
@@ -188,8 +195,6 @@ time {
 }
 
 /* How and Who page */
-
-
 .how_and_who_content{
     display: flex;
     flex-direction: column;
@@ -227,12 +232,6 @@ form {
 .submit_form {
  
 }
-
-/*
-.container {
-    padding: 1.5rem;
-}
-*/
 
 p {
     line-height: 23px;
