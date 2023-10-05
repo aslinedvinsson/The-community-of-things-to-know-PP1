@@ -419,7 +419,7 @@ header {
 
 /*How and who page */
 
-.logo_and_img {
+.logo_and_img_h_a_w {
        margin-top: 100px;
 }
 
@@ -431,7 +431,6 @@ header {
     font-size: 3rem;
 }
 
-
 h2 {
     font-size: 4rem;
 }
@@ -439,11 +438,9 @@ h3 {
     font-size: 3rem;
 }
 
-
 h4 {
     font-size: 3rem;
 }
-
 
 h5 {
     font-size: 2rem;
@@ -451,7 +448,6 @@ h5 {
 
 p {
     line-height: 120%;
- 
     font-size: 200%;
 }
 
@@ -518,7 +514,6 @@ footer > p {
         display: none;
     }
 
-
     .logo_about h1 {
         font-size: 5rem;
     }
@@ -564,31 +559,8 @@ footer > p {
     }
   
 }
-
-
-
-  
-
-    
    
-    
-  
-
- 
-
-}
-
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
-/* Media query: tablet(768px and up) */
-@media screen and (min-width:768px) {
-
-   
-
-/* Media query: screen (992px and up)*/
 @media screen and (min-width:992px) {
     #nav-list>li>a:hover {
         border-bottom: 1px solid;
@@ -598,8 +570,6 @@ footer > p {
         height: 11vh;
     }
 
-    #nav-list {}
-
     h1 {
         font-size: 10vh;
     }
@@ -608,52 +578,46 @@ footer > p {
         font-size: 7vh;
     }
 
-    .logo {
-        position: relative;
-    }
-
     #comming_up {
         padding-top: 4vh;
         left: 70%;
     }
 
-    #bicycle_text_square {}
-
-    #jeans_text_square {}
-
-    #cooking_text_square {}
-
-    .container_large_screen {
-        display: flex;
-        align-items: flex-end;
-
+    .logo_h_w {
+        margin-top: -18%;
+        margin-right: 4%;
     }
 
-    #beside_large_screen {
-        width: 100vw;
+    #how_and_who_headline {
+             margin-top: -5%;
     }
 
-    #form_large_screen {
-        margin-top: 17vh;
-    }
+.information {
+    padding-bottom: 5%;
+}
 
-    #submit {
-        width: 6vw;
-    }
+input[type=submit] {
+    font-size: 150%;
+}
 
     .how_and_who_content {
         margin-top: 7%;
     }
 
     /*About page*/
-    .container_video_text {
-        padding-right: 5rem;
-        padding-left: 5rem;
+
+    .logo_about {
+        margin-right: 3%;
     }
+/*Footer*/
+#contact {
+    font-size: 370%;
 }
 
-/* Media query: screen (1150px and up)*/
-@media screen and (min-width:992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
     main {
         display: flex;
         flex-direction: row;
@@ -663,5 +627,54 @@ footer > p {
     #hero-image {
         height: 100%;
     }
+
+    .logo {
+        bottom: 20%;
+    }
+
+    .coming_up {
+        margin-top: 5%;
+    }
+
+    .square_with_text {
+        font-size: 500%;
+    }
+
+    #text_square_img_cooking {
+        right: 100%;
+        margin-top: -50%;
+    }
+
+    #cooking_text_square {
+        right: 48%;
+        width: 25%;
+        position: absolute;
+        top: 2%;
+        height: fit-content;
+    }
+
+    #cooking_img {
+        max-height: 50%;
+        overflow: hidden;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+   }
+
+   #contact {
+    font-size: 500%;
+}
+
+#contact>li {
+    padding-right: 70px;
+}
+
+footer>p {
+    font-size: 210%;
+    line-height: 40px;
+}
 
 }
