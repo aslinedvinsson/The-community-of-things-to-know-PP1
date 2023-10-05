@@ -391,9 +391,36 @@ footer>p {
 /*The measurments for media queries are taken from https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .logo {
-        font-size: 270%;
-    }
+header {
+    height: 8%;
+}
+
+.nav-toggle-icon {
+    font-size: 4rem;
+
+}
+    .logo h1 {
+        font-size: 5rem;
+}
+
+.logo h2 {
+    font-size: 3rem;
+}
+
+.coming_up_headline {
+        font-size: 230%;
+}
+
+.square_with_text {
+    font-size: 350%;
+}
+
+footer>p {
+    font-size: 150%;
+}
+
+footer > p {
+    line-height: 27px;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
