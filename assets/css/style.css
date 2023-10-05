@@ -389,6 +389,7 @@ footer>p {
 }
 
 /*The measurments for media queries are taken from https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 header {
@@ -487,17 +488,9 @@ footer > p {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...}
+@media only screen and (min-width: 768px) {
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
-/* Media query: tablet(768px and up) */
-@media screen and (min-width:768px) {
-
-    /* Header*/
+     /* Header*/
     header {
         height: 9vh;
         padding-bottom: 1vh;
@@ -525,35 +518,16 @@ footer > p {
         display: none;
     }
 
-    .logo {}
 
-    .logo h2 {}
-
-    h1 {}
-
-    h2 {}
-
-    h3 {}
-
-    h4 {}
-
-    #coming_up_headline {}
-
-    time {
-        font-size: 2.3vh;
+    .logo_about h1 {
+        font-size: 5rem;
+    }
+    
+    .logo_about h2 {
+        font-size: 3rem;
     }
 
-    #bicycle_text_square {}
-
-    #jeans_text_square {}
-
-    #jeans_text_square>p {
-        color: black;
-    }
-
-    #cooking_text_square {}
-
-    /*how_and_who_page*/
+     /*how_and_who_page*/
     #how_and_who_h1 {
         text-align: end;
         margin-top: 0;
@@ -568,26 +542,51 @@ footer > p {
         font-size: 2vh;
     }
 
-    input {}
-
-    #submit {}
-
-    .information {}
-
-    .who {}
+    input[type=submit] {
+        font-size: 1.8em;
+    }
 
     /*About page*/
     #about_h1 {
         text-align: start;
-
     }
 
     .container_video_text {
-        padding-right: 3rem;
-        padding-left: 3rem;
+        padding: 0;
     }
+
+   /*Footer social media icons*/
+    #contact {
+        list-style-type: none;
+        display: flex;
+        font-size: 300%;
+        justify-content: center;
+    }
+  
 }
 
+
+
+  
+
+    
+   
+    
+  
+
+ 
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+/* Media query: tablet(768px and up) */
+@media screen and (min-width:768px) {
+
+   
 
 /* Media query: screen (992px and up)*/
 @media screen and (min-width:992px) {
