@@ -415,6 +415,69 @@ header {
     font-size: 350%;
 }
 
+
+/*How and who page */
+
+.logo_and_img {
+       margin-top: 100px;
+}
+
+.logo_h_w h1 {
+    font-size: 5rem;
+}
+
+.logo_h_w h2 {
+    font-size: 3rem;
+}
+
+
+h2 {
+    font-size: 4rem;
+}
+h3 {
+    font-size: 3rem;
+}
+
+
+h4 {
+    font-size: 3rem;
+}
+
+
+h5 {
+    font-size: 2rem;
+}
+
+p {
+    line-height: 120%;
+ 
+    font-size: 200%;
+}
+
+form {
+    font-size: 200%;
+}
+
+/*Making checkboxes larger */
+.larger {
+    height: 2rem;
+    width: 2rem;
+}
+
+label {
+    line-height: 3rem;
+    font-size: 2rem;
+}
+
+.input_square {
+    font-size: 2rem;
+}
+
+#submit {
+    height: 3rem;
+    width: 8rem;
+}
+
 footer>p {
     font-size: 150%;
 }
