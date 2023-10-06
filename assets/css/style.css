@@ -14,7 +14,7 @@ body {
     min-height: 100vh;
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Roboto', sans-serif;
-    background-color: #AEAC9A;
+    background-color: #8c8a7c;
     margin: 0%;
 }
 
@@ -314,11 +314,6 @@ font-size: 1.5rem;
     padding-left: 70%;
 }
 
-
-#about_text {
-
-}
-
 .container_video_text {
     display: flex;
     flex-direction: column;
@@ -349,7 +344,7 @@ font-size: 1.5rem;
 
 /*Footer*/
 footer {
-    background-color: #86d6ce;
+    background-color: #6aaea8;
     padding: 2%;
 }
 
@@ -367,6 +362,10 @@ footer > p{
 
 #contact>li {
     padding-right: 20px;
+}
+
+.fa, .fa-brands, .fa-classic, .fa-regular, .fa-sharp, .fa-solid, .fab, .far, .fas {
+    color: white;
 }
 
 /*Footer*/
@@ -469,6 +468,10 @@ footer > p {
     line-height: 27px;
 }
 
+#contact {
+    margin-left: 3%;
+}
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
@@ -532,10 +535,10 @@ footer > p {
     #contact {
         list-style-type: none;
         display: flex;
-        font-size: 300%;
         justify-content: center;
     }
-  
+
+    
 }
    
 /* Large devices (laptops/desktops, 992px and up) */
