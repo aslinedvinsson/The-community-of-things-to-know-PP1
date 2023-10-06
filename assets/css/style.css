@@ -363,7 +363,15 @@ footer > p{
     padding-right: 20px;
 }
 
-.fa, .fa-brands, .fa-classic, .fa-regular, .fa-sharp, .fa-solid, .fab, .far, .fas {
+.fa-facebook-square {
+    color:  #1877f2
+}
+
+.fa-instagram-square {
+    color: #c32aa3;
+}
+
+.fa-envelope {
     color: white;
 }
 
