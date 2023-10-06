@@ -93,6 +93,11 @@ nav {
     color: #605F4F;
 }
 
+#nav-list a:hover {
+    color: rgb(254, 154, 171);
+}
+
+
 .active {
     border-bottom: 1px solid;
 }
@@ -373,6 +378,10 @@ footer > p{
 
 .fa-envelope {
     color: white;
+}
+
+#contact li a:hover {
+    font-size: 203%;
 }
 
 /*Footer*/
