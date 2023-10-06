@@ -209,7 +209,7 @@ main {
     
 }
 
-/* The How and Who*/
+/* The How and Who page*/
 
 /* The How and Who heandline*/
 
@@ -257,6 +257,7 @@ p {
 label {
     line-height: 23px;
     color: white;
+    font-size: 120%;
 }
 
 #button {
@@ -447,7 +448,7 @@ p {
 }
 
 label {
-      font-size: 130%;
+      font-size: 150%;
 }
 
 .input_square {
@@ -589,7 +590,7 @@ input[type=submit] {
     }
 /*Footer*/
 #contact {
-    font-size: 370%;
+    font-size: 320%;
 }
 
 }
@@ -636,9 +637,22 @@ input[type=submit] {
         overflow: hidden;
     }
 
+    /*How and who page */
+    #how_and_who_headline {
+        margin-top: 3%;
+    }
+
     .container_large_screen {
-        display: flex
-        
+        display: flex;
+        margin-left: -68%;
+    }
+
+    .who {
+        padding-right: 12%;
+    }
+
+    #about_headline {
+        padding-top: 25%;
     }
 
     footer {
@@ -647,16 +661,12 @@ input[type=submit] {
         justify-content: space-evenly;
    }
 
-   #contact {
-    font-size: 500%;
-}
-
 #contact>li {
     padding-right: 70px;
 }
 
 footer>p {
-    font-size: 210%;
+    font-size: 150%;
     line-height: 40px;
 }
 
