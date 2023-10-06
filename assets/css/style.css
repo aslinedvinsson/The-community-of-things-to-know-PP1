@@ -647,9 +647,14 @@ input[type=submit] {
         height: fit-content;
     }
 
-    #cooking_img {
+    #cooking_crop {
         max-height: 50%;
         overflow: hidden;
+        
+    }
+
+    #cooking_img {
+     display: none;
     }
 
     /*How and who page */
