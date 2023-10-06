@@ -1,9 +1,11 @@
 /* Google fonts import: Bebas Neue and Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
 
+/* Learnt from Love Running project. Asterisk wildcard selector to override default styles added by the browser */
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -198,25 +200,6 @@ main {
     position: absolute;
 }
 
-/* How and Who page */
-
-.logo_and_img_about {
-    margin-top: 65px;
-}
-
-.logo_about {
-    margin-top: -15%;
-    margin-left: 7%;
-}
-
-.logo_about h1 {
-font-size: 2.5rem;
-}
-
-.logo_about h2 {
-font-size: 1.5rem;
-}
-
 .how_and_who_content{
     display: flex;
     flex-direction: column;
@@ -226,12 +209,18 @@ font-size: 1.5rem;
     
 }
 
+/* The How and Who*/
+
 /* The How and Who heandline*/
+
+.logo_and_img_h_a_w {
+    margin-top: 10%;
+}
+
 .logo_h_w {
     margin-top: -25%;
     margin-left: 7%;
 }
-
 
 .logo_h_w h1 {
     font-size: 2.5rem;
@@ -247,31 +236,18 @@ font-size: 1.5rem;
     padding-left: 70%;
 }
 
-.how {
-   
-}
-
 .form {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
 }
 
 form {
     padding: 0;
 }
 
-.checkbox_learn {
-    margin-bottom: 1rem;
-}
-
-.submit_form {
- 
-}
-
 p {
-    line-height: 23px;
     color: white;
+    font-size: 120%;
 }
 
 .information {
@@ -293,16 +269,26 @@ label {
     width: 60px;
 }
 
-.who {
-    
-}
-
-.cost {
-   
-}
 
 /* About page */
-/*Image as background of three people*/
+/*Image as background of three people and logo on top*/
+.logo_and_img_about {
+    margin-top: 65px;
+}
+
+.logo_about {
+    margin-top: -15%;
+    margin-left: 7%;
+}
+
+.logo_about h1 {
+font-size: 2.5rem;
+}
+
+.logo_about h2 {
+font-size: 1.5rem;
+}
+
 #threepeople {
     margin-top: 4rem;
 }
@@ -397,11 +383,13 @@ header {
 }
 
 .nav-toggle-icon {
-    font-size: 4rem;
-
+    font-size: 3rem;
+    margin-right: 2.5rem;
+    margin-top: 1%;
 }
-    .logo h1 {
-        font-size: 5rem;
+
+.logo h1 {
+    font-size: 5rem;
 }
 
 .logo h2 {
@@ -420,7 +408,7 @@ header {
 /*How and who page */
 
 .logo_and_img_h_a_w {
-       margin-top: 100px;
+       margin-top: 0;
 }
 
 .logo_h_w h1 {
@@ -448,12 +436,9 @@ h5 {
 
 p {
     line-height: 120%;
-    font-size: 200%;
+    font-size: 150%;
 }
 
-form {
-    font-size: 200%;
-}
 
 /*Making checkboxes larger */
 .larger {
@@ -462,8 +447,7 @@ form {
 }
 
 label {
-    line-height: 3rem;
-    font-size: 2rem;
+      font-size: 130%;
 }
 
 .input_square {
@@ -473,6 +457,7 @@ label {
 #submit {
     height: 3rem;
     width: 8rem;
+    margin-top: 1rem;
 }
 
 footer>p {
@@ -502,7 +487,7 @@ footer > p {
 
     #nav-list {
         display: flex;
-        margin-top: 6%;
+        margin-top: 8%;
         padding:0;
     }
 
@@ -527,14 +512,6 @@ footer > p {
         text-align: end;
         margin-top: 0;
         padding: 3vh;
-    }
-
-    p,
-    label,
-    label {
-        line-height: 3vh;
-        color: white;
-        font-size: 2vh;
     }
 
     input[type=submit] {
@@ -562,8 +539,9 @@ footer > p {
    
 /* Large devices (laptops/desktops, 992px and up) */
 @media screen and (min-width:992px) {
-    #nav-list>li>a:hover {
-        border-bottom: 1px solid;
+    
+    #nav-list {
+        margin-top: 6%;
     }
 
     header {
