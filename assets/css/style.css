@@ -120,11 +120,10 @@ nav {
 }
 
 main {
-    /* flex-grow: 1;
+    flex-grow: 1;
     flex-shrink: 0;
     flex-basis: auto;
-    */
-}
+    }
 
 .logo_and_img {
     position: relative;
@@ -165,20 +164,22 @@ main {
     position: relative;
 }
 
+#cooking_crop {
+    max-height: 50%;
+    display: none;
+}
+
 .square_with_text {
-    background: #F7F58C;
+    background: #8c8a7c;
     padding: 4px;
     opacity: 85%;
     font-size: 200%;
-    color: #494738;
+    color: white;
 }
 
 .square_with_text h6 {
     font-size: 50%;
 }
-
-.square_with_text > p {}
-
 
 #bicycle_text_square {
     bottom: 5%;
@@ -452,7 +453,6 @@ h5 {
 
 p {
     line-height: 120%;
-    font-size: 150%;
 }
 
 
@@ -460,14 +460,16 @@ p {
 .larger {
     height: 2rem;
     width: 2rem;
+    margin-bottom: 0.5rem;
 }
 
 label {
-      font-size: 150%;
+      font-size: 120%;
 }
 
-.input_square {
-    font-size: 2rem;
+.input_square { 
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 
 #submit {
@@ -587,6 +589,24 @@ footer > p {
         margin-right: 4%;
     }
 
+    #cooking_crop {
+        max-height: 50%;
+        display: block;
+    }
+
+    #cooking_img {
+     display: none;
+    }
+
+    
+
+#cooking_text_square{
+        width: 25%;
+        bottom: 10%;
+        position: absolute;
+        left: 10%;
+}
+
     #how_and_who_headline {
              margin-top: -5%;
     }
@@ -630,8 +650,16 @@ input[type=submit] {
         margin-top: 5%;
     }
 
+    .coming_up_headline {
+        top: 9%;
+    }
+
     .square_with_text {
-        font-size: 500%;
+        font-size: 350%;
+    }
+
+    #jeans_text_square {
+        bottom: 10%;
     }
 
     #text_square_img_cooking {
@@ -640,24 +668,11 @@ input[type=submit] {
     }
 
     #cooking_text_square {
-        right: 48%;
-        width: 25%;
-        position: absolute;
-        top: 2%;
-        height: fit-content;
+            position: absolute;
+            margin-left: 17%;
     }
 
-    #cooking_crop {
-        max-height: 50%;
-        overflow: hidden;
-        
-    }
-
-    #cooking_img {
-     display: none;
-    }
-
-    /*How and who page */
+     /*How and who page */
     #how_and_who_headline {
         margin-top: 3%;
     }
@@ -679,6 +694,7 @@ input[type=submit] {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-evenly;
+        z-index: 1;
    }
 
 #contact>li {
