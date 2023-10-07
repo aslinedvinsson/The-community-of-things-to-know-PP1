@@ -695,6 +695,7 @@ input[type=submit] {
         flex-direction: row-reverse;
         justify-content: space-evenly;
         z-index: 1;
+        margin-top: -1%;
    }
 
 #contact>li {
