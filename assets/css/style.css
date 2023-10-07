@@ -170,7 +170,7 @@ main {
 }
 
 .square_with_text {
-    background: #8c8a7c;
+    background: #63635c;
     padding: 4px;
     opacity: 85%;
     font-size: 200%;
@@ -349,7 +349,7 @@ font-size: 1.5rem;
 
 /*Footer*/
 footer {
-    background-color: #6aaea8;
+    background-color: #58918c;
     padding: 2%;
 }
 
