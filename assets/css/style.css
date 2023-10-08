@@ -603,13 +603,20 @@ footer>p {
 			position: absolute;
 		    margin-left: 27%;
 		}
-		/*How and who page */
+
+        /*How and who page */
+    
+    .logo_and_img_h_a_w {
+        margin-top: 5%;
+    }
+
 		#how_and_who_headline {
 			margin-top: 3%;
 		}
+
 		.container_large_screen {
 			display: flex;
-			margin-left: -68%;
+            margin-left: -40%;
 		}
 		.who {
 			padding-right: 12%;
