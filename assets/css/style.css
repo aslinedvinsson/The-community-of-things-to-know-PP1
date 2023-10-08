@@ -548,7 +548,7 @@ footer>p {
 			display: none;
 		}
 		#cooking_text_square {
-			width: 25%;
+            width: 17%;
 			bottom: 10%;
 			position: absolute;
 			left: 10%;
@@ -593,7 +593,7 @@ footer>p {
 			font-size: 350%;
 		}
 		#jeans_text_square {
-			bottom: 10%;
+            bottom: 20%;
 		}
 		#text_square_img_cooking {
 			right: 100%;
@@ -601,7 +601,7 @@ footer>p {
 		}
 		#cooking_text_square {
 			position: absolute;
-			margin-left: 17%;
+		    margin-left: 27%;
 		}
 		/*How and who page */
 		#how_and_who_headline {
