@@ -2,15 +2,17 @@
 <html lang="en">
 
 <head>
-       <!-- Meta tags -->
-       <meta charset="UTF-8">
-       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <meta name="description" content="The community for people to meet up in Gothenburg, Sweden, learn new skills, and make friends">
-       <meta name="keywords" content="community, make friends, learn new skills, Gothenburg, changing tire, cooking a meal for a date, rinsing the sink, shorten an electrical cord">
-   
-       <!-- Stylesheet -->
-       <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="The community for people to meet up in Gothenburg, Sweden, learn new skills, and make friends">
+    <meta name="keywords"
+        content="community, make friends, learn new skills, Gothenburg, changing tire, cooking a meal for a date, rinsing the sink, shorten an electrical cord">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Title -->
     <title>The Community of things you want to know</title>
@@ -61,87 +63,95 @@
                     the Community will arrange a learning session.
                 </p>
             </section>
-            
+
             <section class="form information">
-                <div class="checkbox_learn">
-                <h4>Things you want to know</h4>
-                <h5>but don't yet</h5>
+               
+                    <h4>Things you want to know</h4>
+                    <h5>but don't yet</h5>
 
-                <!--The Code Institute link https://formdump.codeinstitute.net does not give back all the data -->
-                <!--Therefor I use another link. The link below was found at https://html.form.guide/checkbox/html-checkbox-form-submit-value/-->
-                <form action="https://show.ratufa.io/form" method="post" id="checkbox" class="information">
-                <!-- Checkbox options for things to learn -->
-                <input type="checkbox" class="larger" id="flat_tire" name="flat trim_electric_cord value="flat_tire">
-                <label for="flat_tire">Replace a Flat Bicycle Tire</label>
-                <br>
-                <input type="checkbox" class="larger" id="trim_electric_cord" name="trim elctric cord" value="trim_electric_cord">
-                <label for="trim_electric_cord">Trim an Electrical Cord</label>
-                <br>
-                <input type="checkbox" class="larger" id="clear_drain" name="clear a drain value="clear_drain">
-                <label for="clear_drain">How to clear a drain</label>
-                <br>
-                <input type="checkbox" class="larger" id="first_date_dinner" name="first date dinner" value="first_date_dinner">
-                <label for="first_date_dinner">Prepare a Simple Yet Delectable Dinner for Your First Date</label>
-                <br>
-                <label for="new_ideas_text">New Ideas</label>
-                <input type="text" id="new_ideas_text" class="input_square" name="new_ideas" value="">            
-            </div>
-    
-            <!-- Submit -->
-            <div class="submit_form">
-                <h4>Submit what you want to learn</h4>
-                <label for="fname">First name</label>
-                <br>
-                <input type="text" class="input_square" id="fname" name="first-name" required autocomplete="on">
-                <br>
-                <label for="lname">Last name</label>
-                <br>
-                <input type="text" class="input_square" id="lname" name="last-name" required autocomplete="on">
-                <br>
-                <label for="email">Email</label>
-                <br>
-                <input type="email" class="input_square" id="email" name="email" required autocomplete="on"> 
-                <div id="button">
-                <input type="submit" id="submit" name="submit" value="Submit">
+                    <!--The Code Institute link https://formdump.codeinstitute.net does not give back all the data -->
+                    <!--Therefor I use another link. The link below was found at https://html.form.guide/checkbox/html-checkbox-form-submit-value/-->
+                    <form action="https://show.ratufa.io/form" method="post" id="checkbox" class="information">
+                        <!-- Checkbox options for things to learn -->
+                        <input type="checkbox" class="larger" id="flat_tire" name="flat tire" value="flat_tire">
+                        <label for="flat_tire">Replace a Flat Bicycle Tire</label>
+                        <br>
+                        <input type="checkbox" class="larger" id="trim_electric_cord" name="trim elctric cord"
+                            value="trim_electric_cord">
+                        <label for="trim_electric_cord">Trim an Electrical Cord</label>
+                        <br>
+                        <input type="checkbox" class="larger" id="clear_drain" name="clear a drain" value="clear_drain">
+                        <label for="clear_drain">How to clear a drain</label>
+                        <br>
+                        <input type="checkbox" class="larger" id="first_date_dinner" name="first date dinner"
+                            value="first_date_dinner">
+                        <label for="first_date_dinner">Prepare a Simple Yet Delectable Dinner for Your First
+                            Date</label>
+                        <br>
+                        <label for="new_ideas_text">New Ideas</label>
+                        <input type="text" id="new_ideas_text" class="input_square" name="new_ideas" value="">
+              
+
+                <!-- Submit -->
+                <div class="submit_form">
+                    <h4>Submit what you want to learn</h4>
+                    <label for="fname">First name</label>
+                    <br>
+                    <input type="text" class="input_square" id="fname" name="first-name" required autocomplete="on">
+                    <br>
+                    <label for="lname">Last name</label>
+                    <br>
+                    <input type="text" class="input_square" id="lname" name="last-name" required autocomplete="on">
+                    <br>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" class="input_square" id="email" name="email" required autocomplete="on">
+                    <div id="button">
+                        <input type="submit" id="submit" name="submit" value="Submit">
+                    </div>
                 </div>
-            </div>
-            </form>
-        </section> <!--End of section class="form"-->
-        </div>
-
-        <!-- More information who can join -->
-       <div class="container_large_screen">
-            <section class="who information">
-                <h3>Who</h3>
-                <p>Everyone who is friendly and open-minded is welcome. We strive for an inclusive environment and do
-                    not
-                    tolerate racism,
-                    homophobia, transphobia, or discrimination based on disability.</p>
-                <br>
-                <p>In addition to acquiring new knowledge, we aspire to forge new friendships with individuals we might
-                    not
-                    have crossed
-                    paths with otherwise.
-                </p>
+                </form>
             </section>
+            <!--End of section class="form"-->
 
-            <!-- Cost section -->
-            <section class="cost information">
-                <h3>Is there a cost?</h3>
-                <p>At times, yes. Our goal is to keep activities accessible to everyone free of charge. However, in
-                    certain instances, we may need to enlist the expertise of a professional, which could incur a cost.</p>
-                    <br> 
+
+            <!-- More information who can join -->
+            <div class="container_large_screen">
+                <section class="who information">
+                    <h3>Who</h3>
+                    <p>Everyone who is friendly and open-minded is welcome. We strive for an inclusive environment and
+                        do
+                        not
+                        tolerate racism,
+                        homophobia, transphobia, or discrimination based on disability.</p>
+                    <br>
+                    <p>In addition to acquiring new knowledge, we aspire to forge new friendships with individuals we
+                        might
+                        not
+                        have crossed
+                        paths with otherwise.
+                    </p>
+                </section>
+
+                <!-- Cost section -->
+                <section class="cost information">
+                    <h3>Is there a cost?</h3>
+                    <p>At times, yes. Our goal is to keep activities accessible to everyone free of charge. However, in
+                        certain instances, we may need to enlist the expertise of a professional, which could incur a
+                        cost.</p>
+                    <br>
                     <p>If you're unable to pay
-                    for any reason, please don't hesitate to inform us, and we'll find a solution. For those who can contribute a little
-                    extra, your generosity is greatly appreciated, as it helps ensure that as many people as possible can
-                    participate.
-                </p>
-            </section>
-        </div>
-        </div>
-        </div>
-        </div>
-    </section>
+                        for any reason, please don't hesitate to inform us, and we'll find a solution. For those who can
+                        contribute a little
+                        extra, your generosity is greatly appreciated, as it helps ensure that as many people as
+                        possible can
+                        participate.
+                    </p>
+                </section>
+            </div>
+
+
+        </section>
     </main>
 
     <!-- Footer -->
