@@ -1,710 +1,630 @@
 /* Google fonts import: Bebas Neue and Roboto */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
 /* Learnt from Love Running project. Asterisk wildcard selector to override default styles added by the browser */
+
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    font-family: 'Bebas Neue', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    background-color: #63635c;
-    margin: 0%;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	font-family: 'Bebas Neue', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	background-color: #63635c;
+	margin: 0%;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 img {
-    width: 100%;
-    /* position: relative;*/
-    z-index: -1;
-    display: block;
+	width: 100%;
+	/* position: relative;*/
+	z-index: -1;
+	display: block;
 }
 
-/*Does not work, alt text still not showing on how_and who and about page*/
-img[alt]::after {
-    content: attr(alt);
-    display: block;
-    font-size: 16px;
-}
-
-h1, h2, h3, h4, h5 {
-color: #F7F58C;
-font-family: 'Bebas Neue', sans-serif;;
+h1,
+h2,
+h3,
+h4,
+h5 {
+	color: #F7F58C;
+	font-family: 'Bebas Neue', sans-serif;
 }
 
 h1 {
-    font-size: 2.5rem;
+	font-size: 2.5rem;
 }
 
 h2 {
-    font-size: 2.5rem;
+	font-size: 2.5rem;
 }
 
-h3{
-    font-size: 2rem;
+h3 {
+	font-size: 2rem;
 }
 
 h4 {
-    font-size: 190%;
+	font-size: 190%;
 }
 
 h5 {
-    font-size: 130%;
+	font-size: 130%;
 }
 
 header {
-    background-color: #F7F58C;
-    font-family: 'Roboto', sans-serif;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    position: fixed;
-    z-index: 999;
-    width: 100%;
-    display: flex;
-    /* To make the nav-icon and nav-list stay to the right*/
-    justify-content: flex-end;
+	background-color: #F7F58C;
+	font-family: 'Roboto', sans-serif;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	display: flex;
+	/* To make the nav-icon and nav-list stay to the right*/
+	justify-content: flex-end;
 }
 
 nav {
-    /* position absolut is positioned relative to the nearest positioned ancestor, the header (instead of positioned relative to the viewport) */
-    position: absolute;
-    width: 100%;
-    right: 0;
-    display: none;
-    /*nav starts at bottom of parrent, the header */
-    top: 100%;
+	/* position absolut is positioned relative to the nearest positioned ancestor, the header (instead of positioned relative to the viewport) */
+	position: absolute;
+	width: 100%;
+	right: 0;
+	display: none;
+	/*nav starts at bottom of parrent, the header */
+	top: 100%;
 }
 
 #nav-list {
-    list-style-type: none;
-    font-size: 250%;
-    background-color: #F7F58C;
-    padding-left: 5%;
-    padding-bottom: 3%;
-    color: #605F4F;
+	list-style-type: none;
+	font-size: 250%;
+	background-color: #F7F58C;
+	padding-left: 5%;
+	padding-bottom: 3%;
+	color: #605F4F;
 }
 
 #nav-list a:hover {
-    color: rgb(254, 154, 171);
+	color: rgb(254, 154, 171);
 }
 
-
 .active {
-    border-bottom: 1px solid;
+	border-bottom: 1px solid;
 }
 
 /* nav toggle */
+
 #nav-toggle:checked~nav {
-    display: block;
+	display: block;
 }
 
 #nav-toggle {
-    display: none;
+	display: none;
 }
 
 .nav-toggle-icon {
-    font-size: 2rem;
-    margin-right: 2.5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    color: #605F4F;
+	font-size: 2rem;
+	margin-right: 2.5rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	color: #605F4F;
 }
 
 main {
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: auto;
-    }
+	flex-grow: 1;
+	flex-shrink: 0;
+	flex-basis: auto;
+}
 
 .logo_and_img {
-    position: relative;
-    margin-top: 65px;
+	position: relative;
+	margin-top: 65px;
 }
 
 .logo {
-    position: absolute;
-    bottom: 3%;
-    left: 7%;
-    padding-right: 4%;
+	position: absolute;
+	bottom: 3%;
+	left: 7%;
+	padding-right: 4%;
 }
 
 .logo h1 {
-    font-size: 2.5rem;
+	font-size: 2.5rem;
 }
 
 .logo h2 {
-    font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 
 .coming_up {
-    position: relative;
+	position: relative;
 }
 
 /*Comming up headline*/
 .coming_up_headline {
-    position: absolute;
-    right: 7%;
-    top: 2%;
-    z-index: 1;
-    font-size: 150%;
+	position: absolute;
+	right: 7%;
+	top: 2%;
+	z-index: 1;
+	font-size: 150%;
 }
-
 
 /* Squares on index-page about upcomming activities*/
 .text_square_img {
-    position: relative;
+	position: relative;
 }
 
 #cooking_crop {
-    max-height: 50%;
-    display: none;
+	max-height: 50%;
+	display: none;
 }
 
 .square_with_text {
-    background: #63635c;
-    padding: 4px;
-    opacity: 85%;
-    font-size: 200%;
-    color: white;
+	background: #63635c;
+	padding: 4px;
+	opacity: 85%;
+	font-size: 200%;
+	color: white;
 }
 
 .square_with_text h6 {
-    font-size: 50%;
+	font-size: 50%;
 }
 
 #bicycle_text_square {
-    bottom: 5%;
-    left: 7%;
-    position: absolute;
+	bottom: 5%;
+	left: 7%;
+	position: absolute;
 }
 
 #jeans_text_square {
-    position: absolute;
-    right: 40%;
-    bottom: 5%;
+	position: absolute;
+	right: 40%;
+	bottom: 5%;
 }
 
 #jeans_text_square>p {
-   
-    font-size: 0.85rem;
+	font-size: 0.85rem;
 }
 
 #cooking_text_square {
-    right: 7%;
-    width: 60%;
-    bottom: 10%;
-    position: absolute;
+	right: 7%;
+	width: 60%;
+	bottom: 10%;
+	position: absolute;
 }
 
-.how_and_who_content{
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 1rem;
-    padding-left: 7%;
-    padding-right: 7%;
-    
+.how_and_who_content {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 1rem;
+	padding-left: 7%;
+	padding-right: 7%;
 }
 
 /* The How and Who page*/
 
-/* The How and Who heandline*/
-
 .logo_and_img_h_a_w {
-    margin-top: 10%;
+	margin-top: 10%;
 }
 
 .logo_h_w {
-    margin-top: -25%;
-    margin-left: 7%;
+	margin-top: -25%;
+	margin-left: 7%;
 }
 
 .logo_h_w h1 {
-    font-size: 2.5rem;
+	font-size: 2.5rem;
 }
 
 .logo_h_w h2 {
-    font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 
 #how_and_who_headline {
-    font-size: 150%;
-    margin-top: 2rem;
-    padding-left: 70%;
+	font-size: 150%;
+	margin-top: 2rem;
+	padding-left: 70%;
 }
 
 .form {
-    display: flex;
-    flex-direction: column; 
+	display: flex;
+	flex-direction: column;
 }
 
 form {
-    padding: 0;
+	padding: 0;
 }
 
 p {
-    color: white;
-    font-size: 120%;
+	color: white;
+	font-size: 120%;
 }
 
 .information {
-    padding-bottom: 10%;
+	padding-bottom: 10%;
 }
 
 label {
-    line-height: 23px;
-    color: white;
-    font-size: 120%;
+	line-height: 23px;
+	color: white;
+	font-size: 120%;
 }
 
 #button {
-    padding-top: 0.5rem;
-
+	padding-top: 0.5rem;
 }
 
 #submit {
-    height: 30px;
-    width: 60px;
+	height: 30px;
+	width: 60px;
 }
 
-
 /* About page */
+
 /*Image as background of three people and logo on top*/
 .logo_and_img_about {
-    margin-top: 65px;
+	margin-top: 65px;
 }
 
 .logo_about {
-    margin-top: -15%;
-    margin-left: 7%;
+	margin-top: -15%;
+	margin-left: 7%;
 }
 
 .logo_about h1 {
-font-size: 2.5rem;
+	font-size: 2.5rem;
 }
 
 .logo_about h2 {
-font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 
 #threepeople {
-    margin-top: 4rem;
+	margin-top: 4rem;
 }
 
-/*About headline*/
-
 .about_content {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 1rem;
-    padding-left: 7%;
-    padding-right: 7%;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 1rem;
+	padding-left: 7%;
+	padding-right: 7%;
 }
 
 #about_headline {
-    font-size: 150%;
-    padding-top: 7%;
-    
+	font-size: 150%;
+	padding-top: 7%;
 }
 
 #about_headline h2 {
-    padding-left: 70%;
+	padding-left: 70%;
 }
 
 .container_video_text {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 1rem;
-   }
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 1rem;
+}
 
 .video_text {
-    margin-bottom: 2rem;
+	margin-bottom: 2rem;
 }
 
 .video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    /* 16:9 aspect ratio is a standard widescreen format for videos and screens and makes it responsive. 9 / 16 = 0.5625 or 56.25%.*/
-    height: 0;
-    overflow: hidden;
+	position: relative;
+	padding-bottom: 56.25%;
+	/* 16:9 aspect ratio is a standard widescreen format for videos and screens and makes it responsive. 9 / 16 = 0.5625 or 56.25%.*/
+	height: 0;
+	overflow: hidden;
 }
 
 .video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: none;
 }
-
 
 /*Footer*/
+
 footer {
-    background-color: #58918c;
-    padding: 2%;
+	background-color: #58918c;
+	padding: 2%;
 }
 
-footer > p{
-    line-height: 18px;
+footer>p {
+	line-height: 18px;
 }
 
 /* Social media icons*/
+
 #contact {
-    list-style-type: none;
-    display: flex;
-    font-size: 200%;
-    justify-content: center;
+	list-style-type: none;
+	display: flex;
+	font-size: 200%;
+	justify-content: center;
 }
 
 #contact>li {
-    padding-right: 20px;
+	padding-right: 20px;
 }
 
 .fa-facebook-square {
-    color:  #1877f2
+	color: #1877f2
 }
 
 .fa-instagram-square {
-    color: #c32aa3;
+	color: #c32aa3;
 }
 
 .fa-envelope {
-    color: white;
+	color: white;
 }
 
 #contact li a:hover {
-    font-size: 203%;
+	font-size: 203%;
 }
 
 /*Footer*/
+
 footer>p {
-    font-size: 90%;
-    margin: 1vh;
+	font-size: 90%;
+	margin: 1vh;
 }
 
 /*The measurments for media queries are taken from https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
+
 @media only screen and (min-width: 600px) {
-header {
-    height: 8%;
-}
-
-.nav-toggle-icon {
-    font-size: 3rem;
-    margin-right: 2.5rem;
-    margin-top: 1%;
-}
-
-.logo h1 {
-    font-size: 5rem;
-}
-
-.logo h2 {
-    font-size: 3rem;
-}
-
-.coming_up_headline {
-        font-size: 230%;
-}
-
-.square_with_text {
-    font-size: 350%;
-}
-
-
-/*How and who page */
-
-.logo_and_img_h_a_w {
-       margin-top: 0;
-}
-
-.logo_h_w h1 {
-    font-size: 5rem;
-}
-
-.logo_h_w h2 {
-    font-size: 3rem;
-}
-
-h2 {
-    font-size: 4rem;
-}
-h3 {
-    font-size: 3rem;
-}
-
-h4 {
-    font-size: 3rem;
-}
-
-h5 {
-    font-size: 2rem;
-}
-
-p {
-    line-height: 120%;
-}
-
-
-/*Making checkboxes larger */
-.larger {
-    height: 2rem;
-    width: 2rem;
-    margin-bottom: 0.5rem;
-}
-
-label {
-      font-size: 120%;
-}
-
-.input_square { 
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-}
-
-#submit {
-    height: 3rem;
-    width: 8rem;
-    margin-top: 1rem;
-}
-
-footer>p {
-    font-size: 150%;
-}
-
-footer > p {
-    line-height: 27px;
-}
-
-#contact {
-    margin-left: 3%;
-    font-size: 320%;
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-     /* Header*/
-    header {
-        height: 9vh;
-        padding-bottom: 1vh;
-    }
-
-    nav {
-        display: block;
-        position: relative;
-        width: fit-content;
-        margin-top: -6rem;
-        margin-right: 2.5rem;
-    }
-
-    #nav-list {
-        display: flex;
-        margin-top: 8%;
-        padding:0;
-    }
-
-    #nav-list>li {
-        padding-left: 20px;
-    }
-
-    .nav-toggle-icon {
-        display: none;
-    }
-
-    .logo_about h1 {
-        font-size: 5rem;
-    }
-    
-    .logo_about h2 {
-        font-size: 3rem;
-    }
-
-     /*how_and_who_page*/
-    #how_and_who_h1 {
-        text-align: end;
-        margin-top: 0;
-        padding: 3vh;
-    }
-
-    input[type=submit] {
-        font-size: 1.8em;
-    }
-
-    /*About page*/
-    #about_h1 {
-        text-align: start;
-    }
-
-    .container_video_text {
-        padding: 0;
-    }
-
-   /*Footer social media icons*/
-    #contact {
-        list-style-type: none;
-        display: flex;
-        justify-content: center;
-    }
-
-    
-}
-   
-/* Large devices (laptops/desktops, 992px and up) */
-@media screen and (min-width:992px) {
-    
-    #nav-list {
-        margin-top: 6%;
-    }
-
-    header {
-        height: 11vh;
-    }
-
-    h1 {
-        font-size: 10vh;
-    }
-
-    h2 {
-        font-size: 7vh;
-    }
-
-    #comming_up {
-        padding-top: 4vh;
-        left: 70%;
-    }
-
-    .logo_h_w {
-        margin-top: -18%;
-        margin-right: 4%;
-    }
-
-    #cooking_crop {
-        max-height: 50%;
-        display: block;
-    }
-
-    #cooking_img {
-     display: none;
-    }
-
-    
-
-#cooking_text_square{
-        width: 25%;
-        bottom: 10%;
-        position: absolute;
-        left: 10%;
-}
-
-    #how_and_who_headline {
-             margin-top: -5%;
-    }
-
-.information {
-    padding-bottom: 5%;
-}
-
-input[type=submit] {
-    font-size: 150%;
-}
-
-    .how_and_who_content {
-        margin-top: 7%;
-    }
-
-    /*About page*/
-
-    .logo_about {
-        margin-right: 3%;
-    }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    main {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-    }
-
-    #hero-image {
-        height: 100%;
-    }
-
-    .logo {
-        bottom: 20%;
-    }
-
-    .coming_up {
-        margin-top: 5%;
-    }
-
-    .coming_up_headline {
-        top: 9%;
-    }
-
-    .square_with_text {
-        font-size: 350%;
-    }
-
-    #jeans_text_square {
-        bottom: 10%;
-    }
-
-    #text_square_img_cooking {
-        right: 100%;
-        margin-top: -50%;
-    }
-
-    #cooking_text_square {
-            position: absolute;
-            margin-left: 17%;
-    }
-
-     /*How and who page */
-    #how_and_who_headline {
-        margin-top: 3%;
-    }
-
-    .container_large_screen {
-        display: flex;
-        margin-left: -68%;
-    }
-
-    .who {
-        padding-right: 12%;
-    }
-
-    #about_headline {
-        padding-top: 25%;
-    }
-
-    footer {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-evenly;
-        z-index: 1;
-        margin-top: -1%;
-   }
-
-#contact>li {
-    padding-right: 70px;
-}
-
-footer>p {
-    font-size: 150%;
-    line-height: 40px;
-}
-
-}
+	header {
+		height: 8%;
+	}
+	.nav-toggle-icon {
+		font-size: 3rem;
+		margin-right: 2.5rem;
+		margin-top: 1%;
+	}
+	.logo h1 {
+		font-size: 5rem;
+	}
+	.logo h2 {
+		font-size: 3rem;
+	}
+	.coming_up_headline {
+		font-size: 230%;
+	}
+	.square_with_text {
+		font-size: 350%;
+	}
+	/*How and who page */
+	.logo_and_img_h_a_w {
+		margin-top: 0;
+	}
+	.logo_h_w h1 {
+		font-size: 5rem;
+	}
+	.logo_h_w h2 {
+		font-size: 3rem;
+	}
+	h2 {
+		font-size: 4rem;
+	}
+	h3 {
+		font-size: 3rem;
+	}
+	h4 {
+		font-size: 3rem;
+	}
+	h5 {
+		font-size: 2rem;
+	}
+	p {
+		line-height: 120%;
+	}
+	/*Making checkboxes larger */
+	.larger {
+		height: 2rem;
+		width: 2rem;
+		margin-bottom: 0.5rem;
+	}
+	label {
+		font-size: 120%;
+	}
+	.input_square {
+		font-size: 1.5rem;
+		margin-bottom: 0.5rem;
+	}
+	#submit {
+		height: 3rem;
+		width: 8rem;
+		margin-top: 1rem;
+	}
+	footer>p {
+		font-size: 150%;
+	}
+	footer>p {
+		line-height: 27px;
+	}
+	#contact {
+		margin-left: 3%;
+		font-size: 320%;
+	}
+	/* Medium devices (landscape tablets, 768px and up) */
+	@media only screen and (min-width: 768px) {
+		/* Header*/
+		header {
+			height: 9vh;
+			padding-bottom: 1vh;
+		}
+		nav {
+			display: block;
+			position: relative;
+			width: fit-content;
+			margin-top: -6rem;
+			margin-right: 2.5rem;
+		}
+		#nav-list {
+			display: flex;
+			margin-top: 8%;
+			padding: 0;
+		}
+		#nav-list>li {
+			padding-left: 20px;
+		}
+		.nav-toggle-icon {
+			display: none;
+		}
+		.logo_about h1 {
+			font-size: 5rem;
+		}
+		.logo_about h2 {
+			font-size: 3rem;
+		}
+		/*how_and_who_page*/
+		#how_and_who_h1 {
+			text-align: end;
+			margin-top: 0;
+			padding: 3vh;
+		}
+		input[type=submit] {
+			font-size: 1.8em;
+		}
+		/*About page*/
+		#about_h1 {
+			text-align: start;
+		}
+		.container_video_text {
+			padding: 0;
+		}
+		/*Footer social media icons*/
+		#contact {
+			list-style-type: none;
+			display: flex;
+			justify-content: center;
+		}
+	}
+	/* Large devices (laptops/desktops, 992px and up) */
+	@media screen and (min-width:992px) {
+		#nav-list {
+			margin-top: 6%;
+		}
+		header {
+			height: 11vh;
+		}
+		h1 {
+			font-size: 10vh;
+		}
+		h2 {
+			font-size: 7vh;
+		}
+		#comming_up {
+			padding-top: 4vh;
+			left: 70%;
+		}
+		.logo_h_w {
+			margin-top: -18%;
+			margin-right: 4%;
+		}
+		#cooking_crop {
+			max-height: 50%;
+			display: block;
+		}
+		#cooking_img {
+			display: none;
+		}
+		#cooking_text_square {
+			width: 25%;
+			bottom: 10%;
+			position: absolute;
+			left: 10%;
+		}
+		#how_and_who_headline {
+			margin-top: -5%;
+		}
+		.information {
+			padding-bottom: 5%;
+		}
+		input[type=submit] {
+			font-size: 150%;
+		}
+		.how_and_who_content {
+			margin-top: 7%;
+		}
+		/*About page*/
+		.logo_about {
+			margin-right: 3%;
+		}
+	}
+	/* Extra large devices (large laptops and desktops, 1200px and up) */
+	@media only screen and (min-width: 1200px) {
+		main {
+			display: flex;
+			flex-direction: row;
+			align-items: flex-start;
+		}
+		#hero-image {
+			height: 100%;
+		}
+		.logo {
+			bottom: 20%;
+		}
+		.coming_up {
+			margin-top: 5%;
+		}
+		.coming_up_headline {
+			top: 9%;
+		}
+		.square_with_text {
+			font-size: 350%;
+		}
+		#jeans_text_square {
+			bottom: 10%;
+		}
+		#text_square_img_cooking {
+			right: 100%;
+			margin-top: -50%;
+		}
+		#cooking_text_square {
+			position: absolute;
+			margin-left: 17%;
+		}
+		/*How and who page */
+		#how_and_who_headline {
+			margin-top: 3%;
+		}
+		.container_large_screen {
+			display: flex;
+			margin-left: -68%;
+		}
+		.who {
+			padding-right: 12%;
+		}
+		#about_headline {
+			padding-top: 25%;
+		}
+		footer {
+			display: flex;
+			flex-direction: row-reverse;
+			justify-content: space-evenly;
+			z-index: 1;
+			margin-top: -1%;
+		}
+		#contact>li {
+			padding-right: 70px;
+		}
+		footer>p {
+			font-size: 150%;
+			line-height: 40px;
+		}
+	}

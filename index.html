@@ -1,107 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Meta tags -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The community for people to meet up in Gothenburg, Sweden, learn new skills, and make friends">
-    <meta name="keywords" content="community, make friends, learn new skills, Gothenburg, changing tire, cooking a meal for a date, rinsing the sink, shorten an electrical cord">
-
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <!-- Title -->
-    <title>The Community of Things You Want to Know</title>
+	<!-- Meta tags -->
+	<meta charset="UTF-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="The community for people to meet up in Gothenburg, Sweden, learn new skills, and make friends" name="description">
+	<meta content="community, make friends, learn new skills, Gothenburg, changing tire, cooking a meal for a date, rinsing the sink, shorten an electrical cord" name="keywords"><!-- Stylesheet -->
+	<link href="assets/css/style.css" rel="stylesheet"><!-- Title -->
+	<title>The Community of Things You Want to Know</title>
 </head>
-
 <body>
-    <!--Header-->
-    <header>
-        <!-- Mobile navigation toggle -->
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-icon"><i class="fas fa-bars"></i></label>
-        <nav>
-            <!-- Navigation menu -->
-            <ul id="nav-list">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="how_and_who.html">How and Who</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
-    </header>
-    <!--Main-->
-    <main>
-        <section class="logo_and_img">
-            <img src="assets/images/people.webp" alt="A gang of women coming towards the camera">
-            <!-- Logo -->
-            <div class="logo">
-                <a href="index.html">
-                    <h1>The Community of things you want to know</h1>
-                    <h2>but don't yet</h2>
-                </a>
-            </div>
-        </section>
-        <!-- Coming up! Event information in text squares with images in the background -->
-        <section class="coming_up">
-            <div class="coming_up_headline">
-                <h2>Coming Up!</h2>
-            </div>
-            <!--Replacing a tire-->
-            <div class="text_square_img">
-                <div id="bicycle_text_square" class="square_with_text">
-                    <h6>Replace a Flat Bicycle Tire<br> 3 Nov 6-8 pm</h6>
-                  
-                   
-            </div>
-                <img id="bicycle" src="assets/images/bicycle.webp" alt="Bicycle upside down with one broken wheel">
-            </div>
-            <!--Repair jeans-->
-            <div class="text_square_img">
-                <div id='jeans_text_square' class="square_with_text">
-                    <h6>Repair a pair of jeans <br>We'll announce the date and time shortly</h6>
-                </div>
-                <img id="sewing" src="assets/images/mansewing.webp" alt="Man sewing on a sewing machine">
-            </div>
-            <!--Cooking dinner-->
-            <div class="text_square_img" id="text_square_img_cooking">
-            <div id='cooking_text_square' class="square_with_text">
-                <h6>Prepare a Simple Yet Tasty Dinner for Your First Date <br>11 Dec 6-8 pm</h6>
-            </div>
-            <!--On screens wider than 1200px, a cropped image of cooking-->
-            <img id="cooking_crop" src="assets/images/cooking_croped.webp" alt="Cropped image from the bottom of two people cooking">
-            <img id="cooking_img" src="assets/images/cooking.webp" alt="Two people cooking">
-        </div>
-        </section>
-    </main>
-
-    <footer>
-        <!-- Social media icons -->
-        <ul id="contact">
-            <!-- Facebook icon -->
-            <li>
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-square"></i></a>
-            </li>
-            <!-- Instagram icon -->
-            <li>
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram account (opens in a new tab)"><i
-                        class="fab fa-instagram-square"></i></a>
-            </li>
-            <!-- Email icon -->
-            <li>
-                <a href="mailto:thingsyouwanttoknow@thecommunity.com" target="_blank" rel="noopener"
-                    aria-label="Send us an email (opens in a new tab)"><i class="fas fa-envelope"></i></a>
-            </li>
-        </ul>
-        <!-- Footer text -->
-        <p>Registered nonprofit organization | All donations are tax-deductible | ©
-            2023 The Community of Things You Want to Know</p>
-    </footer>
-    <!-- Font Awesome kit -->
-    <script src="https://kit.fontawesome.com/5322e9124b.js" crossorigin="anonymous"></script>
+	<!--Header-->
+	<header>
+		<!-- Mobile navigation toggle -->
+		<input id="nav-toggle" name="nav-toggle" type="checkbox"> <label class="nav-toggle-icon" for="nav-toggle"><i class="fas fa-bars"></i></label>
+		<nav>
+			<!-- Navigation menu -->
+			<ul id="nav-list">
+				<li>
+					<a class="active" href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="how_and_who.html">How and Who</a>
+				</li>
+				<li>
+					<a href="about.html">About</a>
+				</li>
+			</ul>
+		</nav>
+	</header><!--Main-->
+	<main>
+		<section class="logo_and_img">
+			<img alt="A gang of women coming towards the camera" src="assets/images/people.webp"> <!-- Logo -->
+			<div class="logo">
+				<a href="index.html">
+				<h1>The Community of things you want to know</h1>
+				<h2>but don't yet</h2></a>
+			</div>
+		</section><!-- Coming up! Event information in text squares with images in the background -->
+		<section class="coming_up">
+			<div class="coming_up_headline">
+				<h2>Coming Up!</h2>
+			</div><!--Replacing a tire-->
+			<div class="text_square_img">
+			<div class="square_with_text" id="bicycle_text_square">
+				<h6>Replace a Flat Bicycle Tire<br>
+				3 Nov 6-8 pm</h6>
+			</div><img alt="Bicycle upside down with one broken wheel" id="bicycle" src="assets/images/bicycle.webp"></div><!--Repair jeans-->
+			<div class="text_square_img">
+			<div class="square_with_text" id='jeans_text_square'>
+				<h6>Repair a pair of jeans<br>
+				We'll announce the date and time shortly</h6>
+			</div><img alt="Man sewing on a sewing machine" id="sewing" src="assets/images/mansewing.webp"></div><!--Cooking dinner-->
+			<div class="text_square_img" id="text_square_img_cooking">
+			<div class="square_with_text" id='cooking_text_square'>
+				<h6>Prepare a Simple Yet Tasty Dinner for Your First Date<br>
+				11 Dec 6-8 pm</h6>
+			</div><!--On screens wider than 1200px, a cropped image of cooking-->
+			<img alt="Cropped image from the bottom of two people cooking" id="cooking_crop" src="assets/images/cooking_croped.webp"> <img alt="Two people cooking" id="cooking_img" src="assets/images/cooking.webp"></div>
+		</section>
+	</main>
+	<footer>
+		<!-- Social media icons -->
+		<ul id="contact">
+			<!-- Facebook icon -->
+			<li>
+				<a aria-label="Visit our Facebook page (opens in a new tab)" href="https://www.facebook.com/" rel="noopener" target="_blank"><i class="fab fa-facebook-square"></i></a>
+			</li><!-- Instagram icon -->
+			<li>
+				<a aria-label="Visit our Instagram account (opens in a new tab)" href="https://www.instagram.com/" rel="noopener" target="_blank"><i class="fab fa-instagram-square"></i></a>
+			</li><!-- Email icon -->
+			<li>
+				<a aria-label="Send us an email (opens in a new tab)" href="mailto:thingsyouwanttoknow@thecommunity.com" rel="noopener" target="_blank"><i class="fas fa-envelope"></i></a>
+			</li>
+		</ul><!-- Footer text -->
+		<p>Registered nonprofit organization | All donations are tax-deductible | © 2023 The Community of Things You Want to Know</p>
+	</footer><!-- Font Awesome kit -->
+	<script src="https://kit.fontawesome.com/5322e9124b.js">
+	</script>
 </body>
-
 </html>
