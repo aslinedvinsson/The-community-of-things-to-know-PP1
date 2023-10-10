@@ -140,11 +140,11 @@ main {
 }
 
 .logo h1 {
-	font-size: 2.5rem;
+	font-size: 5rem;
 }
 
 .logo h2 {
-	font-size: 1.5rem;
+	font-size: 3rem;
 }
 
 .coming_up {
@@ -224,14 +224,6 @@ main {
 	margin-left: 7%;
 }
 
-.logo_h_w h1 {
-	font-size: 2.5rem;
-}
-
-.logo_h_w h2 {
-	font-size: 1.5rem;
-}
-
 #how_and_who_headline {
 	font-size: 150%;
 	margin-top: 2rem;
@@ -249,7 +241,7 @@ form {
 
 p {
 	color: white;
-	font-size: 120%;
+	font-size: 170%;
 }
 
 .information {
@@ -257,9 +249,9 @@ p {
 }
 
 label {
-	line-height: 23px;
+	line-height: 40px;
 	color: white;
-	font-size: 120%;
+	font-size: 170%;
 }
 
 #button {
@@ -269,6 +261,10 @@ label {
 #submit {
 	height: 30px;
 	width: 60px;
+}
+
+.submit_form {
+    margin-top: 5%;
 }
 
 /* About page */
@@ -281,14 +277,6 @@ label {
 .logo_about {
 	margin-top: -15%;
 	margin-left: 7%;
-}
-
-.logo_about h1 {
-	font-size: 2.5rem;
-}
-
-.logo_about h2 {
-	font-size: 1.5rem;
 }
 
 #threepeople {
@@ -397,13 +385,20 @@ footer>p {
 	.nav-toggle-icon {
 		font-size: 3rem;
 		margin-right: 2.5rem;
-		margin-top: 1%;
+		margin-top: 4%;
 	}
-	.logo h1 {
-		font-size: 5rem;
+
+    footer>p {
+		font-size: 150%;
 	}
-	.logo h2 {
-		font-size: 3rem;
+	footer>p {
+		line-height: 27px;
+	}
+	#contact {
+		margin-left: 3%;
+		font-size: 320%;
+	}
+
 	}
 	.coming_up_headline {
 		font-size: 230%;
@@ -415,12 +410,7 @@ footer>p {
 	.logo_and_img_h_a_w {
 		margin-top: 0;
 	}
-	.logo_h_w h1 {
-		font-size: 5rem;
-	}
-	.logo_h_w h2 {
-		font-size: 3rem;
-	}
+	
 	h2 {
 		font-size: 4rem;
 	}
@@ -442,28 +432,20 @@ footer>p {
 		width: 2rem;
 		margin-bottom: 0.5rem;
 	}
-	label {
-		font-size: 120%;
-	}
+	
 	.input_square {
 		font-size: 1.5rem;
 		margin-bottom: 0.5rem;
 	}
+
 	#submit {
 		height: 3rem;
 		width: 8rem;
 		margin-top: 1rem;
+        font-size: 140%;
 	}
-	footer>p {
-		font-size: 150%;
-	}
-	footer>p {
-		line-height: 27px;
-	}
-	#contact {
-		margin-left: 3%;
-		font-size: 320%;
-	}
+
+	
 	/* Medium devices (landscape tablets, 768px and up) */
 	@media only screen and (min-width: 768px) {
 		/* Header*/
@@ -489,11 +471,14 @@ footer>p {
 		.nav-toggle-icon {
 			display: none;
 		}
-		.logo_about h1 {
-			font-size: 5rem;
+
+        /*Footer social media icons*/
+		#contact {
+			list-style-type: none;
+			display: flex;
+			justify-content: center;
 		}
-		.logo_about h2 {
-			font-size: 3rem;
+
 		}
 		/*how_and_who_page*/
 		#how_and_who_h1 {
@@ -511,48 +496,51 @@ footer>p {
 		.container_video_text {
 			padding: 0;
 		}
-		/*Footer social media icons*/
-		#contact {
-			list-style-type: none;
-			display: flex;
-			justify-content: center;
-		}
 	}
 	/* Large devices (laptops/desktops, 992px and up) */
 	@media screen and (min-width:992px) {
 		#nav-list {
 			margin-top: 6%;
 		}
+
 		header {
 			height: 11vh;
 		}
+
 		h1 {
 			font-size: 10vh;
 		}
+
 		h2 {
 			font-size: 7vh;
 		}
+
 		#comming_up {
 			padding-top: 4vh;
 			left: 70%;
 		}
+
 		.logo_h_w {
 			margin-top: -18%;
 			margin-right: 4%;
 		}
+
 		#cooking_crop {
 			max-height: 50%;
 			display: block;
 		}
+
 		#cooking_img {
 			display: none;
 		}
+
 		#cooking_text_square {
             width: 17%;
 			bottom: 10%;
 			position: absolute;
 			left: 10%;
 		}
+
 		#how_and_who_headline {
 			margin-top: -5%;
 		}
@@ -562,9 +550,11 @@ footer>p {
 		input[type=submit] {
 			font-size: 150%;
 		}
+
 		.how_and_who_content {
 			margin-top: 7%;
 		}
+        
 		/*About page*/
 		.logo_about {
 			margin-right: 3%;
@@ -577,28 +567,51 @@ footer>p {
 			flex-direction: row;
 			align-items: flex-start;
 		}
+
+        footer {
+			display: flex;
+			flex-direction: row-reverse;
+			justify-content: space-evenly;
+			z-index: 1;
+			margin-top: -1%;
+		}
+
+		#contact>li {
+			padding-right: 70px;
+		}
+        
+		footer>p {
+			font-size: 150%;
+			line-height: 40px;
+		}
 		#hero-image {
 			height: 100%;
 		}
+
 		.logo {
 			bottom: 20%;
 		}
+
 		.coming_up {
 			margin-top: 5%;
 		}
+
 		.coming_up_headline {
 			top: 9%;
 		}
 		.square_with_text {
 			font-size: 350%;
 		}
+
 		#jeans_text_square {
             bottom: 20%;
 		}
+
 		#text_square_img_cooking {
 			right: 100%;
 			margin-top: -60%;
 		}
+
 		#cooking_text_square {
 			position: absolute;
 		    margin-left: 27%;
@@ -618,24 +631,12 @@ footer>p {
 			display: flex;
             margin-left: -40%;
 		}
+
 		.who {
 			padding-right: 12%;
 		}
+
 		#about_headline {
 			padding-top: 25%;
-		}
-		footer {
-			display: flex;
-			flex-direction: row-reverse;
-			justify-content: space-evenly;
-			z-index: 1;
-			margin-top: -1%;
-		}
-		#contact>li {
-			padding-right: 70px;
-		}
-		footer>p {
-			font-size: 150%;
-			line-height: 40px;
 		}
 	}
