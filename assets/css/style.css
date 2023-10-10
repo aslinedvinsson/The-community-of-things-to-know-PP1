@@ -111,11 +111,55 @@ nav {
 
 .nav-toggle-icon {
 	font-size: 2rem;
-	margin-right: 2.5rem;
+	margin-right: 1.5rem;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	color: #605F4F;
 }
+
+/*Footer*/
+
+footer {
+	background-color: #58918c;
+	padding: 2%;
+}
+
+footer>p {
+	line-height: 18px;
+    font-size: 90%;
+	margin:5%;
+}
+
+/* Social media icons*/
+
+#contact {
+	list-style-type: none;
+	display: flex;
+	font-size: 200%;
+	justify-content: center;
+}
+
+#contact>li {
+	padding-right: 20px;
+}
+
+.fa-facebook-square {
+	color: #1877f2
+}
+
+.fa-instagram-square {
+	color: #c32aa3;
+}
+
+.fa-envelope {
+	color: white;
+}
+
+#contact li a:hover {
+	font-size: 203%;
+}
+
+/*Main*/
 
 main {
 	flex-grow: 1;
@@ -138,7 +182,6 @@ main {
 	left: 7%;
 	padding-right: 4%;
 }
-
 
 .logo h2 {
 	font-size: 1.5rem;
@@ -251,6 +294,25 @@ label {
 	font-size: 170%;
 }
 
+
+.checkbox {
+    height: 2rem;
+    width: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.input_square {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+/*
+
+input[type=submit] {
+    font-size: 1.8em;
+}
+*/
+
 #button {
 	padding-top: 0.5rem;
 }
@@ -325,52 +387,6 @@ label {
 	border: none;
 }
 
-/*Footer*/
-
-footer {
-	background-color: #58918c;
-	padding: 2%;
-}
-
-footer>p {
-	line-height: 18px;
-}
-
-/* Social media icons*/
-
-#contact {
-	list-style-type: none;
-	display: flex;
-	font-size: 200%;
-	justify-content: center;
-}
-
-#contact>li {
-	padding-right: 20px;
-}
-
-.fa-facebook-square {
-	color: #1877f2
-}
-
-.fa-instagram-square {
-	color: #c32aa3;
-}
-
-.fa-envelope {
-	color: white;
-}
-
-#contact li a:hover {
-	font-size: 203%;
-}
-
-/*Footer*/
-
-footer>p {
-	font-size: 90%;
-	margin: 1vh;
-}
 
 /*The measurments for media queries are taken from https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
 
@@ -446,20 +462,6 @@ footer>p {
         font-size: 4rem;
     }
 
-
-
-	/*Making checkboxes larger */
-	.larger {
-		height: 2rem;
-		width: 2rem;
-		margin-bottom: 0.5rem;
-	}
-	
-	.input_square {
-		font-size: 1.5rem;
-		margin-bottom: 0.5rem;
-	}
-
 	#submit {
 		height: 3rem;
 		width: 8rem;
@@ -521,9 +523,6 @@ footer>p {
 			padding: 3vh;
 		}
 
-		input[type=submit] {
-			font-size: 1.8em;
-		}
 
 		/*About page*/
 		#about_h1 {
@@ -551,6 +550,10 @@ footer>p {
 		h2 {
 			font-size: 7vh;
 		}
+
+        .logo {
+            bottom: 30%;
+        }
 
 		#comming_up {
 			padding-top: 4vh;
@@ -583,9 +586,6 @@ footer>p {
 		}
 		.information {
 			padding-bottom: 5%;
-		}
-		input[type=submit] {
-			font-size: 150%;
 		}
 
 		.how_and_who_content {
