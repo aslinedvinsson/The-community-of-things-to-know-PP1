@@ -54,6 +54,7 @@
 				<p>Physical meet ups in Gothenburg, Sweden. You as part of the community choose what to learn. Check the boxes of what you want to learn and submit. When enough people have shown interest, the Community will arrange a learning session.</p>
 			</section>
 			<section class="form information">
+				<div id="form_learning">
 				<h4>Things you want to know</h4>
 				<h5>but don't yet</h5><!--The Code Institute link https://formdump.codeinstitute.net does not give back all the data -->
 				<!--Therefor I use another link. The link below was found at https://html.form.guide/checkbox/html-checkbox-form-submit-value/-->
@@ -62,8 +63,10 @@
 					<input class="checkbox" id="flat_tire" name="flat tire" type="checkbox" value="flat_tire"> <label for="flat_tire">Replace a Flat Bicycle Tire</label><br>
 					<input class="checkbox" id="trim_electric_cord" name="trim elctric cord" type="checkbox" value="trim_electric_cord"> <label for="trim_electric_cord">Trim an Electrical Cord</label><br>
 					<input class="checkbox" id="clear_drain" name="clear a drain" type="checkbox" value="clear_drain"> <label for="clear_drain">How to clear a drain</label><br>
-					<input class="checkbox" id="first_date_dinner" name="first date dinner" type="checkbox" value="first_date_dinner"> <label for="first_date_dinner">Prepare a Simple Yet Delectable Dinner for Your First Date</label><br>
-					<label for="new_ideas_text">New Ideas</label> <input class="input_square" id="new_ideas_text" name="new_ideas" type="text" value=""> <!-- Submit -->
+					<input class="checkbox" id="first_date_dinner" name="first date dinner" type="checkbox" value="first_date_dinner"> <label for="first_date_dinner">Prepare a Dinner for Your First Date</label><br>
+					<label for="new_ideas_text">New Ideas</label> <input class="input_square" id="new_ideas_text" name="new_ideas" type="text" value=""> 
+				</div>
+					<!-- Submit -->
 					<div class="submit_form">
 						<h4>Submit what you want to learn</h4><label for="fname">First name</label><br>
 						<input autocomplete="on" class="input_square" id="fname" name="first-name" required="" type="text"><br>
@@ -72,11 +75,12 @@
 						<label for="email">Email</label><br>
 						<input autocomplete="on" class="input_square" id="email" name="email" required="" type="email">
 						<div id="button">
-							<input id="submit" name="submit" type="submit" value="Submit">
+						<input id="submit" name="submit" type="submit" value="Submit">
 						</div>
 					</div>
 				</form>
 			</section><!--End of section class="form"-->
+		
 			<!-- More information who can join -->
 			<div class="container_large_screen">
 				<section class="who information">

@@ -122,13 +122,14 @@ nav {
 
 footer {
 	background-color: #58918c;
-	padding: 2%;
 }
 
 footer>p {
 	line-height: 18px;
     font-size: 90%;
-	margin:5%;
+	margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 4%;
 }
 
 /* Social media icons*/
@@ -138,10 +139,12 @@ footer>p {
 	display: flex;
 	font-size: 200%;
 	justify-content: center;
-}
+	padding-top: 3%;
+	}
 
 #contact>li {
-	padding-right: 20px;
+	padding-right: 5%;
+    padding-left: 5%;
 }
 
 .fa-facebook-square {
@@ -424,7 +427,6 @@ label {
 	}
 	
 	#contact {
-		margin-left: 3%;
 		font-size: 320%;
 	}
 
@@ -504,13 +506,7 @@ label {
 			display: none;
 		}
 
-        /*Footer social media icons*/
-		#contact {
-			list-style-type: none;
-			display: flex;
-			justify-content: center;
-		}
-
+     	
 		/*how_and_who_page*/
 		#how_and_who_h1 {
 			text-align: end;
@@ -518,6 +514,9 @@ label {
 			padding: 3vh;
 		}
 
+		.who {
+			margin-top: -8%;
+		}
 
 		/*About page*/
 		#about_h1 {
@@ -528,6 +527,7 @@ label {
 			padding: 0;
 		}
 	}
+
 	/* Large devices (laptops/desktops, 992px and up) */
 	@media screen and (min-width:992px) {
 		#nav-list {
@@ -615,6 +615,7 @@ label {
 		footer>p {
 			font-size: 150%;
 			line-height: 40px;
+			padding-top: 2%;
 		}
 		#hero-image {
 			height: 100%;
@@ -657,15 +658,17 @@ label {
     }
 
     .img_welding {
-        width: 250%;
+        width: 200%;
     }
 
     .logo_h_w {
         align-self: flex-end;
-        margin-left: 20%;
+        margin-left: 10%;
     }
 
-    .how_and_who_content {
+	/*
+
+   	 	.how_and_who_content {
         margin-top: 60%;
         display: flex;
         flex-direction: column;
@@ -673,21 +676,65 @@ label {
         align-items: baseline;
         align-content: flex-end;
     }
+	*/
 
-	/*	#how_and_who_headline {
-			margin-top: 3%;
+		#how_and_who_headline {
+			margin-top: 85%;
+			padding-left: 60%;
 		}
-        */
 
+		.how {
+			margin-left: -53%;
+			margin-top: 10%;
+			padding-right: 7%;
+		}
+
+		.how >p {
+			padding-right: 30%;
+		}
+
+		.form {
+			display: block;
+		}
+
+		#form_learning {
+			float: left;
+			margin-left: -53%;
+			margin-top: 10%;
+		}
+
+		.submit_form {
+			margin-top: 10%;
+			margin-left: 25%;
+		}
+
+		
 		.container_large_screen {
-			display: flex;
+			display: block;
+			/*
+			margin-top: 10%;
+			align-items: flex-end;
+			flex-wrap: nowrap;
+			flex-direction: row;
+			margin-left: -53%;
+			*/
 		}
 
 		.who {
-			padding-right: 12%;
+			float: left;
+			margin-left: -54%;
+			margin-top: 10%;
+			width: 60%;			
+		}
+
+		.cost {
+			float: right;
+			margin-top: 10%;
+			width: 75%;
 		}
 
 		#about_headline {
 			padding-top: 25%;
 		}
 	}
+}
