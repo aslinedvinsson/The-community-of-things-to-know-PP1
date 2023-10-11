@@ -27,7 +27,7 @@ img {
 	width: 100%;
 	z-index: -1;
 	display: block;
-	position:relative;
+	position: relative;
 }
 
 h1,
@@ -126,10 +126,10 @@ footer {
 
 footer>p {
 	line-height: 18px;
-    font-size: 90%;
+	font-size: 90%;
 	margin-left: 4%;
-    margin-right: 4%;
-    margin-bottom: 4%;
+	margin-right: 4%;
+	margin-bottom: 4%;
 }
 
 /* Social media icons*/
@@ -140,11 +140,11 @@ footer>p {
 	font-size: 200%;
 	justify-content: center;
 	padding-top: 3%;
-	}
+}
 
 #contact>li {
 	padding-right: 5%;
-    padding-left: 5%;
+	padding-left: 5%;
 }
 
 .fa-facebook-square {
@@ -171,18 +171,19 @@ main {
 	flex-basis: auto;
 }
 
+/*Index page*/
 .logo_and_img {
 	position: relative;
 	margin-top: 65px;
 }
 
 #img_people {
-    margin-bottom: -10%;
+	margin-bottom: -10%;
 }
 
 .logo {
 	position: absolute;
-    bottom: 9%;
+	bottom: 9%;
 	left: 7%;
 	padding-right: 4%;
 }
@@ -191,11 +192,11 @@ main {
 	font-size: 1.5rem;
 }
 
+/*Comming up*/
 .coming_up {
 	position: relative;
 }
 
-/*Comming up headline*/
 .coming_up_headline {
 	position: absolute;
 	right: 7%;
@@ -266,7 +267,7 @@ main {
 .logo_h_w {
 	margin-top: -25%;
 	margin-left: 7%;
-    margin-right: 5%;
+	margin-right: 5%;
 }
 
 #how_and_who_headline {
@@ -301,14 +302,14 @@ label {
 
 
 .checkbox {
-    height: 2rem;
-    width: 2rem;
-    margin-bottom: 0.5rem;
+	height: 2rem;
+	width: 2rem;
+	margin-bottom: 0.5rem;
 }
 
 .input_square {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
 }
 
 #button {
@@ -321,7 +322,7 @@ label {
 }
 
 .submit_form {
-    margin-top: 5%;
+	margin-top: 5%;
 }
 
 /* About page */
@@ -334,7 +335,7 @@ label {
 .logo_about {
 	margin-top: -15%;
 	margin-left: 7%;
-    margin-right: 5%;
+	margin-right: 5%;
 }
 
 #threepeople {
@@ -401,7 +402,7 @@ label {
 		margin-top: 1.5%;
 	}
 
-    h2 {
+	h2 {
 		font-size: 4rem;
 	}
 
@@ -421,22 +422,22 @@ label {
 		line-height: 120%;
 	}
 
-    footer>p {
+	footer>p {
 		font-size: 150%;
-        line-height: 27px;
+		line-height: 27px;
 	}
-	
+
 	#contact {
 		font-size: 320%;
 	}
 
-    .logo h2 {
-        font-size: 2rem;
-    }
+	.logo h2 {
+		font-size: 2rem;
+	}
 
-    .logo h1 {
-        font-size: 4rem;
-    }
+	.logo h1 {
+		font-size: 4rem;
+	}
 
 	.coming_up_headline {
 		font-size: 230%;
@@ -451,33 +452,34 @@ label {
 		margin-top: 0;
 	}
 
-    .logo_h_w h2 {
-        font-size: 2rem;
-    }
+	.logo_h_w h2 {
+		font-size: 2rem;
+	}
 
-    .logo_h_w h1 {
-        font-size: 4rem;
-    }
+	.logo_h_w h1 {
+		font-size: 4rem;
+	}
 
 	#submit {
 		height: 3rem;
 		width: 8rem;
 		margin-top: 1rem;
-        font-size: 140%;
+		font-size: 140%;
 	}
 
-    /*About page*/
-    .logo_about h1 {
-        font-size: 4rem;
-    }
+	/*About page*/
+	.logo_about h1 {
+		font-size: 4rem;
+	}
 
-    .logo_about h2 {
-        font-size: 2rem;
-    }
+	.logo_about h2 {
+		font-size: 2rem;
+	}
 
-	
+
 	/* Medium devices (landscape tablets, 768px and up) */
 	@media only screen and (min-width: 768px) {
+
 		/* Header*/
 		header {
 			height: 9vh;
@@ -506,7 +508,6 @@ label {
 			display: none;
 		}
 
-     	
 		/*how_and_who_page*/
 		#how_and_who_h1 {
 			text-align: end;
@@ -546,9 +547,9 @@ label {
 			font-size: 7vh;
 		}
 
-        .logo {
-            bottom: 30%;
-        }
+		.logo {
+			bottom: 30%;
+		}
 
 		#comming_up {
 			padding-top: 4vh;
@@ -570,7 +571,7 @@ label {
 		}
 
 		#cooking_text_square {
-            width: 17%;
+			width: 17%;
 			bottom: 10%;
 			position: absolute;
 			left: 10%;
@@ -579,6 +580,7 @@ label {
 		#how_and_who_headline {
 			margin-top: -5%;
 		}
+
 		.information {
 			padding-bottom: 5%;
 		}
@@ -591,16 +593,26 @@ label {
 		.logo_about {
 			margin-right: 3%;
 		}
+
+		.who {
+			margin: 0;
+		}
 	}
+
 	/* Extra large devices (large laptops and desktops, 1200px and up) */
 	@media only screen and (min-width: 1200px) {
+		nav {
+			margin-right: 7rem;
+		}
+
+
 		main {
 			display: flex;
 			flex-direction: row;
 			align-items: flex-start;
 		}
 
-        footer {
+		footer {
 			display: flex;
 			flex-direction: row-reverse;
 			justify-content: space-evenly;
@@ -611,12 +623,13 @@ label {
 		#contact>li {
 			padding-right: 70px;
 		}
-        
+
 		footer>p {
 			font-size: 150%;
 			line-height: 40px;
 			padding-top: 2%;
 		}
+
 		#hero-image {
 			height: 100%;
 		}
@@ -632,12 +645,13 @@ label {
 		.coming_up_headline {
 			top: 9%;
 		}
+
 		.square_with_text {
 			font-size: 350%;
 		}
 
 		#jeans_text_square {
-            bottom: 20%;
+			bottom: 20%;
 		}
 
 		#text_square_img_cooking {
@@ -647,36 +661,24 @@ label {
 
 		#cooking_text_square {
 			position: absolute;
-		    margin-left: 27%;
+			margin-left: 27%;
 		}
 
-        /*How and who page */
-    
-    .logo_and_img_h_a_w {
-        margin-top: 5%;
-        display:flex;
-    }
+		/*How and who page */
 
-    .img_welding {
-        width: 200%;
-    }
+		.logo_and_img_h_a_w {
+			margin-top: 5%;
+			display: flex;
+		}
 
-    .logo_h_w {
-        align-self: flex-end;
-        margin-left: 10%;
-    }
+		.img_welding {
+			width: 200%;
+		}
 
-	/*
-
-   	 	.how_and_who_content {
-        margin-top: 60%;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: baseline;
-        align-content: flex-end;
-    }
-	*/
+		.logo_h_w {
+			align-self: flex-end;
+			margin-left: 10%;
+		}
 
 		#how_and_who_headline {
 			margin-top: 85%;
@@ -689,7 +691,7 @@ label {
 			padding-right: 7%;
 		}
 
-		.how >p {
+		.how>p {
 			padding-right: 30%;
 		}
 
@@ -708,23 +710,11 @@ label {
 			margin-left: 25%;
 		}
 
-		
-		.container_large_screen {
-			display: block;
-			/*
-			margin-top: 10%;
-			align-items: flex-end;
-			flex-wrap: nowrap;
-			flex-direction: row;
-			margin-left: -53%;
-			*/
-		}
-
 		.who {
 			float: left;
 			margin-left: -54%;
 			margin-top: 10%;
-			width: 60%;			
+			width: 60%;
 		}
 
 		.cost {
@@ -733,8 +723,45 @@ label {
 			width: 75%;
 		}
 
+		/*Aboutpage*/
+		.logo_and_img_about {
+			margin-top: 5%;
+			display: flex;
+		}
+
+		.img_three_people {
+			width: 120%;
+		}
+
+		.logo_about {
+			align-self: flex-end;
+			margin-left: 10%;
+		}
+
 		#about_headline {
-			padding-top: 25%;
+			margin-top: 130%;
+		}
+
+		#about_headline>h3 {
+			margin-left: -125%;
+			padding-top: 10%;
+		}
+
+		#about_text {
+			margin-left: -125%;
+			padding-right: 60%;
+		}
+
+		#support {
+			margin-left: -125%;
+			padding-right: 120%;
+			padding-top: 10%;
+		}
+
+		.container_video_text {
+			padding-bottom: 1rem;
+			margin-top: -35%;
+			margin-bottom: 5%;
 		}
 	}
 }
