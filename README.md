@@ -1,5 +1,6 @@
 
-# [The Community of things you want to know - but don't yet](https://aslinedvinsson.github.io/The-community-of-things-to-know-PP1/ target="_blank")
+# <a href="https://aslinedvinsson.github.io/The-community-of-things-to-know-PP1/" target="_blank">The Community of Things You Want to Know - But Don't Yet</a>
+
 
 A website for Connecting, Learning, and Building Friendships Together.
 
