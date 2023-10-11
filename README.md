@@ -1,5 +1,5 @@
 
-# [The Community of things you want to know - but don't yet](https://aslinedvinsson.github.io/The-community-of-things-to-know-PP1/)
+# [The Community of things you want to know - but don't yet](https://aslinedvinsson.github.io/The-community-of-things-to-know-PP1/ target="_blank")
 
 A website for Connecting, Learning, and Building Friendships Together.
 
