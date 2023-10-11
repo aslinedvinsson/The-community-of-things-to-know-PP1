@@ -22,7 +22,7 @@ The landing page serves as the focal point for attracting interest in the commun
 
 The landing page also prominently displays a "Coming Up!" section, featuring planned learning sessions. Each activity is presented within dark squares with white text, providing a headline activity, time, and date.
 
-![alt-text](documentation/landing.png)
+![alt-text](documentation/landing_page.png)
 
 #### How and Who Page:
 The "How and Who" page features an image of a welder, aiming to further pique users' interest. Below, a section explains the process: it's a meetup in Gothenburg where users can express interest in learning activities. When a sufficient number of people express interest, the Community arranges a learning session. Users can indicate their preferences by ticking boxes for the topics they want to explore. To submit their interests, users are prompted to provide their first name, last name, and email.
