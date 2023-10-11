@@ -1,5 +1,5 @@
 
-# The Community of things you want to know - but don't yet
+# [The Community of things you want to know - but don't yet](https://aslinedvinsson.github.io/The-community-of-things-to-know-PP1/)
 
 A website for Connecting, Learning, and Building Friendships Together.
 
@@ -39,6 +39,7 @@ Additionally, there is a "Get a glimpse of what we do" section. In this section,
 
 ### Wireframes
 **Mobile first wireframes**
+The website was designed with a mobile-first approach, as it is the standard practice.
 
 **Landing page**
 ![alt-text](documentation/index_wf.png)
@@ -60,7 +61,7 @@ Designed by Christian Robertson.
 
 Both fonts come from [Google Fonts](https://fonts.google.com/).They are sans-serif, and the backup font is also set to sans-serif.
 
-**Example showing Bebas Neue as a headline and Roboto as paragraph text**
+Example showing Bebas Neue as a headline and Roboto as paragraph text
 ![alt-text](documentation/roboto.png)
 
 ### Color Scheme

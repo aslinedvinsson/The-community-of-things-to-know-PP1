@@ -25,9 +25,9 @@ a {
 
 img {
 	width: 100%;
-	/* position: relative;*/
 	z-index: -1;
 	display: block;
+	position:relative;
 }
 
 h1,
@@ -37,6 +37,7 @@ h4,
 h5 {
 	color: #F7F58C;
 	font-family: 'Bebas Neue', sans-serif;
+	text-shadow: 2px 2px black;
 }
 
 h1 {
@@ -215,6 +216,7 @@ main {
 	opacity: 85%;
 	font-size: 200%;
 	color: white;
+	box-shadow: 4px 4px black;
 }
 
 .square_with_text h6 {
@@ -281,7 +283,7 @@ form {
 
 p {
 	color: white;
-	font-size: 170%;
+	font-size: 130%;
 }
 
 .information {
@@ -291,7 +293,7 @@ p {
 label {
 	line-height: 40px;
 	color: white;
-	font-size: 170%;
+	font-size: 130%;
 }
 
 
@@ -301,17 +303,10 @@ label {
     margin-bottom: 0.5rem;
 }
 
-
 .input_square {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
 }
-/*
-
-input[type=submit] {
-    font-size: 1.8em;
-}
-*/
 
 #button {
 	padding-top: 0.5rem;
