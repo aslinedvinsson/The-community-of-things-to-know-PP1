@@ -113,7 +113,7 @@ nav {
 .nav-toggle-icon {
 	font-size: 2rem;
 	margin-right: 1.5rem;
-	margin-top: 1rem;
+	margin-top: 4%;
 	margin-bottom: 1rem;
 	color: #605F4F;
 }
@@ -399,7 +399,6 @@ label {
 	.nav-toggle-icon {
 		font-size: 3rem;
 		margin-right: 2.5rem;
-		margin-top: 1.5%;
 	}
 
 	h2 {

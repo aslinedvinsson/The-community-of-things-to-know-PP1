@@ -14,7 +14,6 @@ This site caters to individuals who are eager to learn, make new connections, an
 
 Users can also join our Facebook group, follow our community on Instagram, and contact us via email to stay connected and engaged.
 
-
 ## Design of the website
 #### Landingpage Home
 The website features a simple three-page design, with the most engaging information showcased on the landing page. This includes upcoming learning activities that pique users' interest.
@@ -23,6 +22,8 @@ The landing page serves as the focal point for attracting interest in the commun
 
 The landing page also prominently displays a "Coming Up!" section, featuring planned learning sessions. Each activity is presented within dark squares with white text, providing a headline activity, time, and date.
 
+![alt-text](documentation/landing.png)
+
 #### How and Who Page:
 The "How and Who" page features an image of a welder, aiming to further pique users' interest. Below, a section explains the process: it's a meetup in Gothenburg where users can express interest in learning activities. When a sufficient number of people express interest, the Community arranges a learning session. Users can indicate their preferences by ticking boxes for the topics they want to explore. To submit their interests, users are prompted to provide their first name, last name, and email.
 
@@ -30,12 +31,16 @@ The "Who"section assures users that everyone is welcome, as long as they are fri
 
 Additionally, there's a "Cost" section that informs users about the Community's goal to offer learning activities free of charge. However, it acknowledges that there may be instances where experts need to be enlisted, potentially incurring costs. The Community encourages users to reach out if they are unable to pay, with the commitment to finding solutions to ensure everyone can participate.
 
+![alt-text](documentation/how_who_page.png)
+
 #### About Page:
 The "About" page features an image of three individuals engaged in conversation, exuding a friendly and welcoming atmosphere. This image conveys the message that building new friendships is another objective of the Community. Beneath the image, a text explains the Community's aims: to learn new things together and forge new friendships.
 
 "Support Us!" section which we provide two meaningful ways to support the Community—through financial contributions and volunteering. 
 
 Additionally, there is a "Get a glimpse of what we do" section. In this section, we offer you a firsthand look at our community's activities by featuring an embedded video as an illustrative example of what we're all about.
+
+![alt-text](documentation/about_page.png)
 
 ### Wireframes
 **Mobile first wireframes**
@@ -105,15 +110,22 @@ All text is written by the maker of the website.
 ### Navigation bar
 All three pages incorporate a header with a navigation bar. The navigation bar allows users to easily navigate between sections without needing to return to the landing page. The navigation bar is fully responsive, featuring a hamburger icon (three stripes) on mobile devices and horizontally displayed links to the three main pages on wider screens. These links include "Home", "How and Who" and "About." The currently selected page is indicated with an underline. When users hover over the links, they change color to pink, enhancing accessibility and facilitating navigation. 
 
+![alt-text](documentation/navbar.png)
+
 ### Footer
 A footer is present on all pages, housing social media icons for Facebook and Instagram, as well as an email contact icon. The footer also contains a brief message stating that the Community of Things to Know is a registered non-profit organization, emphasizing that all donations are tax-deductible, and featuring a copyright notice. The responsive design of the footer ensures that the icons shift from the top center to the right on wider screens.
+
+![alt-text](documentation/footer_screen_shot.png)
 
 ### Video
 The "About" page includes a YouTube video to provide users with a glimpse of the community's activities. This video is sourced from [The Susberg](https://www.youtube.com/watch?v=wO5vN3SFXnw), with additional details available in the credit section. [The Fast YouTube Embedder](https://tube.rvere.com/) was used to enhance website loading times, as videos can slow down the site's performance.
 
+![alt-text](documentation/video_screen_shot.png)
+
 ### Form for Learning Activities and Submission Function
 The "How and Who" page presents a list of suggested learning activities with checkboxes, enabling users to select their preferences or propose new learning ideas. Below the activity list, a submission form requests users to provide their first name, last name, and email. Clicking the submit button directs users to https://show.ratufa.io/form, where they can review the data they've entered.
 
+![alt-text](documentation/form.png)
 
 ### Future Features
 
@@ -125,8 +137,6 @@ To streamline the process and enhance user experience, a database can be integra
 
 ## Languages
 The website is created with HTML(Hypertext Markup Language) together with CSS (Cascading Style Sheet).
-
-
 
 ## Technologies Used
 
@@ -150,7 +160,11 @@ The website has been designed with a mobile-first approach, and during the devel
 In addition, the website has undergone testing on popular web browsers such as Chrome, Mozilla Firefox, and Safari. While in some cases, there may be slight variations in the appearance of text, the overall functionality and user experience are ensured to remain consistent across these browsers.
 
 ## Unfixed Bugs
-The identified bugs were resolved.
+- When a user submits a form, a page summarizing the data appears. On this external page, the back button does not function to return to the this website. Instead, users need to click the browser's back arrow located in the top-left corner to navigate back to the website.
+
+- In Mozilla Firefox, the website appears with slight variations. For instance, on the 'How and Who' page, the image is not displayed, the navbar icon appears larger than expected, and the navigation menu is positioned too far to the right.
+
+- In Safari, the appearance of the About page changes noticeably on wider screens exceeding 1200 pixels in width.
 
 ## Deployment
 The site is deployed at GitHub as follows:
