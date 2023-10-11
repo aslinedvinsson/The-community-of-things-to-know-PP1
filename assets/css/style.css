@@ -677,7 +677,7 @@ label {
 
 		.logo_h_w {
 			align-self: flex-end;
-			margin-left: 10%;
+			margin-left: 30%;
 		}
 
 		#how_and_who_headline {
@@ -702,12 +702,10 @@ label {
 		#form_learning {
 			float: left;
 			margin-left: -53%;
-			margin-top: 10%;
-		}
+					}
 
 		.submit_form {
-			margin-top: 10%;
-			margin-left: 25%;
+			margin-left: 35%;
 		}
 
 		.who {
