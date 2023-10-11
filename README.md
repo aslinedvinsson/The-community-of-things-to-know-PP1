@@ -171,3 +171,45 @@ The site is deployed at GitHub as follows:
 On the GitHub repository, go to Settings/Pages and set the default branch to Main. When the branch is selected the page will display a deployment and the link address. 
 
 The live site is found here https://aslinedvinsson.github.io/The-community-of-things-to-know-PP1/ 
+
+
+## Credits
+
+Credit is due to my esteemed mentor, Jad Mokdad, whose unwavering guidance and sage counsel have been instrumental in steering the course of this project. His insightful advice has not only provided direction but has also enlightened me on where to channel my efforts for maximum impact and success.
+
+**Photos**
+
+- people.webp by Joel Muniz on Unsplash
+- sewingman.webp by devn on Unsplash
+- cooking.webp by Jimmy Dean on Unsplash
+- bicycle.webp by Alistair MacRobert on Unsplash
+- welding.webp by Chris Ralston on Unsplash
+- hreepeople.webp by Surface on Unsplash
+
+
+**Favicon**
+
+Favicon from The Noun project, by Three Six Five from https://thenounproject.com/browse/icons/term/people/  (CC BY 3.0).
+
+**Video**
+
+By The Susberg https://www.youtube.com/watch?v=wO5vN3SFXnw. 
+To speed up the loading of the website when adding av video I used Fast Youtube embedder https://tube.rvere.com/. 
+
+
+**Used code**
+
+Template was generated from Code-Institute-Org/ci-full-template.
+
+As the Code Institue form dump did not get all the data from the user, I instead used https://show.ratufa.io/form 
+
+From the The Love Running I used the same start to form a boilerplate, the same techniques for the responsive navigation bar in the header and social icons in the footer. https://github.com/Code-Institute-Solutions/love-running-v3 
+
+**Inspired by**
+
+When structuring the README file, I found inspiration in both Siobhan Gorman's README for the Sourdough Bakes project and the README for the Love Running project.
+
+Links to the original files: 
+
+https://github.com/siobhanlgorman/Sourdough-Bakes/blob/master/README.md
+https://github.com/Code-Institute-Solutions/readme-template 
