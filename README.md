@@ -157,7 +157,7 @@ All links, forms and hover functions were tested manually.
 
 The website has been designed with a mobile-first approach, and during the development process, media queries and Flexbox have been utilized to ensure responsiveness across various screen sizes.
 
-In addition, the website has undergone testing on popular web browsers such as Chrome, Mozilla Firefox, and Safari. While in some cases, there may be slight variations in the appearance of text, the overall functionality and user experience are ensured to remain consistent across these browsers.
+The website has undergone testing on popular web browsers such as Chrome, Mozilla Firefox, and Safari. In some cases, there may be variations in the appearance in Mozilla Firefox. For additional information regarding this matter, please read 'Unfixed Bugs' section below.
 
 ## Unfixed Bugs
 - When a user submits a form, a page summarizing the data appears. On this external page, the back button does not function to return to the this website. Instead, users need to click the browser's back arrow located in the top-left corner to navigate back to the website.
