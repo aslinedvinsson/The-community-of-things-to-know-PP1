@@ -3,6 +3,7 @@
 
 A website for Connecting, Learning, and Building Friendships Together.
 
+![alt-text](documentation/responsive.png)
 
 ## Introduction
 The "Community of Things You Want to Know But Don't Yet" is a website that offers the opportunity to join a community of learners. We focus on acquiring skills or knowledge that many of us may feel we should already know but, for various reasons, haven't learned yet.
@@ -37,26 +38,30 @@ The "About" page features an image of three individuals engaged in conversation,
 Additionally, there is a "Get a glimpse of what we do" section. In this section, we offer you a firsthand look at our community's activities by featuring an embedded video as an illustrative example of what we're all about.
 
 ### Wireframes
+**Mobile first wireframes**
 
+**Landing page**
 ![alt-text](documentation/index_wf.png)
 
+**The How and Who page**
 ![alt-text](documentation/how_and_who_wf.png)
 
+**The About page**
 ![alt-text](documentation/about_wf.png)
 
+**Landing page wide screen**
 ![alt-text](documentation/widescreen_wf.png)
 
 ### Fonts
-Bebas Neue: The uppercase, sans-serif font Bebas Neue is employed for the logo and headings. It is a font that exudes a youthful and modern impression, making it particularly suitable for headlines. Bebas Neue Designed by Ryoichi Tsunekawa.
+**Bebas Neue:** The uppercase, sans-serif font Bebas Neue is employed for the logo and headings. It is a font that exudes a youthful and modern impression, making it particularly suitable for headlines. Bebas Neue Designed by Ryoichi Tsunekawa.
 
-![alt-text](documentation/bebas.png)
-
-Roboto: For the remaining text, we use Roboto as the font. Roboto is also a sans-serif typeface specifically crafted for on-screen use. It has been meticulously designed to strike a balance between content density and readability. Roboto enjoys widespread adoption and has been extensively tested and utilized. As a web-friendly font, Roboto renders excellently on modern web browsers and maintains performance even on older versions, ensuring the highest quality text display for all users. Roboto
+**Roboto:** For the remaining text, we use Roboto as the font. Roboto is also a sans-serif typeface specifically crafted for on-screen use. It has been meticulously designed to strike a balance between content density and readability. Roboto enjoys widespread adoption and has been extensively tested and utilized. As a web-friendly font, Roboto renders excellently on modern web browsers and maintains performance even on older versions, ensuring the highest quality text display for all users. Roboto
 Designed by Christian Robertson.
 
-![alt-text](documentation/roboto.png)
-
 Both fonts come from [Google Fonts](https://fonts.google.com/).They are sans-serif, and the backup font is also set to sans-serif.
+
+**Example showing Bebas Neue as a headline and Roboto as paragraph text**
+![alt-text](documentation/roboto.png)
 
 ### Color Scheme
 
@@ -68,8 +73,7 @@ The color theme has evolved over time, initially featuring very bright colors an
 
 ![alt-text](documentation/color_scheme.png)
 
-
-The background color and the color of the footer had to be darkened to meet accessibility standards. The updated colors shown below.
+The background color and the color of the footer had to be darkened to meet accessibility standards. The updated colors are shown below.
 
 ![alt-text](documentation/new_background.png) ![alt-text](documentation/footer.png)
 
@@ -91,7 +95,7 @@ The colors of the social media icons were selected for their recognizability, as
 
 
 ### Images
-Images are sourced from Unsplash, resized, and cropped to fit the website's design. The photographers are appropriately credited in the credit section.
+Images are sourced from [Unsplash](https://unsplash.com/), resized, and cropped to fit the website's design. The photographers are appropriately credited in the credit section.
 
 ### Text
 All text is written by the maker of the website. 
@@ -130,7 +134,6 @@ The website is created with HTML(Hypertext Markup Language) together with CSS (C
 - [Fontawesome](https://fontawesome.com/) was used for the social media icons.
 - [Simple image resizer ](https://www.simpleimageresizer.com/) was used to resize the images.
 - [Img tools](https://www.imgtools.co/) was used for cropping images.
-
 - [Cloudconvert](https://cloudconvert.com/webp-converter) was used to convert image files to .webp format. 
 - [Dirty Markup](https://www.10bestdesign.com/dirtymarkup/) was used to clean code.  
 
@@ -146,10 +149,9 @@ The website has been designed with a mobile-first approach, and during the devel
 In addition, the website has undergone testing on popular web browsers such as Chrome, Mozilla Firefox, and Safari. While in some cases, there may be slight variations in the appearance of text, the overall functionality and user experience are ensured to remain consistent across these browsers.
 
 ## Unfixed Bugs
+The identified bugs were resolved.
 
-vad lägga till här
 ## Deployment
-
 The site is deployed at GitHub as follows:
 On the GitHub repository, go to Settings/Pages and set the default branch to Main. When the branch is selected the page will display a deployment and the link address. 
 
