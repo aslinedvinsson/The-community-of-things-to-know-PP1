@@ -15,10 +15,6 @@
 	<!-- Put the fonts i a separate folder and css file instead of external link to improve performance -->
 	<link rel="stylesheet" href="assets/fonts/fonts.css">
 
-	<!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. Code snippet from https://web.dev/articles/optimize-lcp 
-		<link rel="preload" as="image" href="/assets/images/people.webp" type="image" importance="high">-->
-
-
 	  <!-- Title -->
 	<title>The Community of Things You Want to Know</title>
 </head>
@@ -47,7 +43,7 @@
 	<main>
 		<!--Logo and img-->
 		<section class="logo_and_img">
-			<img id="img_people" width="1146" height="1426" alt="A gang of women coming towards the camera" src="assets/images/people.webp"> 
+			<img id="img_people" loading="lazy" width="1146" height="1426" alt="A gang of women coming towards the camera" src="assets/images/people.webp"> 
 			<!-- Logo -->
 			<div class="logo">
 				<a href="index.html">
