@@ -355,6 +355,7 @@ label {
 	padding-right: 7%;
 }
 
+
 #about_headline {
 	font-size: 150%;
 	padding-top: 15%;
@@ -693,13 +694,13 @@ label {
 		}
 
 		#how_and_who_headline {
-			margin-top: 85%;
-			padding-left: 60%;
+				margin-top: 75%;
+				padding-left: 40%;
 		}
 
 		.how {
 			margin-left: -35%;
-			margin-top: 10%;
+			margin-top: 0;
 			padding-right: 7%;
 		}
 
@@ -723,13 +724,13 @@ label {
 		.who {
 			float: left;
 			margin-left: -35%;
-			margin-top: 10%;
+			margin-top: 0;
 			width: 55%;
 		}
 
 		.cost {
 			float: right;
-			margin-top: 10%;
+			margin-top: 0;
 			width: 55%;
 			margin-right: 10%;
 		}
@@ -741,7 +742,8 @@ label {
 		}
 
 		.img_three_people {
-			width: 120%;
+			width: 150%;
+			height: auto;
 		}
 
 		.logo_about {
@@ -750,29 +752,34 @@ label {
 		}
 
 		#about_headline {
-			margin-top: 130%;
+			margin-top: 100%;
+		}
+
+		#about_headline h2 {
+			padding-left: 65%;
 		}
 
 		#about_headline>h3 {
-			margin-left: -125%;
+			margin-left: -90%;
 			padding-top: 10%;
 		}
 
 		#about_text {
-			margin-left: -125%;
+			margin-left: -90%;
 			padding-right: 60%;
 		}
 
 		#support {
-			margin-left: -125%;
+			margin-left: -90%;
 			padding-right: 120%;
 			padding-top: 10%;
 		}
 
 		.container_video_text {
 			padding-bottom: 1rem;
-			margin-top: -35%;
+			margin-top: -45%;
 			margin-bottom: 5%;
+			margin-right: 7%;
 		}
 	}
 }
