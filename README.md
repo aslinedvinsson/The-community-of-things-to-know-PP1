@@ -157,12 +157,12 @@ All links, forms and hover functions were tested manually.
 
 The website has been designed with a mobile-first approach, and during the development process, media queries and Flexbox have been utilized to ensure responsiveness across various screen sizes.
 
-The website has undergone testing on popular web browsers such as Chrome, Mozilla Firefox, and Safari. In some cases, there may be variations in the appearance in Mozilla Firefox. For additional information regarding this matter, please read 'Unfixed Bugs' section below.
+The website has undergone testing on popular web browsers such as Chrome, Mozilla Firefox, and Safari. In some cases, there are variations in the appearance in Mozilla Firefox. For additional information regarding this matter, please read 'Unfixed Bugs' section below.
 
 ## Unfixed Bugs
 - When a user submits a form, a page summarizing the data appears. On this external page, the back button does not function to return to the this website. Instead, users need to click the browser's back arrow located in the top-left corner to navigate back to the website.
 
-- In Mozilla Firefox, the website appears with slight variations. For instance, on the 'How and Who' page, the image is not displayed, the navbar icon appears larger than expected, and the navigation menu is positioned too far to the right.
+- In Mozilla Firefox, the website appears with variations when presented in 1200px wide screen. For instance, on the 'Home' page the content is pushed up to far, on the 'How and Who' page, the image is not displayed, the navigation menu appears larger than expected and overflow some content and on the 'About' page the image and logo is pushed to the left.
 
 - In Safari, the appearance of the About page changes noticeably on wider screens exceeding 1200 pixels in width.
 
