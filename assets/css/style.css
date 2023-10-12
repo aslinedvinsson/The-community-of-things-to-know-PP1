@@ -179,6 +179,7 @@ main {
 
 #img_people {
 	margin-bottom: -10%;
+	height: auto;
 }
 
 .logo {
@@ -248,6 +249,10 @@ main {
 	width: 60%;
 	bottom: 10%;
 	position: absolute;
+}
+
+.img_welding {
+	height: auto;
 }
 
 .how_and_who_content {
@@ -555,11 +560,6 @@ label {
 			left: 70%;
 		}
 
-		.logo_h_w {
-			margin-top: -18%;
-			margin-right: 4%;
-		}
-
 		#cooking_crop {
 			max-height: 50%;
 			display: block;
@@ -576,8 +576,21 @@ label {
 			left: 10%;
 		}
 
+		.logo_h_w {
+			margin-top: -18%;
+			margin-right: 4%;
+		}
+
 		#how_and_who_headline {
 			margin-top: -5%;
+		}
+
+		p {
+			font-size: 180%;
+		}
+
+		label {
+			font-size: 180%;
 		}
 
 		.information {
@@ -671,7 +684,7 @@ label {
 		}
 
 		.img_welding {
-			width: 200%;
+			width: 250%;
 		}
 
 		.logo_h_w {
@@ -685,7 +698,7 @@ label {
 		}
 
 		.how {
-			margin-left: -53%;
+			margin-left: -35%;
 			margin-top: 10%;
 			padding-right: 7%;
 		}
@@ -700,7 +713,7 @@ label {
 
 		#form_learning {
 			float: left;
-			margin-left: -53%;
+			margin-left: -35%;
 					}
 
 		.submit_form {
@@ -709,15 +722,16 @@ label {
 
 		.who {
 			float: left;
-			margin-left: -54%;
+			margin-left: -35%;
 			margin-top: 10%;
-			width: 60%;
+			width: 55%;
 		}
 
 		.cost {
 			float: right;
 			margin-top: 10%;
-			width: 75%;
+			width: 55%;
+			margin-right: 10%;
 		}
 
 		/*Aboutpage*/
