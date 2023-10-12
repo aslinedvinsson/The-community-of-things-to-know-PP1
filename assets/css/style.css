@@ -228,10 +228,18 @@ main {
 	font-size: 50%;
 }
 
+#bicycle {
+	height: auto;
+}
+
 #bicycle_text_square {
 	bottom: 5%;
 	left: 7%;
 	position: absolute;
+}
+
+#sewing {
+	height: auto;
 }
 
 #jeans_text_square {
@@ -243,6 +251,10 @@ main {
 #jeans_text_square>p {
 	font-size: 0.85rem;
 }
+
+#cooking_img {
+	height: auto;
+} 
 
 #cooking_text_square {
 	right: 7%;
@@ -562,7 +574,7 @@ label {
 		}
 
 		#cooking_crop {
-			max-height: 50%;
+			height: auto;
 			display: block;
 		}
 
