@@ -145,7 +145,7 @@ footer>p {
     color: #fff
 }
 
-#contact li a:hover {
+#contact li:hover {
     color: #fe9aab;
 }
 
