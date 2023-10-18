@@ -152,6 +152,8 @@ The website is created with HTML(Hypertext Markup Language) together with CSS (C
 
 [Google Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=sv) in Crome Developer Tools was used to test performance, accessibility, best practice and SEO. Lighthouse detected performance issues and accessibility issues which were corrected to fulfill the 90-100% criteria.
 
+![alt-text](documentation/lighthouse.png)
+
 All links, forms and hover functions were tested manually. 
 
 The website has been designed with a mobile-first approach, and during the development process, media queries and Flexbox have been utilized to ensure responsiveness across various screen sizes.
