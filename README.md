@@ -25,7 +25,7 @@ The landing page also prominently displays a "Coming Up!" section, featuring pla
 ![alt-text](documentation/landing_page.png)
 
 #### How and Who Page:
-The "How and Who" page features an image of a welder, aiming to further pique users' interest. Below, a section explains the process: it's a meetup in Gothenburg where users can express interest in learning activities. When a sufficient number of people express interest, the Community arranges a learning session. Users can indicate their preferences by ticking boxes for the topics they want to explore. To submit their interests, users are prompted to provide their first name, last name, and email.
+The "How and Who" page features an image of a welder, aiming to further pique users' interest. Below, a section explains the process: The Community arrange a physical meetup in Gothenburg when enough people have shown interest in learning a new skill. Below is a section where users can express interest in learning activities. Users can indicate their preferences by ticking boxes for the topics they want to explore. To submit their interests, users are prompted to provide their first name, last name, and email.
 
 The "Who"section assures users that everyone is welcome, as long as they are friendly and open-minded.
 
@@ -61,7 +61,7 @@ The website was designed with a mobile-first approach, as it is the standard pra
 ### Fonts
 **Bebas Neue:** The uppercase, sans-serif font Bebas Neue is employed for the logo and headings. It is a font that exudes a youthful and modern impression, making it particularly suitable for headlines. Bebas Neue Designed by Ryoichi Tsunekawa.
 
-**Roboto:** For the remaining text, we use Roboto as the font. Roboto is also a sans-serif typeface specifically crafted for on-screen use. It has been meticulously designed to strike a balance between content density and readability. Roboto enjoys widespread adoption and has been extensively tested and utilized. As a web-friendly font, Roboto renders excellently on modern web browsers and maintains performance even on older versions, ensuring the highest quality text display for all users. Roboto
+**Roboto:** For the remaining text, we use Roboto as the font. Roboto is also a sans-serif typeface specifically crafted for on-screen use. It has been designed to strike a balance between content density and readability. Roboto has been extensively tested and utilized. As a web-friendly font, Roboto renders excellently on modern web browsers and maintains performance even on older versions, ensuring the highest quality text display for all users. Roboto
 Designed by Christian Robertson.
 
 Both fonts come from [Google Fonts](https://fonts.google.com/).They are sans-serif, and the backup font is also set to sans-serif.
@@ -117,15 +117,15 @@ A footer is present on all pages, housing social media icons for Facebook and In
 
 ![alt-text](documentation/footer_screen_shot.png)
 
-### Video
-The "About" page includes a YouTube video to provide users with a glimpse of the community's activities. This video is sourced from [The Susberg](https://www.youtube.com/watch?v=wO5vN3SFXnw), with additional details available in the credit section. [The Fast YouTube Embedder](https://tube.rvere.com/) was used to enhance website loading times, as videos can slow down the site's performance.
-
-![alt-text](documentation/video_screen_shot.png)
-
 ### Form for Learning Activities and Submission Function
 The "How and Who" page presents a list of suggested learning activities with checkboxes, enabling users to select their preferences or propose new learning ideas. Below the activity list, a submission form requests users to provide their first name, last name, and email. Clicking the submit button directs users to https://show.ratufa.io/form, where they can review the data they've entered.
 
 ![alt-text](documentation/form.png)
+
+### Video
+The "About" page includes a YouTube video to provide users with a glimpse of the community's activities. This video is sourced from [The Susberg](https://www.youtube.com/watch?v=wO5vN3SFXnw), with additional details available in the credit section. [The Fast YouTube Embedder](https://tube.rvere.com/) was used to enhance website loading times, as videos can slow down the site's performance.
+
+![alt-text](documentation/video_screen_shot.png)
 
 ### Future Features
 
@@ -157,7 +157,7 @@ All links, forms and hover functions were tested manually.
 
 The website has been designed with a mobile-first approach, and during the development process, media queries and Flexbox have been utilized to ensure responsiveness across various screen sizes.
 
-The website has undergone testing on popular web browsers such as Chrome, Mozilla Firefox, and Safari. In some cases, there are variations in the appearance in Mozilla Firefox. For additional information regarding this matter, please read 'Unfixed Bugs' section below.
+The website has undergone testing on popular web browsers such as Chrome, Mozilla Firefox, and Safari. In some cases, there are variations in the appearance in Mozilla Firefox and Safari. For additional information regarding this matter, please read 'Unfixed Bugs' section below.
 
 ## Unfixed Bugs
 - When a user submits a form, a page summarizing the data appears. On this external page, the back button does not function to return to the this website. Instead, users need to click the browser's back arrow located in the top-left corner to navigate back to the website.
@@ -209,7 +209,7 @@ From the The Love Running I used the same start to form a boilerplate, the same 
 
 When structuring the README file, I found inspiration in both Siobhan Gorman's README for the Sourdough Bakes project and the README for the Love Running project.
 
-Links to the original files: 
+Links to the original README files: 
 
 https://github.com/siobhanlgorman/Sourdough-Bakes/blob/master/README.md
 https://github.com/Code-Institute-Solutions/readme-template 
