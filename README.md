@@ -36,9 +36,9 @@ Additionally, there's a "Cost" section that informs users about the Community's 
 #### About Page:
 The "About" page features an image of three individuals engaged in conversation, exuding a friendly and welcoming atmosphere. This image conveys the message that building new friendships is another objective of the Community. Beneath the image, a text explains the Community's aims: to learn new things together and forge new friendships.
 
-"Support Us!" section which we provide two meaningful ways to support the Community—through financial contributions and volunteering. 
+"Support Us!" section provides two ways to support the Community — through financial contributions and volunteering. 
 
-Additionally, there is a "Get a glimpse of what we do" section. In this section, we offer you a firsthand look at our community's activities by featuring an embedded video as an illustrative example of what we're all about.
+Additionally, there is a "Get a glimpse of what we do" section. In this section, we offer the user a firsthand look at the community's activities by featuring an embedded video as an illustrative example of what the Community is all about.
 
 ![alt-text](documentation/about_page.png)
 
@@ -61,8 +61,7 @@ The website was designed with a mobile-first approach, as it is the standard pra
 ### Fonts
 **Bebas Neue:** The uppercase, sans-serif font Bebas Neue is employed for the logo and headings. It is a font that exudes a youthful and modern impression, making it particularly suitable for headlines. Bebas Neue Designed by Ryoichi Tsunekawa.
 
-**Roboto:** For the remaining text, we use Roboto as the font. Roboto is also a sans-serif typeface specifically crafted for on-screen use. It has been designed to strike a balance between content density and readability. Roboto has been extensively tested and utilized. As a web-friendly font, Roboto renders excellently on modern web browsers and maintains performance even on older versions, ensuring the highest quality text display for all users. Roboto
-Designed by Christian Robertson.
+**Roboto:** For the remaining text, we use Roboto as the font. Roboto is also a sans-serif typeface specifically crafted for on-screen use. It has been designed to strike a balance between content density and readability. Roboto has been extensively tested and utilized. Roboto Designed by Christian Robertson.
 
 Both fonts come from [Google Fonts](https://fonts.google.com/).They are sans-serif, and the backup font is also set to sans-serif.
 
@@ -71,7 +70,7 @@ Example showing Bebas Neue as a headline and Roboto as paragraph text
 
 ### Color Scheme
 
-The color theme has evolved over time, initially featuring very bright colors and transitioning to more subdued tones. These subtler shades continue to convey a youthful, energetic, and joyful message. The chosen colors also harmonize effectively with the selected images. The starting point for the color scheme was a lighter shade of yellow.
+The color theme has evolved over time, initially featuring very bright colors and transitioning to more subdued tones. These subtler shades continue to convey a youthful, energetic, and joyful message. The chosen colors also harmonize effectively with the selected images. The starting point for the color scheme is a lighter shade of yellow.
 
 ![alt-text](documentation/yellow.png)
  
