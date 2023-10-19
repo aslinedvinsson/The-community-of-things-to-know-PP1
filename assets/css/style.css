@@ -14,22 +14,13 @@ body {
     margin: 0
 }
 
+/*Takes away the line underneth links*/
 a {
     text-decoration: none
 }
 
-img {
-    width: 100%;
-    z-index: -1;
-    display: block;
-    position: relative
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
+/*Heading styles*/
+h1, h2, h3, h4, h5 {
     color: #f7f58c;
     font-family: 'Bebas Neue', sans-serif;
     text-shadow: 2px 2px #000
@@ -55,6 +46,17 @@ h5 {
     font-size: 130%
 }
 
+/*Image style*/
+img {
+    width: 100%;
+    z-index: -1;
+    display: block;
+    position: relative
+}
+
+
+/*Header*/
+
 header {
     background-color: #f7f58c;
     font-family: Roboto, sans-serif;
@@ -67,6 +69,7 @@ header {
     justify-content: flex-end
 }
 
+/*Navigation menu and icon styles*/
 nav {
     position: absolute;
     width: 100%;
@@ -84,10 +87,12 @@ nav {
     color: #605f4f
 }
 
+/*When hover over navigation list, the name of the pages turn pink*/
 #nav-list a:hover {
     color: #fe9aab
 }
 
+/* To show the user wich page they are on*/
 .active {
     border-bottom: 1px solid
 }
@@ -108,6 +113,7 @@ nav {
     color: #605f4f
 }
 
+/*Footer styling*/
 footer {
     background-color: #58918c
 }
@@ -120,6 +126,7 @@ footer>p {
     margin-bottom: 4%
 }
 
+/*Social media and mail icon styling including hover effect*/
 #contact {
     list-style-type: none;
     display: flex;
@@ -156,12 +163,16 @@ footer>p {
     color: #fe9aab
 }
 
+/*Main*/
 main {
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: auto
 }
 
+/*Index page*/
+
+/*Logo and image style*/
 .logo_and_img {
     position: relative;
     margin-top: 65px
@@ -183,6 +194,7 @@ main {
     font-size: 1.5rem
 }
 
+/*Comming up section*/
 .coming_up {
     position: relative
 }
@@ -194,6 +206,7 @@ main {
     z-index: 1
 }
 
+/*Text square with learning acitivities, time and date*/
 .text_square_img {
     position: relative
 }
@@ -247,9 +260,7 @@ main {
     position: absolute
 }
 
-.img_welding {
-    height: auto
-}
+/*How and who page*/
 
 .how_and_who_content {
     display: flex;
@@ -261,6 +272,10 @@ main {
 
 .logo_and_img_h_a_w {
     margin-top: 10%
+}
+
+.img_welding {
+    height: auto
 }
 
 .logo_h_w {
@@ -275,6 +290,7 @@ main {
     padding-left: 70%
 }
 
+/*Radio button form and submit form*/
 .form {
     display: flex;
     flex-direction: column
@@ -310,9 +326,6 @@ label {
     margin-bottom: .5rem
 }
 
-#button {
-    padding-top: .5rem
-}
 
 #submit {
     height: 30px;
@@ -322,6 +335,8 @@ label {
 .submit_form {
     margin-top: 5%
 }
+
+/*About page*/
 
 .logo_and_img_about {
     margin-top: 65px
@@ -354,6 +369,7 @@ label {
     padding-left: 70%
 }
 
+/*Container for text and video section*/
 .container_video_text {
     display: flex;
     flex-direction: column;
@@ -380,18 +396,10 @@ label {
     border: none
 }
 
+/* Screens min-width:600px*/
+
 @media only screen and (min-width:600px) {
-    header {
-        height: 8%;
-    }
-
-    .nav-toggle-icon {
-        font-size: 3rem;
-        margin-right: 2.5rem;
-        margin-top: 1%;
-       
-    }
-
+    
     h2 {
         font-size: 4rem;
     }
@@ -412,6 +420,17 @@ label {
         line-height: 120%
     }
 
+    header {
+        height: 8%;
+    }
+
+    .nav-toggle-icon {
+        font-size: 3rem;
+        margin-right: 2.5rem;
+        margin-top: 1%;
+       
+    }
+
     footer>p {
         font-size: 150%;
         line-height: 27px
@@ -420,6 +439,8 @@ label {
     #contact {
         font-size: 320%;
     }
+
+    /*Index page 600px*/
 
     .logo h2 {
         font-size: 2rem;
@@ -437,6 +458,7 @@ label {
         font-size: 350%;
     }
 
+    /*How and who page 600px*/
     .logo_and_img_h_a_w {
         margin-top: 0;
     }
@@ -455,7 +477,7 @@ label {
         margin-top: 1rem;
         font-size: 140%;
     }
-
+      /*About page 600px*/
     .logo_about h1 {
         font-size: 4rem;
     }
@@ -464,6 +486,7 @@ label {
         font-size: 2rem;
     }
 
+    /*Screens min-width:768px*/
     @media only screen and (min-width:768px) {
         header {
             height: 9vh;
@@ -492,6 +515,7 @@ label {
             display: none
         }
 
+        /*How and who page 768px*/
         #how_and_who_h1 {
             text-align: end;
             margin-top: 10%;
@@ -502,6 +526,7 @@ label {
             margin-top: -8%
         }
 
+        /*About page 768px*/
         #about_h1 {
             text-align: start
         }
@@ -512,14 +537,6 @@ label {
     }
 
     @media screen and (min-width:992px) {
-        #nav-list {
-            margin-top: 6%
-        }
-
-        header {
-            height: 11vh
-        }
-
         h1 {
             font-size: 10vh
         }
@@ -528,6 +545,15 @@ label {
             font-size: 7vh
         }
 
+        #nav-list {
+            margin-top: 6%
+        }
+
+        header {
+            height: 11vh
+        }
+
+        /*Index page 992px*/
         .logo {
             bottom: 30%
         }
@@ -548,6 +574,7 @@ label {
             left: 10%
         }
 
+        /*How and who page 992px*/
         .logo_h_w {
             margin-top: -18%;
             margin-right: 4%
@@ -573,6 +600,7 @@ label {
             margin-top: 7%
         }
 
+        /*About page 992px*/
         .logo_about {
             margin-right: 3%
         }
@@ -611,6 +639,7 @@ label {
             padding-top: 2%
         }
 
+        /*Index page 1200px*/
         .logo {
             bottom: 20%
         }
@@ -640,6 +669,8 @@ label {
             position: absolute;
             margin-left: 27%
         }
+
+         /*How and who page 12000px*/
 
         .logo_and_img_h_a_w {
             margin-top: 5%;
@@ -696,6 +727,8 @@ label {
             width: 55%;
             margin-right: 10%
         }
+
+        /*About page 1200px*/
 
         .logo_and_img_about {
             margin-top: 5%;

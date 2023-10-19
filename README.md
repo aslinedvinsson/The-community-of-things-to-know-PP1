@@ -112,7 +112,7 @@ All three pages incorporate a header with a navigation bar. The navigation bar a
 ![alt-text](documentation/navbar.png)
 
 ### Footer
-A footer is present on all pages, housing social media icons for Facebook and Instagram, as well as an email contact icon. The footer also contains a brief message stating that the Community of Things to Know is a registered non-profit organization, emphasizing that all donations are tax-deductible, and featuring a copyright notice. The responsive design of the footer ensures that the icons shift from the top center to the right on wider screens.
+A footer is present on all pages, housing social media icons for Facebook and Instagram, as well as an email contact icon. The footer also contains a brief message stating that the Community of Things to Know is a registered non-profit organization, emphasizing that all donations are tax-deductible, and featuring a copyright notice. The responsive design of the footer ensures that the icons shift from the top centerof the footer to the right on wider screens. When hovering over the icons they turn pink, for increased accesability.
 
 ![alt-text](documentation/footer_screen_shot.png)
 
