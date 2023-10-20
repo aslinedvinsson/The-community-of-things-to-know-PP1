@@ -1,7 +1,9 @@
 
 # The Community of Things You Want to Know - But Don't Yet
 
-A website for Connecting, Learning, and Building Friendships Together.
+**A website for Connecting, Learning, and Building Friendships Together.**
+
+[The deployed website "The Community of Things You Want to Know - But Don't Yet](https://aslinedvinsson.github.io/The-community-of-things-to-know-PP1/)
 
 ![alt-text](documentation/responsive.png)
 
@@ -63,7 +65,7 @@ The website was designed with a mobile-first approach, as it is the standard pra
 
 **Roboto:** For the remaining text, we use Roboto as the font. Roboto is also a sans-serif typeface specifically crafted for on-screen use. It has been designed to strike a balance between content density and readability. Roboto has been extensively tested and utilized. Roboto Designed by Christian Robertson.
 
-Both fonts come from [Google Fonts](https://fonts.google.com/).They are sans-serif, and the backup font is also set to sans-serif.
+Both fonts come from [Google Fonts](https://fonts.google.com/). They are sans-serif, and the backup font is also set to sans-serif.
 
 Example showing Bebas Neue as a headline and Roboto as paragraph text
 ![alt-text](documentation/roboto.png)
@@ -148,24 +150,24 @@ The website is created with HTML(Hypertext Markup Language) together with CSS (C
 - [Dirty Markup](https://www.10bestdesign.com/dirtymarkup/) was used to clean code.  
 
 ## Testing
-[HTML Validator](https://validator.w3.org/) and [CSS Validator](https://jigsaw.w3.org/css-validator/) was used to detect syntax errors, which were then fixed. 
+- [HTML Validator](https://validator.w3.org/) and [CSS Validator](https://jigsaw.w3.org/css-validator/) was used to detect syntax errors, which were then fixed. 
 
-[Google Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=sv) in Crome Developer Tools was used to test performance, accessibility, best practice and SEO. Lighthouse detected performance issues and accessibility issues which were corrected to fulfill the 90-100% criteria.
+- [Google Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=sv) in Crome Developer Tools was used to test performance, accessibility, best practice and SEO. Lighthouse detected performance issues and accessibility issues which were corrected to fulfill the 90-100% criteria.
 
 ![alt-text](documentation/lighthouse.png)
 
-All links, forms and hover functions were tested manually. 
+- All links, forms and hover functions were tested manually. 
 
-The website has been designed with a mobile-first approach, and during the development process, media queries and Flexbox have been utilized to ensure responsiveness across various screen sizes.
+- The website has been designed with a mobile-first approach, and during the development process, media queries and Flexbox have been utilized to ensure responsiveness across various screen sizes.
 
-The website has undergone testing on popular web browsers such as Chrome, Mozilla Firefox, and Safari. In some cases, there are variations in the appearance in Mozilla Firefox and Safari. For additional information regarding this matter, please read 'Unfixed Bugs' section below.
+- The website has undergone testing on popular web browsers such as Chrome, Mozilla Firefox, and Safari. In some cases, there are variations in the appearance in Mozilla Firefox and Safari. For additional information regarding this matter, please read 'Unfixed Bugs' section below.
 
 ## Unfixed Bugs
-- When a user submits a form, a page summarizing the data appears. On this external page, the back button does not function to return to the this website. Instead, users need to click the browser's back arrow located in the top-left corner to navigate back to the website.
+- When a user submits a form, a page summarizing the data appears. On this external page, the back button does not function to return to the The community of things to learn website. Instead, users need to click the browser's back arrow located in the top-left corner to navigate back to the website.
 
-- In Mozilla Firefox, the website appears with variations when presented in 1200px wide screen. For instance, on the 'Home' page the content is pushed up to far, on the 'How and Who' page, the image is not displayed, the navigation menu appears larger than expected and overflow some content and on the 'About' page the image and logo is pushed to the left.
+- In Mozilla Firefox, the website appears with variations when presented in 1200px wide screen. For instance on the 'How and Who' page, the image is not visable and on the 'About' page the image and logo is pushed to the left.
 
-- In Safari, the appearance of the About page changes noticeably on wider screens exceeding 1200 pixels in width.
+- In Safari, the appearance of the About page changes noticeably on wider screens exceeding 1200 pixels in width, moving part of text to the left.
 
 ## Deployment
 The site is deployed at GitHub as follows:
@@ -179,7 +181,6 @@ The live site is found here https://aslinedvinsson.github.io/The-community-of-th
 Credit is due to my esteemed mentor, Jad Mokdad, whose unwavering guidance and sage counsel have been instrumental in steering the course of this project. His insightful advice has not only provided direction but has also enlightened me on where to channel my efforts for maximum impact and success.
 
 **Photos**
-
 - people.webp by Joel Muniz on Unsplash
 - sewingman.webp by devn on Unsplash
 - cooking.webp by Jimmy Dean on Unsplash
